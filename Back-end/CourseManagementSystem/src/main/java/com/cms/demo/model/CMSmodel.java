@@ -41,6 +41,11 @@ public class CMSmodel {
 	public void setDescription(String description) {
 		this.description = description;
 	}
+
+	@Override
+	public String toString() {
+		return "CMSmodel [coursId=" + coursId + ", title=" + title + ", description=" + description + "]";
+	}
 	
 	
 }
