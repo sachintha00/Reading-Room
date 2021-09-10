@@ -127,3 +127,60 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY Activator 1 0 2021-09-10 20:44:40.778
 !MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY org.eclipse.ui 2 2 2021-09-10 20:54:10.780
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 20:54:56.852
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 20:54:56.853
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1c00e990[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 20:54:56.923
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY Activator 1 0 2021-09-10 20:54:57.262
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 20:54:57.287
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY Activator 1 0 2021-09-10 20:54:57.956
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-10 20:55:00.114
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 20:55:12.339
+!MESSAGE Boot LS startup time from start to initialized: 15378ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 20:55:12.673
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.aHiXxoHfisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 20:55:12.703
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 20:55:12.705
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 20:55:12.706
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 20:55:12.707
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 20:55:12.707
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.aHiXxoHf => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 20:55:12.722
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 20:55:12.732
+!MESSAGE buffering callback sts4.classpath.aHiXxoHf CourseManagementSystem false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 20:55:12.733
+!MESSAGE executing callback sts4.classpath.aHiXxoHf 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 20:55:13.738
+!MESSAGE executing callback sts4.classpath.aHiXxoHf SUCCESS [done]
