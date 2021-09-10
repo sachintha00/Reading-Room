@@ -283,3 +283,81 @@ Binding(CTRL+SHIFT+C,
 
 !ENTRY Activator 1 0 2021-09-10 21:15:56.576
 !MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-10 21:18:28.287
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-10 21:18:28.498
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-10 21:18:38.865
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-10 21:18:39.554
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-10 21:18:52.534
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-10 21:18:53.316
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-10 21:20:05.322
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-10 21:20:05.969
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-10 21:20:10.245
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-10 21:20:10.835
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-10 21:20:19.668
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-10 21:20:19.846
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-10 21:20:31.205
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-10 21:20:31.921
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-10 21:21:50.237
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-10 21:21:51.332
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-10 21:22:06.075
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-10 21:22:06.783
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-10 21:22:53.060
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-10 21:22:53.236
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-09-10 21:22:54.098
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-09-10 21:23:04.741
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-10 21:23:05.347
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
