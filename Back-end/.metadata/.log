@@ -361,3 +361,33 @@ java.lang.InterruptedException
 
 !ENTRY Activator 1 0 2021-09-10 21:23:05.347
 !MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-10 21:24:56.953
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-10 21:24:57.595
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-10 21:25:36.135
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-10 21:25:36.703
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-10 21:25:46.407
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-10 21:25:47.077
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 21:25:51.216
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.aHiXxoHf
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 21:25:51.217
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.aHiXxoHf
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 21:25:51.218
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-10 21:25:51.219
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.aHiXxoHf => OK

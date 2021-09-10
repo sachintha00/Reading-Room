@@ -1,6 +1,6 @@
 package com.cms.demo.controller;
 
-import java.awt.List;
+import java.util.List;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,7 +16,7 @@ public class CMScontroller {
 	}
 	
 	@GetMapping("/cources")
-	public java.util.List<CMSmodel> getCources() {
-		
+	public List<CMSmodel> getCources() {
+		return null;
 	}
 }

@@ -1,5 +1,10 @@
 package com.cms.demo.service;
 
-public class CMSservice {
+import java.util.List;
 
+import com.cms.demo.model.CMSmodel;
+
+public interface CMSservice {
+
+	public List<CMSmodel> getCources();
 }
