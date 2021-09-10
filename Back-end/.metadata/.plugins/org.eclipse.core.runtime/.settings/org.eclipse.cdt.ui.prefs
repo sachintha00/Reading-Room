@@ -1,0 +1,6 @@
+buildConsoleBackgroundColor=230,232,234
+buildConsoleProblemBackgroundColor=247,247,248
+buildConsoleProblemInfoBackgroundColor=230,232,234
+buildConsoleProblemWarningBackgroundColor=247,247,248
+eclipse.preferences.version=1
+overriddenByCSS=,buildConsoleBackgroundColor,buildConsoleProblemBackgroundColor,buildConsoleProblemInfoBackgroundColor,buildConsoleProblemWarningBackgroundColor,
