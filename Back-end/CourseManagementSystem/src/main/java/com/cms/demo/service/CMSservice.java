@@ -8,4 +8,5 @@ public interface CMSservice {
 
 	public List<CMSmodel> getCourses();
 	public CMSmodel getCourse(long courseId);
+	public CMSmodel addCourse(CMSmodel course);
 }

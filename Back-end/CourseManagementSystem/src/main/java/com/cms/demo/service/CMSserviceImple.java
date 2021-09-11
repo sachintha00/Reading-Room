@@ -37,4 +37,10 @@ public class CMSserviceImple implements CMSservice {
 		return c;
 	}
 
+	@Override
+	public CMSmodel addCourse(CMSmodel course) {
+		list.add(course);
+		return course;
+	}
+
 }
