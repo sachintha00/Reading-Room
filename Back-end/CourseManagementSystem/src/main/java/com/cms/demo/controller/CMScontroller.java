@@ -3,15 +3,18 @@ package com.cms.demo.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.cms.demo.model.CMSmodel;
 import com.cms.demo.service.CMSservice;
 
 @RestController
+@CrossOrigin
 public class CMScontroller {
 	
 	@Autowired
@@ -32,8 +35,8 @@ public class CMScontroller {
 		return this.cmSservice.getCourse(Long.parseLong(courseID));
 	}
 	
-	@PostMapping("/courses")
-	public CMSmodel addCourse() {
-		return this.cmSservice.addCourse();
-	}
+//	@PostMapping("/courses")
+//	public CMSmodel addCourse(@RequestBody CMSmodel course) {
+//		return this.cmSservice.addCourse(course);
+//	}
 }

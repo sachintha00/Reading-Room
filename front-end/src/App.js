@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import axios from "axios";
+import base_url from "./Api/BootApi";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const getCourse = () => {
+		axios.get(`${base_url}/courses`).then(
+			(Response) => {
+				console.log(Response.data);
+			},
+			(error) => {
+				console.log(error);
+			}
+		);
+	};
+	return (
+		<div className="App">
+			<button onClick={getCourse}>Load Data</button>
+		</div>
+	);
 }
 
 export default App;
