@@ -3,8 +3,11 @@ package com.cms.demo.service;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import com.cms.demo.model.CMSmodel;
 
+@Service
 public class CMSserviceImple implements CMSservice {
 
 	List<CMSmodel> list;
@@ -18,8 +21,20 @@ public class CMSserviceImple implements CMSservice {
 	}
 	
 	@Override
-	public List<CMSmodel> getCources() {
+	public List<CMSmodel> getCourses() {
 		return list;
+	}
+
+	@Override
+	public CMSmodel getCourse(long courseId) {
+		CMSmodel c = null;
+		for(CMSmodel course : list) {
+			if(course.getCoursId() == courseId) {
+				c = course;
+				break;
+			}
+		}
+		return c;
 	}
 
 }

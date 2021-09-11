@@ -6,5 +6,6 @@ import com.cms.demo.model.CMSmodel;
 
 public interface CMSservice {
 
-	public List<CMSmodel> getCources();
+	public List<CMSmodel> getCourses();
+	public CMSmodel getCourse(long courseId);
 }
