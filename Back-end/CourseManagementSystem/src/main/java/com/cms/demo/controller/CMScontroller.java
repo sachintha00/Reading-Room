@@ -50,9 +50,9 @@ public class CMScontroller {
 	}
 	
 	@DeleteMapping("/courses/{courseID}")
-	public CMSmodel updateCourse(@PathVariable String courseID) {
+	public ResponseEntity<HttpStatus> updateCourse(@PathVariable String courseID) {
 		try {
-			this.cmSservice.deleteCourse(courseID);
+			this.cmSservice.deleteCourse(Long.parseLong(courseID));
 			return new ResponseEntity<>(HttpStatus.OK);
 		} catch (Exception e) {
 			return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
