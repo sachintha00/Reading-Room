@@ -871,3 +871,15 @@ java.lang.InterruptedException
 
 !ENTRY Activator 1 0 2021-09-11 16:00:11.214
 !MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 17:18:49.673
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.hFIHEgnr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 17:18:49.972
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.hFIHEgnr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 17:18:50.002
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 17:18:50.003
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.hFIHEgnr => OK
