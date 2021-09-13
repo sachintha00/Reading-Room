@@ -35,8 +35,8 @@ public class CMScontroller {
 		return this.cmSservice.getCourse(Long.parseLong(courseID));
 	}
 	
-//	@PostMapping("/courses")
-//	public CMSmodel addCourse(@RequestBody CMSmodel course) {
-//		return this.cmSservice.addCourse(course);
-//	}
+	@PostMapping("/courses")
+	public CMSmodel addCourse(@RequestBody CMSmodel course) {
+		return this.cmSservice.addCourse(course);
+	}
 }
