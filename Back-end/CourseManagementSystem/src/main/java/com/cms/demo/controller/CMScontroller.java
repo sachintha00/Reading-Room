@@ -3,7 +3,10 @@ package com.cms.demo.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -44,5 +47,15 @@ public class CMScontroller {
 	@PutMapping("/courses")
 	public CMSmodel updateCourse(@RequestBody CMSmodel course) {
 		return this.cmSservice.updateCourse(course);
+	}
+	
+	@DeleteMapping("/courses/{courseID}")
+	public CMSmodel updateCourse(@PathVariable String courseID) {
+		try {
+			this.cmSservice.deleteCourse(courseID);
+			return new ResponseEntity<>(HttpStatus.OK);
+		} catch (Exception e) {
+			return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+		}
 	}
 }
