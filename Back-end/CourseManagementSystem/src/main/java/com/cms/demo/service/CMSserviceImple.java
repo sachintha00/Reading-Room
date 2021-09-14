@@ -47,7 +47,8 @@ public class CMSserviceImple implements CMSservice {
 	public CMSmodel updateCourse(CMSmodel course) {
 		list.forEach(e->{
 			if(e.getCoursId() == course.getCoursId()) {
-				e.setTitle(course.getTitle())
+				e.setTitle(course.getTitle());
+				e.setDescription(course.getDescription());
 			}
 		});
 	}
