@@ -1061,3 +1061,18 @@ java.net.UnknownHostException: www.genuitec.com
 
 !ENTRY Activator 1 0 2021-09-13 21:03:12.058
 !MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-13 21:04:29.379
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NoAPPjjQ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-13 21:04:29.380
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.NoAPPjjQ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-13 21:04:29.381
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-13 21:04:29.381
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NoAPPjjQ => OK
+
+!ENTRY org.eclipse.ui 2 2 2021-09-13 21:04:30.494
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
