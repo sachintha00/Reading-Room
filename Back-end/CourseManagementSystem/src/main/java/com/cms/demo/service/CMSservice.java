@@ -13,5 +13,5 @@ public interface CMSservice {
 	public CMSmodel getCourse(long courseId);
 	public CMSmodel addCourse(CMSmodel course);
 	public CMSmodel updateCourse(CMSmodel course);
-	public ResponseEntity<HttpStatus> deleteCourse(long courseId);
+	public void deleteCourse(long courseId);
 }
