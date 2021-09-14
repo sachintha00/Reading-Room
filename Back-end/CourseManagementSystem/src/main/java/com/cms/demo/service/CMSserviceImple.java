@@ -46,7 +46,9 @@ public class CMSserviceImple implements CMSservice {
 	@Override
 	public CMSmodel updateCourse(CMSmodel course) {
 		list.forEach(e->{
-			if(e.getCoursId() == course.getCoursId())
+			if(e.getCoursId() == course.getCoursId()) {
+				e.setTitle(course.getTitle())
+			}
 		});
 	}
 
