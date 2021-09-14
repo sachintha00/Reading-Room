@@ -2,6 +2,8 @@ package com.cms.demo.service;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -59,7 +61,7 @@ public class CMSserviceImple implements CMSservice {
 
 	@Override
 	public void deleteCourse(long courseId) {
-		
+		list = this.list.stream().filter(e -> e.getCoursId() != courseId).collect(Collectors.toList());
 	}
 	
 	
