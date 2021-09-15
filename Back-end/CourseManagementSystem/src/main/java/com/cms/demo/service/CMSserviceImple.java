@@ -19,31 +19,31 @@ public class CMSserviceImple implements CMSservice {
 	@Autowired
 	private CourseDao courseDao;
 	
-	List<CMSmodel> list;
+//	List<CMSmodel> list;
 	
 	public CMSserviceImple() {
-		list = new ArrayList<>();
-		
-		list.add(new CMSmodel(145,"java core course","this course contain base of java"));
-		list.add(new CMSmodel(4343,"Spring boot course","this course contain base of spring boot"));
-		list.add(new CMSmodel(145,"Angular course","this course contain base of Angular"));
+//		list = new ArrayList<>();
+//		
+//		list.add(new CMSmodel(145,"java core course","this course contain base of java"));
+//		list.add(new CMSmodel(4343,"Spring boot course","this course contain base of spring boot"));
+//		list.add(new CMSmodel(145,"Angular course","this course contain base of Angular"));
 	}
 	
 	@Override
 	public List<CMSmodel> getCourses() {
-		return list;
+		return courseDao.findAll();
 	}
 
 	@Override
 	public CMSmodel getCourse(long courseId) {
-		CMSmodel c = null;
-		for(CMSmodel course : list) {
-			if(course.getCoursId() == courseId) {
-				c = course;
-				break;
-			}
-		}
-		return c;
+//		CMSmodel c = null;
+//		for(CMSmodel course : list) {
+//			if(course.getCoursId() == courseId) {
+//				c = course;
+//				break;
+//			}
+//		}
+		return courseDao.getOne(courseId);
 	}
 
 	@Override
