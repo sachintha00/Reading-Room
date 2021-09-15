@@ -5,7 +5,7 @@ import base_url from "./Api/BootApi";
 import { useState } from "react";
 
 function App() {
-	const [newCourse, courseMethod] = useState({});
+	const [newCourse, courseMethod] = useState([]);
 	const handleForm = (e) => {
 		console.log(newCourse);
 		postDataSend(newCourse);
@@ -16,6 +16,7 @@ function App() {
 		axios.get(`${base_url}/courses`).then(
 			(Response) => {
 				console.log(Response.data);
+				courseMethod(newCourse.concat(Response.data));
 			},
 			(error) => {
 				console.log(error);
@@ -24,7 +25,7 @@ function App() {
 	};
 
 	const postDataSend = (newCourse) => {
-		axios.post(`${base_url}/courses`,newCourse).then(
+		axios.post(`${base_url}/courses`, newCourse).then(
 			(Response) => {
 				console.log(Response);
 				console.log("Success");
@@ -39,6 +40,14 @@ function App() {
 	return (
 		<div className="App">
 			<button onClick={getCourse}>Load Data</button>
+
+			<div>
+				{newCourse.length > 0
+					? newCourse.map((info) => {
+							return <h1>{info.title}</h1>;
+					  })
+					: ""}
+			</div>
 
 			<form onSubmit={handleForm}>
 				<input
