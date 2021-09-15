@@ -1,5 +1,8 @@
 package com.cms.demo.model;
 
+import javax.persistence.Entity;
+
+@Entity
 public class CMSmodel {
 
 	private long coursId;

@@ -48,25 +48,30 @@ public class CMSserviceImple implements CMSservice {
 
 	@Override
 	public CMSmodel addCourse(CMSmodel course) {
-		list.add(course);
+		courseDao.save(course);
 		return course;
 	}
 	
 	@Override
 	public CMSmodel updateCourse(CMSmodel course) {
-		list.forEach(e->{
-			if(e.getCoursId() == course.getCoursId()) {
-				e.setTitle(course.getTitle());
-				e.setDescription(course.getDescription());
-			}
-		});
+//		list.forEach(e->{
+//			if(e.getCoursId() == course.getCoursId()) {
+//				e.setTitle(course.getTitle());
+//				e.setDescription(course.getDescription());
+//			}
+//		});
+		
+		courseDao.save(course);
 		
 		return course;
 	}
 
 	@Override
 	public void deleteCourse(long courseId) {
-		list = this.list.stream().filter(e -> e.getCoursId() != courseId).collect(Collectors.toList());
+//		list = this.list.stream().filter(e -> e.getCoursId() != courseId).collect(Collectors.toList());
+		
+		CMSmodel entity = courseDao.getOne(courseId);
+		courseDao.delete(entity);
 	}
 	
 	
