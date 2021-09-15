@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.cms.demo.dao.CourseDao;
 import com.cms.demo.model.CMSmodel;
 import com.cms.demo.service.CMSservice;
 
@@ -23,6 +24,9 @@ public class CMScontroller {
 	
 	@Autowired
 	private CMSservice cmSservice;
+	
+	@Autowired
+	private CourseDao courseDao;
 	
 	@GetMapping("/home")
 	public String home() {
@@ -36,7 +40,8 @@ public class CMScontroller {
 	
 	@GetMapping("/course/{courseID}")
 	public CMSmodel getCourse(@PathVariable String courseID) {
-		return this.cmSservice.getCourse(Long.parseLong(courseID));
+//		return this.cmSservice.getCourse(Long.parseLong(courseID));
+		return courseDao.getById(Long.parseLong(courseID));
 	}
 	
 	@PostMapping("/courses")
