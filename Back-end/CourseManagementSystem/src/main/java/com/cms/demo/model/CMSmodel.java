@@ -1,10 +1,12 @@
 package com.cms.demo.model;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 
 @Entity
 public class CMSmodel {
 
+	@Id
 	private long coursId;
 	private String title;
 	private String description;
