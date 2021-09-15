@@ -5,6 +5,13 @@ import base_url from "./Api/BootApi";
 import { useState } from "react";
 
 function App() {
+	const [newCourse, courseMethod] = useState({});
+	const handleForm = (e) => {
+		console.log(newCourse);
+		postDataSend(newCourse);
+		e.preventDefault();
+	};
+
 	const getCourse = () => {
 		axios.get(`${base_url}/courses`).then(
 			(Response) => {
@@ -16,15 +23,19 @@ function App() {
 		);
 	};
 
-	const postDataSend=(newCourse)=>{
-		axios.post(`${base_url}/courses`)
-	}
-
-	const [newCourse, courseMethod] = useState({});
-	const handleForm = (e) => {
-		console.log(newCourse);
-		e.preventDefault();
+	const postDataSend = (newCourse) => {
+		axios.post(`${base_url}/courses`,newCourse).then(
+			(Response) => {
+				console.log(Response);
+				console.log("Success");
+			},
+			(error) => {
+				console.log(error);
+				console.log("error");
+			}
+		);
 	};
+
 	return (
 		<div className="App">
 			<button onClick={getCourse}>Load Data</button>
@@ -36,7 +47,7 @@ function App() {
 					id=""
 					placeholder="Course ID"
 					onChange={(e) => {
-						courseMethod({ ...newCourse, id: e.target.value });
+						courseMethod({ ...newCourse, coursId: e.target.value });
 					}}
 				/>
 				<input
