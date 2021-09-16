@@ -4871,3 +4871,153 @@ java.lang.InterruptedException
 
 !ENTRY Activator 1 0 2021-09-16 10:15:37.131
 !MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 10:16:33.874
+!MESSAGE Has main method computation for project 'MemberSection111'
+
+!ENTRY Activator 1 0 2021-09-16 10:16:33.874
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 10:16:33.875
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 10:16:34.064
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 10:16:34.065
+!MESSAGE Has main method computation for project 'MemberSection111'
+
+!ENTRY Activator 1 0 2021-09-16 10:16:34.076
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 10:16:42.567
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 10:16:42.568
+!MESSAGE Has main method computation for project 'MemberSection111'
+
+!ENTRY Activator 1 0 2021-09-16 10:16:42.568
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 10:16:42.924
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 10:16:42.924
+!MESSAGE Has main method computation for project 'MemberSection111'
+
+!ENTRY Activator 1 0 2021-09-16 10:16:42.924
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-16 10:17:34.767
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-16 10:17:34.767
+!MESSAGE buffering callback sts4.classpath.pAcOJAlJ MemberSection111 true 0
+
+!ENTRY Activator 1 0 2021-09-16 10:17:34.768
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 10:17:34.768
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-16 10:17:34.790
+!MESSAGE executing callback sts4.classpath.pAcOJAlJ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-16 10:17:34.883
+!MESSAGE executing callback sts4.classpath.pAcOJAlJ SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-09-16 10:19:31.652
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 10:19:31.652
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 10:19:32.236
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 10:19:32.238
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 10:19:58.257
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 10:19:58.257
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 10:19:58.892
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 10:19:58.893
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 10:20:35.845
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 10:20:35.845
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 10:20:36.659
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 10:20:36.660
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 10:20:38.840
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 10:20:38.841
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 10:20:39.473
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 10:20:39.476
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 10:22:40.824
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 10:22:40.825
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 10:22:41.385
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 10:22:41.456
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 10:23:26.134
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 10:23:26.134
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 10:23:26.291
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 10:23:26.292
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 10:23:47.440
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 10:23:47.440
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 10:23:48.091
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 10:23:48.093
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 10:24:43.994
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 10:24:43.994
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 10:24:44.627
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 10:24:44.627
+!MESSAGE Has main method computation for project 'MemberSection'
