@@ -37,14 +37,14 @@ public class MemberController {
 		return this.memberService.getCourse(Long.parseLong(memberId));
 	}
 //	
-//	@PostMapping("/courses")
-//	public CMSmodel addCourse(@RequestBody CMSmodel course) {
-//		return this.cmSservice.addCourse(course);
+//	@PostMapping("/members")
+//	public Member addCourse(@RequestBody CMSmodel course) {
+//		return this.memberService.addCourse(course);
 //	}
 //	
-//	@PutMapping("/courses")
-//	public CMSmodel updateCourse(@RequestBody CMSmodel course) {
-//		return this.cmSservice.updateCourse(course);
+//	@PutMapping("/members")
+//	public Member updateCourse(@RequestBody CMSmodel course) {
+//		return this.memberService.updateCourse(course);
 //	}
 //	
 //	@DeleteMapping("/courses/{courseID}")
