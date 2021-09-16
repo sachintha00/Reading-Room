@@ -31,11 +31,11 @@ public class MemberController {
 	public List<Member> getAllMembers() {
 		return this.memberService.getAllMembers();
 	}
-//	
-//	@GetMapping("/member/{memberId}")
-//	public Member getCourse(@PathVariable String memberId) {
-//		return this.memberService.getCourse(Long.parseLong(memberId));
-//	}
+	
+	@GetMapping("/member/{memberId}")
+	public Member getCourse(@PathVariable String memberId) {
+		return this.memberService.getCourse(Long.parseLong(memberId));
+	}
 //	
 //	@PostMapping("/courses")
 //	public CMSmodel addCourse(@RequestBody CMSmodel course) {
