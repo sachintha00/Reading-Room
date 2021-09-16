@@ -9,6 +9,10 @@ public class Member {
 	private long memberMobile;
 	private String memberGmail;
 	
+	public Member() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	public Member(String memberName, String memberNic, String memberAddress, long memberMobile, String memberGmail) {
 		super();
 		this.memberName = memberName;

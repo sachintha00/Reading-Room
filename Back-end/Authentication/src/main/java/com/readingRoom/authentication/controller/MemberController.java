@@ -2,6 +2,7 @@ package com.readingRoom.authentication.controller;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -12,19 +13,24 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.readingRoom.authentication.model.Member;
+import com.readingRoom.authentication.service.MemberService;
+
 @RestController
 public class MemberController {
 	
+	@Autowired
+	private MemberService memberService;
 	
 	@GetMapping("/member")
 	public String home() {
 		return "this is the member page";
 	}
 	
-//	@GetMapping("/courses")
-//	public List<CMSmodel> getCources() {
-//		return this.cmSservice.getCourses();
-//	}
+	@GetMapping("/members")
+	public List<Member> getAllMembers() {
+		return this.memberService.getAllMembers();
+	}
 //	
 //	@GetMapping("/course/{courseID}")
 //	public CMSmodel getCourse(@PathVariable String courseID) {
