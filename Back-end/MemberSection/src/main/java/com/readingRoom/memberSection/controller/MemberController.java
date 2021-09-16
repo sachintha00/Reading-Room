@@ -38,6 +38,11 @@ public class MemberController {
 		return this.memberService.getMember(Long.parseLong(memberId));
 	}
 	
+	@GetMapping("/member/{name}")
+	public Optional<Member> getMemberByName(@PathVariable String name) {
+		return this.memberService.getMemberByName(name);
+	}
+	
 	@PostMapping("/member")
 	public Member addMember(@RequestBody Member member) {
 		return this.memberService.addMember(member);
