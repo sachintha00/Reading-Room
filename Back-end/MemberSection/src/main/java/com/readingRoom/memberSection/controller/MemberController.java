@@ -32,9 +32,14 @@ public class MemberController {
 		return this.memberService.getAllMembers();
 	}
 	
+//	@GetMapping("/member/{memberId}")
+//	public Member getMember(@PathVariable String memberId) {
+//		return this.memberService.getMember(Long.parseLong(memberId));
+//	}
+	
 	@GetMapping("/member/{memberId}")
-	public Member getMember(@PathVariable String memberId) {
-		return this.memberService.getMember(Long.parseLong(memberId));
+	public String getMember(@PathVariable String memberId) {
+		return memberId;
 	}
 	
 	@PostMapping("/member")
