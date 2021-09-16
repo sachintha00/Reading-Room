@@ -1,6 +1,7 @@
 package com.readingRoom.memberSection.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -19,8 +20,8 @@ public class MemberServiceImpl implements MemberService {
 	}
 
 	@Override
-	public Member getMember(long memberId) {
-		return memberRepository.getById(memberId);
+	public Optional<Member> getMember(long memberId) {
+		return memberRepository.findById(memberId);
 	}
 
 	@Override

@@ -1,6 +1,7 @@
 package com.readingRoom.memberSection.controller;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -32,15 +33,9 @@ public class MemberController {
 		return this.memberService.getAllMembers();
 	}
 	
-//	@GetMapping("/member/{memberId}")
-//	public Member getMember(@PathVariable String memberId) {
-//		return this.memberService.getMember(Long.parseLong(memberId));
-//	}
-	
 	@GetMapping("/member/{memberId}")
-	public long getMember(@PathVariable long memberId) {
-		return memberId;
-//		return this.memberService.getMember(memberId);
+	public Optional<Member> getMember(@PathVariable String memberId) {
+		return this.memberService.getMember(Long.parseLong(memberId));
 	}
 	
 	@PostMapping("/member")
