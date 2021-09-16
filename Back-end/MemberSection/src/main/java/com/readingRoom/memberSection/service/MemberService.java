@@ -1,13 +1,10 @@
-package com.readingRoom.memberSectionservice;
+package com.readingRoom.memberSection.service;
 
 import java.util.List;
-
-import org.springframework.stereotype.Service;
 
 import com.readingRoom.memberSection.model.Member;
 
 public interface MemberService {
-	
 	public List<Member> getAllMembers();
 	public Member getMember(long memberId);
 	public Member addMember(Member member);

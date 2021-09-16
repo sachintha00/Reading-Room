@@ -1,17 +1,18 @@
-package com.readingRoom.memberSectionservice;
+package com.readingRoom.memberSection.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.readingRoom.memberSection.model.Member;
 import com.readingRoom.memberSection.repository.MemberRepository;
 
-public class MemberServiceImpl implements MemberService{
-
+@Service
+public class MemberServiceImpl implements MemberService {
 	@Autowired
 	private MemberRepository memberRepository;
-	
+
 	@Override
 	public List<Member> getAllMembers() {
 		return memberRepository.findAll();
@@ -35,9 +36,10 @@ public class MemberServiceImpl implements MemberService{
 	}
 
 	@Override
-	public void removeMember(long Member) {
-		Member entity = memberRepository.getOne(Member);
+	public void removeMember(long memberId) {
+		Member entity = memberRepository.getOne(memberId);
 		memberRepository.delete(entity);
 		
 	}
+	
 }
