@@ -5465,3 +5465,186 @@ java.lang.InterruptedException
 
 !ENTRY Activator 1 0 2021-09-16 11:39:17.002
 !MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:04.482
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:04.483
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:04.679
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:04.679
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:04.761
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:04.762
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:04.859
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:04.859
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:10.254
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:10.255
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:10.335
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:10.337
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:10.656
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:10.657
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:10.736
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:10.738
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-16 11:50:10.866
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-16 11:50:10.866
+!MESSAGE classpath=1 entries
+
+!ENTRY Activator 1 0 2021-09-16 11:50:10.867
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:10.867
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-16 11:50:10.867
+!MESSAGE buffering callback sts4.classpath.pAcOJAlJ BookService false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-16 11:50:10.867
+!MESSAGE executing callback sts4.classpath.pAcOJAlJ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-16 11:50:10.968
+!MESSAGE executing callback sts4.classpath.pAcOJAlJ SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-09-16 11:50:11.362
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-16 11:50:11.363
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-16 11:50:11.374
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-16 11:50:11.383
+!MESSAGE buffering callback sts4.classpath.pAcOJAlJ BookService false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-16 11:50:11.383
+!MESSAGE executing callback sts4.classpath.pAcOJAlJ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-16 11:50:11.413
+!MESSAGE executing callback sts4.classpath.pAcOJAlJ SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-09-16 11:50:11.591
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:11.621
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:11.634
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:11.750
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:11.750
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:11.752
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:11.859
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:11.871
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:11.873
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:12.687
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:12.688
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:12.688
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-16 11:50:12.960
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY Activator 1 0 2021-09-16 11:50:12.961
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:12.964
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:12.968
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-16 11:50:12.972
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-16 11:50:12.982
+!MESSAGE buffering callback sts4.classpath.pAcOJAlJ BookService false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-16 11:50:12.982
+!MESSAGE executing callback sts4.classpath.pAcOJAlJ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-16 11:50:13.123
+!MESSAGE executing callback sts4.classpath.pAcOJAlJ SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-09-16 11:50:13.170
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:13.193
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:13.196
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:13.691
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:13.692
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:13.695
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:13.811
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:13.811
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:13.812
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:14.272
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:14.272
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 11:50:14.274
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
