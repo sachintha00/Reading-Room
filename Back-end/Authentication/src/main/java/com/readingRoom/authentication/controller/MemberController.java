@@ -43,17 +43,17 @@ public class MemberController {
 	}
 	
 	@PutMapping("/members")
-	public Member updateCourse(@RequestBody Member member) {
+	public Member updatedMember(@RequestBody Member member) {
 		return this.memberService.updatedMember(member);
 	}
-//	
-//	@DeleteMapping("/courses/{courseID}")
-//	public ResponseEntity<HttpStatus> updateCourse(@PathVariable String courseID) {
-//		try {
-//			this.cmSservice.deleteCourse(Long.parseLong(courseID));
-//			return new ResponseEntity<>(HttpStatus.OK);
-//		} catch (Exception e) {
-//			return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
-//		}
-//	}
+	
+	@DeleteMapping("/members/{memberId}")
+	public ResponseEntity<HttpStatus> removeMember(@PathVariable String memberId) {
+		try {
+			this.memberService.removeMember(Long.parseLong(memberId));
+			return new ResponseEntity<>(HttpStatus.OK);
+		} catch (Exception e) {
+			return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+		}
+	}
 }
