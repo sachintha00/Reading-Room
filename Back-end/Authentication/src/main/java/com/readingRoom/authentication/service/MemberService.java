@@ -6,4 +6,5 @@ import com.readingRoom.authentication.model.Member;
 
 public interface MemberService {
 	public List<Member> getAllMembers();
+	public Member getCourse(long memberId);
 }

@@ -32,9 +32,9 @@ public class MemberController {
 		return this.memberService.getAllMembers();
 	}
 //	
-//	@GetMapping("/course/{courseID}")
-//	public CMSmodel getCourse(@PathVariable String courseID) {
-//		return courseDao.getById(Long.parseLong(courseID));
+//	@GetMapping("/member/{memberId}")
+//	public Member getCourse(@PathVariable String memberId) {
+//		return this.memberService.getCourse(Long.parseLong(memberId));
 //	}
 //	
 //	@PostMapping("/courses")
