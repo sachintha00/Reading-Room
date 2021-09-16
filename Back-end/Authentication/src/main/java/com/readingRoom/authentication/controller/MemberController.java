@@ -36,11 +36,11 @@ public class MemberController {
 	public Member getCourse(@PathVariable String memberId) {
 		return this.memberService.getCourse(Long.parseLong(memberId));
 	}
-//	
-//	@PostMapping("/members")
-//	public Member addCourse(@RequestBody CMSmodel course) {
-//		return this.memberService.addCourse(course);
-//	}
+	
+	@PostMapping("/members")
+	public Member addMember(@RequestBody Member member) {
+		return this.memberService.addMember(member);
+	}
 //	
 //	@PutMapping("/members")
 //	public Member updateCourse(@RequestBody CMSmodel course) {
