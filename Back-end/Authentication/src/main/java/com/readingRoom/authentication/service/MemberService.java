@@ -8,4 +8,5 @@ public interface MemberService {
 	public List<Member> getAllMembers();
 	public Member getCourse(long memberId);
 	public Member addMember(Member member);
+	public Member updateCourse(Member member);
 }
