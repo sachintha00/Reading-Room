@@ -41,11 +41,11 @@ public class MemberController {
 	public Member addMember(@RequestBody Member member) {
 		return this.memberService.addMember(member);
 	}
-//	
-//	@PutMapping("/members")
-//	public Member updateCourse(@RequestBody CMSmodel course) {
-//		return this.memberService.updateCourse(course);
-//	}
+	
+	@PutMapping("/members")
+	public Member updateCourse(@RequestBody Member member) {
+		return this.memberService.updatedMember(member);
+	}
 //	
 //	@DeleteMapping("/courses/{courseID}")
 //	public ResponseEntity<HttpStatus> updateCourse(@PathVariable String courseID) {
