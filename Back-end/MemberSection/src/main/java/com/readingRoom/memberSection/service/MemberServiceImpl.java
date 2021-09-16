@@ -20,7 +20,7 @@ public class MemberServiceImpl implements MemberService {
 
 	@Override
 	public Member getMember(long memberId) {
-		return memberRepository.getOne(memberId);
+		return memberRepository.getById(memberId);
 	}
 
 	@Override
@@ -37,8 +37,10 @@ public class MemberServiceImpl implements MemberService {
 
 	@Override
 	public void removeMember(long memberId) {
-		Member entity = memberRepository.getOne(memberId);
-		memberRepository.delete(entity);
+//		Member entity = memberRepository.getOne(memberId);
+//		memberRepository.delete(entity);
+		
+		memberRepository.deleteById(memberId);
 		
 	}
 	

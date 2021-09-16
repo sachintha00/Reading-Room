@@ -38,8 +38,9 @@ public class MemberController {
 //	}
 	
 	@GetMapping("/member/{memberId}")
-	public String getMember(@PathVariable String memberId) {
+	public long getMember(@PathVariable long memberId) {
 		return memberId;
+//		return this.memberService.getMember(memberId);
 	}
 	
 	@PostMapping("/member")

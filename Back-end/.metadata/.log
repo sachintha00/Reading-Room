@@ -5774,3 +5774,152 @@ java.lang.InterruptedException
 
 !ENTRY Activator 1 0 2021-09-16 11:57:59.377
 !MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 12:41:42.384
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 12:41:42.880
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 12:41:42.880
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-16 12:41:45.253
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-16 12:41:45.253
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 12:41:45.253
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 12:41:46.410
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 12:41:46.434
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 12:41:46.584
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-16 12:42:54.353
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 12:42:54.353
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 12:42:54.353
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-16 12:42:55.064
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 12:42:55.139
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 12:42:55.141
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-16 12:43:13.554
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-16 12:43:13.554
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 12:43:13.555
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 12:43:14.193
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 12:43:14.242
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 12:43:14.244
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-16 12:44:57.287
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-16 12:44:57.287
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 12:44:57.289
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 12:44:57.854
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 12:44:57.953
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 12:44:57.954
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-16 12:45:40.038
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 12:45:40.038
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 12:45:40.039
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-16 12:45:40.598
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 12:45:40.677
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-16 12:45:40.678
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 12:46:27.244
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-16 12:46:27.245
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 12:46:27.245
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 12:46:28.256
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 12:46:28.256
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 12:46:28.257
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY org.eclipse.core.resources 2 2 2021-09-16 12:46:43.262
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2021-09-16 12:46:43.262
+!MESSAGE The project description file (.project) for 'CourseManagementSystem' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY Activator 1 0 2021-09-16 12:46:43.382
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-16 12:46:43.383
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 12:46:43.383
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 13:09:27.836
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-16 13:09:27.838
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 13:09:27.839
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 13:09:29.041
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-16 13:09:29.042
+!MESSAGE Has main method computation for project 'CourseManagementSystem'
+
+!ENTRY Activator 1 0 2021-09-16 13:09:29.042
+!MESSAGE Has main method computation for project 'BookService'
