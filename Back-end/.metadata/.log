@@ -7647,3 +7647,42 @@ java.lang.InterruptedException
 
 !ENTRY Activator 1 0 2021-09-17 11:57:15.564
 !MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-17 13:18:20.652
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-17 13:18:21.527
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-17 13:18:21.652
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-17 13:19:05.735
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-17 13:19:05.735
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-17 13:19:05.754
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-17 13:19:20.040
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-17 13:19:20.041
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-17 13:19:20.041
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-17 13:19:27.905
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.IBshkzQz
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-17 13:19:28.388
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.IBshkzQz
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-17 13:19:28.389
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-17 13:19:28.389
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.IBshkzQz => OK
