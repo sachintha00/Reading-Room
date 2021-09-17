@@ -3,6 +3,7 @@ package com.readingRoom.bookServie.controller;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -14,9 +15,13 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.readingRoom.bookServie.model.Supplier;
+import com.readingRoom.bookServie.service.SupplierService;
 
 @RestController
 public class SupplierController {
+	
+	@Autowired
+	private SupplierService supplierService;
 	
 	@GetMapping("/supplierHome")
 	public String home() {
@@ -25,33 +30,33 @@ public class SupplierController {
 	
 	@GetMapping("/suppliers")
 	public List<Supplier> getAllSupplier() {
-		return this.bookService.getAllSupplier();
+		return this.supplierService.getAllSupplier();
 	}
 	
 	@GetMapping("/supplier/{supplierId}")
 	public Optional<Supplier> getSupplier(@PathVariable String supplierId) {
-		return this.bookService.getSupplier(Long.parseLong(supplierId));
+		return this.supplierService.getSupplier(Long.parseLong(supplierId));
 	}
 	
 	@GetMapping("/supplier/{name}")
 	public Optional<Supplier> getSupplierByName(@PathVariable String name) {
-		return this.bookService.getSupplierByName(name);
+		return this.supplierService.getSupplierByName(name);
 	}
 	
 	@PostMapping("/supplier")
 	public Supplier addSupplier(@RequestBody Supplier supplier) {
-		return this.bookService.addSupplier(supplier);
+		return this.supplierService.addSupplier(supplier);
 	}
 	
 	@PutMapping("/supplier")
 	public Supplier updateSupplier(@RequestBody Supplier supplier) {
-		return this.bookService.updateSupplier(supplier);
+		return this.supplierService.updateSupplier(supplier);
 	}
 	
 	@DeleteMapping("/supplier/{supplierId}")
 	public ResponseEntity<HttpStatus> removeSupplier(@PathVariable String supplierId) {
 		try {
-			this.bookService.removeSupplier(Long.parseLong(supplierId));
+			this.supplierService.removeSupplier(Long.parseLong(supplierId));
 			return new ResponseEntity<>(HttpStatus.OK);
 		} catch (Exception e) {
 			return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);

@@ -20,7 +20,7 @@ public class SupplierServiceImpl implements SupplierService{
 	}
 
 	@Override
-	public Optional<Supplier> getSupplierByName(long name) {
+	public Optional<Supplier> getSupplierByName(String name) {
 		// TODO Auto-generated method stub
 		return null;
 	}
