@@ -6995,3 +6995,173 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY Activator 1 0 2021-09-17 08:26:29.786
 !MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY org.eclipse.ui 2 2 2021-09-17 08:43:21.299
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2021-09-17 08:44:28.754
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-17 08:44:28.755
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-17 08:44:28.757
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-17 08:44:30.450
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-17 08:44:30.475
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-17 08:44:30.483
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-17 08:44:31.850
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-17 08:44:31.851
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2ab17378[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-17 08:44:32.092
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY Activator 1 0 2021-09-17 08:44:32.109
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-17 08:44:32.109
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-17 08:44:32.110
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-17 08:44:32.261
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY Activator 1 0 2021-09-17 08:45:00.421
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-17 08:45:00.423
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-17 08:45:00.426
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-17 08:45:20.877
+!MESSAGE Boot LS startup time from start to initialized: 48776ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-17 08:45:21.219
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.qmMzEPdBisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-17 08:45:21.250
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-17 08:45:21.253
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-17 08:45:21.253
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-17 08:45:21.254
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-17 08:45:21.254
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.qmMzEPdB => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-17 08:45:21.267
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-17 08:45:21.277
+!MESSAGE buffering callback sts4.classpath.qmMzEPdB BookService false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-17 08:45:21.278
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-17 08:45:21.290
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-17 08:45:21.300
+!MESSAGE buffering callback sts4.classpath.qmMzEPdB Authentication false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-17 08:45:21.301
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-17 08:45:21.312
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-17 08:45:21.322
+!MESSAGE buffering callback sts4.classpath.qmMzEPdB MemberSection false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-17 08:45:21.323
+!MESSAGE executing callback sts4.classpath.qmMzEPdB 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-17 08:45:23.334
+!MESSAGE executing callback sts4.classpath.qmMzEPdB FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-09-17 08:45:23.334
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY Activator 1 0 2021-09-17 08:45:27.419
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-17 08:45:27.422
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-17 08:45:27.423
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-17 08:47:25.050
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-17 08:47:25.052
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-17 08:47:25.053
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-17 08:47:25.706
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-17 08:47:25.767
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-17 08:47:25.776
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-17 08:48:25.564
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-17 08:48:25.565
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-17 08:48:25.566
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-17 08:48:26.283
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-17 08:48:26.284
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-17 08:48:26.285
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-17 08:48:29.675
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.qmMzEPdB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-17 08:48:29.675
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.qmMzEPdB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-17 08:48:29.676
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-17 08:48:29.677
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.qmMzEPdB => OK
