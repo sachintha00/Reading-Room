@@ -4,6 +4,8 @@ import java.util.List;
 
 import javax.persistence.OneToMany;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class Supplier {
 	
 	private long supplierId;
@@ -12,12 +14,13 @@ public class Supplier {
 	private String suppDate;
 	private String description;
 	
-	@OneToMany(mappedBy = "book")
+//	@OneToMany
+	@Autowired
 	private List<Book> books;
 	
-	public List<Book> getBook() {
-		return books;
-	}
+//	public List<Book> getBook() {
+//		return books;
+//	}
 	
 	public Supplier() {
 		super();

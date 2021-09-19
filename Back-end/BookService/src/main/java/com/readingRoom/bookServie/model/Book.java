@@ -7,6 +7,9 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
+
+import org.springframework.beans.factory.annotation.Autowired;
 
 @Entity
 public class Book {
@@ -21,13 +24,14 @@ public class Book {
 	private String AuthorName;
 	
 	
-	@ManyToOne(cascade = CascadeType.ALL)
-	@JoinColumn(name = "supplierId", referencedColumnName = "supplierId")
+//	@OneToMany
+//	@JoinColumn(name = "supplierId", referencedColumnName = "supplierId")
+	@Autowired
 	private Supplier supplier;
 	
-	public Supplier getSupplier() {
-		return supplier;
-	}
+//	public Supplier getSupplier() {
+//		return supplier;
+//	}
 	
 	
 	public Book() {

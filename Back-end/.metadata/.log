@@ -11243,3 +11243,984 @@ java.lang.InterruptedException
 
 !ENTRY Activator 1 0 2021-09-19 11:09:50.188
 !MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:18:33.348
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:18:33.450
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:18:33.450
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:18:34.046
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:18:34.378
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:18:34.398
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:18:52.969
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:18:52.971
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:18:52.983
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:18:53.678
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:18:53.689
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:18:53.741
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:19:38.622
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:19:38.623
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:19:38.628
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:19:39.325
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:19:39.354
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:19:39.363
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-09-19 11:19:39.380
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-09-19 11:22:14.974
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:22:14.982
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:22:15.014
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:22:15.790
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:22:15.790
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:22:15.910
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:24:01.489
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:24:01.493
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:24:01.493
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:24:09.599
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:24:09.622
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:24:09.624
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:26:35.679
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:26:35.679
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:26:35.680
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:26:35.709
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:26:35.716
+!MESSAGE classpath=88 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:26:35.725
+!MESSAGE buffering callback sts4.classpath.xnetXzSS BookService false 88
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:26:35.726
+!MESSAGE executing callback sts4.classpath.xnetXzSS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:26:35.929
+!MESSAGE executing callback sts4.classpath.xnetXzSS SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-09-19 11:26:38.262
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:26:38.268
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:26:38.366
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:26:55.509
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:26:55.511
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:26:55.527
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:27:00.566
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:27:00.567
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:27:00.572
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY Activator 1 0 2021-09-19 11:27:00.578
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:27:00.584
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:27:00.592
+!MESSAGE buffering callback sts4.classpath.xnetXzSS BookService false 88
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:27:00.593
+!MESSAGE executing callback sts4.classpath.xnetXzSS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:27:00.901
+!MESSAGE executing callback sts4.classpath.xnetXzSS SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-09-19 11:27:00.909
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:27:02.039
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:27:02.040
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:27:02.048
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:27:59.140
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:27:59.146
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:27:59.233
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY Activator 1 0 2021-09-19 11:27:59.247
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:27:59.288
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:27:59.305
+!MESSAGE buffering callback sts4.classpath.xnetXzSS BookService false 88
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:27:59.306
+!MESSAGE executing callback sts4.classpath.xnetXzSS 1 batched events
+
+!ENTRY Activator 1 0 2021-09-19 11:27:59.471
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:27:59.475
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:27:59.616
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:27:59.659
+!MESSAGE executing callback sts4.classpath.xnetXzSS SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-09-19 11:28:18.436
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:28:18.438
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:28:18.441
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:28:23.566
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:28:23.579
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:28:23.589
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:28:24.478
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:28:24.479
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:28:24.480
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:28:24.481
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:28:24.497
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:28:24.512
+!MESSAGE buffering callback sts4.classpath.xnetXzSS BookService false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:28:24.512
+!MESSAGE executing callback sts4.classpath.xnetXzSS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:28:24.979
+!MESSAGE executing callback sts4.classpath.xnetXzSS SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-09-19 11:28:25.432
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:28:25.622
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:28:25.700
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:28:25.752
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:28:26.977
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:28:26.979
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:28:27.056
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY org.eclipse.ui 2 2 2021-09-19 11:28:39.230
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2021-09-19 11:28:48.094
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:28:48.095
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:28:48.096
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY Activator 1 0 2021-09-19 11:28:48.110
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:28:48.114
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:28:48.132
+!MESSAGE buffering callback sts4.classpath.xnetXzSS BookService false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:28:48.133
+!MESSAGE executing callback sts4.classpath.xnetXzSS 1 batched events
+
+!ENTRY Activator 1 0 2021-09-19 11:28:48.597
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:28:48.606
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:28:48.677
+!MESSAGE executing callback sts4.classpath.xnetXzSS SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:29:07.916
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:29:07.927
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:29:07.937
+!MESSAGE buffering callback sts4.classpath.xnetXzSS BookService false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:29:07.937
+!MESSAGE executing callback sts4.classpath.xnetXzSS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 11:29:08.007
+!MESSAGE executing callback sts4.classpath.xnetXzSS SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-09-19 11:29:08.023
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:29:08.024
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:29:08.026
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:29:08.649
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:29:08.673
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:29:08.678
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:29:09.364
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:29:09.404
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:29:09.405
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:30:23.586
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:30:23.592
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:30:23.609
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:30:23.811
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:30:23.811
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:30:23.812
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:30:24.139
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:30:24.141
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:30:24.141
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:30:24.589
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:30:24.604
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:30:24.607
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:30:29.647
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:30:29.654
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:30:29.657
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:30:29.826
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:30:29.865
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:30:29.912
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:30:30.056
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:30:30.125
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:30:30.130
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:30:32.411
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:30:32.414
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:30:32.416
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:30:35.933
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:30:35.940
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:30:36.130
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:32:57.875
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:32:57.876
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:32:57.984
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:32:58.723
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:32:58.739
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:32:58.951
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:34:08.345
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:34:08.345
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 11:34:08.346
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:34:09.164
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 11:34:09.169
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 11:34:09.219
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:31:03.960
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:31:04.199
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:31:04.199
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:31:14.417
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:31:14.423
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 12:31:14.468
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY Activator 1 0 2021-09-19 12:31:14.468
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 12:31:14.488
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 12:31:14.680
+!MESSAGE buffering callback sts4.classpath.xnetXzSS BookService false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 12:31:14.681
+!MESSAGE executing callback sts4.classpath.xnetXzSS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 12:31:14.891
+!MESSAGE executing callback sts4.classpath.xnetXzSS SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-09-19 12:31:15.253
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:31:15.273
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:31:15.295
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:31:16.961
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:31:16.965
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:31:17.003
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:33:55.996
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:33:56.227
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:33:56.227
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:33:56.991
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:33:57.144
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:33:57.162
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:33:57.640
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:33:57.644
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:33:57.647
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:35:56.077
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:35:56.080
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:35:56.080
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:35:57.371
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:35:57.372
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:35:57.410
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:36:02.372
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:36:02.373
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:36:02.374
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:36:03.268
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:36:03.288
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:36:03.325
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:36:21.514
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:36:21.516
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:36:21.579
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:36:22.336
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:36:22.363
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:36:22.455
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:40:15.803
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:40:15.840
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:40:15.884
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:40:16.375
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:40:16.475
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:40:16.475
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:41:09.521
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:41:09.521
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:41:09.553
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:41:10.918
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:41:10.920
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:41:10.922
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:43:40.878
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:43:40.878
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:43:40.926
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:43:41.357
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:43:41.557
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:43:42.205
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:45:21.331
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:45:21.332
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:45:21.340
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:45:22.133
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:45:22.148
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:45:22.251
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:45:56.054
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:45:56.054
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:45:56.055
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:45:56.707
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:45:56.830
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:45:56.861
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:46:01.427
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:46:01.434
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:46:01.435
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:46:02.095
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:46:02.096
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:46:02.122
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:51:24.097
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:51:24.122
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:51:24.128
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:51:28.806
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:51:28.807
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:51:28.810
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:51:29.221
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:51:29.239
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 12:51:29.243
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY Activator 1 0 2021-09-19 12:51:29.251
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 12:51:29.259
+!MESSAGE classpath=88 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 12:51:29.269
+!MESSAGE buffering callback sts4.classpath.xnetXzSS BookService false 88
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 12:51:29.270
+!MESSAGE executing callback sts4.classpath.xnetXzSS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 12:51:29.442
+!MESSAGE executing callback sts4.classpath.xnetXzSS SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-09-19 12:51:31.494
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:51:31.565
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:51:31.568
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:51:31.736
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:51:31.739
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:51:31.740
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:55:14.465
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:55:14.465
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:55:14.528
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:55:16.360
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:55:16.360
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:55:16.361
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 12:55:16.362
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 12:55:16.372
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 12:55:16.380
+!MESSAGE buffering callback sts4.classpath.xnetXzSS BookService false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 12:55:16.380
+!MESSAGE executing callback sts4.classpath.xnetXzSS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 12:55:16.418
+!MESSAGE executing callback sts4.classpath.xnetXzSS SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-09-19 12:55:16.880
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:55:16.889
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:55:24.056
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:55:24.067
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:55:24.069
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:55:52.540
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:55:52.540
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:55:52.541
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:55:54.561
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:55:54.574
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:55:54.581
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:57:06.258
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:57:06.341
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:57:06.352
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:57:07.911
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:57:07.925
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:57:07.931
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:57:09.340
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:57:09.340
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:57:09.343
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 12:57:09.346
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 12:57:09.362
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 12:57:09.373
+!MESSAGE buffering callback sts4.classpath.xnetXzSS BookService false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 12:57:09.374
+!MESSAGE executing callback sts4.classpath.xnetXzSS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 12:57:09.441
+!MESSAGE executing callback sts4.classpath.xnetXzSS SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-09-19 12:57:09.784
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:57:09.787
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:57:11.468
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:57:11.470
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:57:11.477
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:57:30.853
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 12:57:30.854
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:57:30.857
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:57:35.710
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 12:57:35.712
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY Activator 1 0 2021-09-19 12:57:35.716
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 12:57:35.717
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 12:57:35.723
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 12:57:35.731
+!MESSAGE buffering callback sts4.classpath.xnetXzSS BookService false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 12:57:35.732
+!MESSAGE executing callback sts4.classpath.xnetXzSS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 12:57:35.793
+!MESSAGE executing callback sts4.classpath.xnetXzSS SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-09-19 12:57:36.130
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 12:57:36.154
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 13:00:14.706
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 13:00:14.715
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 13:00:14.716
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 13:01:55.212
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 13:01:55.213
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 13:01:55.219
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 13:01:56.844
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 13:01:56.844
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-19 13:01:56.951
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 13:01:56.958
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 13:01:56.995
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 13:01:57.059
+!MESSAGE buffering callback sts4.classpath.xnetXzSS BookService false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 13:01:57.059
+!MESSAGE executing callback sts4.classpath.xnetXzSS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-19 13:01:57.213
+!MESSAGE executing callback sts4.classpath.xnetXzSS SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-09-19 13:01:57.702
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-19 13:01:57.708
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-19 13:01:57.709
+!MESSAGE Has main method computation for project 'MemberSection'
