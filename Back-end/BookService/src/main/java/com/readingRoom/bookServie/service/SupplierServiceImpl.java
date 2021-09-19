@@ -3,8 +3,11 @@ package com.readingRoom.bookServie.service;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.stereotype.Service;
+
 import com.readingRoom.bookServie.model.Supplier;
 
+@Service
 public class SupplierServiceImpl implements SupplierService{
 
 	@Override

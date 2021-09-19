@@ -4,10 +4,12 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.readingRoom.bookServie.model.Book;
 import com.readingRoom.bookServie.repository.BookRepository;
 
+@Service
 public class BookServiceImpl implements BookService{
 
 	@Autowired
