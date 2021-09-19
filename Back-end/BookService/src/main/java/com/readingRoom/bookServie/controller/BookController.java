@@ -38,10 +38,10 @@ public class BookController {
 		return this.bookService.getBook(Long.parseLong(bookId));
 	}
 	
-	@GetMapping("/book/{name}")
-	public Optional<Book> getBookByName(@PathVariable String name) {
-		return this.bookService.getBookByName(name);
-	}
+//	@GetMapping("/book/{name}")
+//	public Optional<Book> getBookByName(@PathVariable String name) {
+//		return this.bookService.getBookByName(name);
+//	}
 	
 	@PostMapping("/book")
 	public Book addBook(@RequestBody Book book) {
