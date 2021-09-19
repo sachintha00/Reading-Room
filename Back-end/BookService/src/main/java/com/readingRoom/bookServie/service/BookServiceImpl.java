@@ -16,36 +16,34 @@ public class BookServiceImpl implements BookService{
 	@Override
 	public List<Book> getAllBooks() {
 		return bookRepository.findAll();
-		return null;
 	}
 
 	@Override
 	public Optional<Book> getBook(long bookId) {
-		// TODO Auto-generated method stub
-		return null;
+		return bookRepository.findById(bookId);
 	}
 
 	@Override
 	public Optional<Book> getBookByName(String name) {
-		// TODO Auto-generated method stub
+//		bookRepository.save(name);
 		return null;
 	}
 
 	@Override
 	public Book addBook(Book book) {
-		// TODO Auto-generated method stub
-		return null;
+		bookRepository.save(book);
+		return book;
 	}
 
 	@Override
 	public Book updateBook(Book book) {
-		// TODO Auto-generated method stub
-		return null;
+		bookRepository.save(book);
+		return book;
 	}
 
 	@Override
 	public void removeBook(long bookId) {
-		// TODO Auto-generated method stub
+		bookRepository.deleteById(bookId);
 		
 	}
 
