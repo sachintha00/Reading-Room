@@ -3,13 +3,19 @@ package com.readingRoom.bookServie.service;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 import com.readingRoom.bookServie.model.Book;
+import com.readingRoom.bookServie.repository.BookRepository;
 
 public class BookServiceImpl implements BookService{
 
+	@Autowired
+	private BookRepository bookRepository;
+	
 	@Override
 	public List<Book> getAllBooks() {
-		// TODO Auto-generated method stub
+		return bookRepository.findAll();
 		return null;
 	}
 
