@@ -2,12 +2,17 @@ package com.readingRoom.bookServie.model;
 
 import java.util.List;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
+@Entity
 public class Supplier {
 	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long supplierId;
 	private String name;
 	private String nic;
@@ -15,9 +20,8 @@ public class Supplier {
 	private String description;
 	
 //	@OneToMany
-	@Autowired
-	private List<Book> books;
-	
+//	private List<Book> books;
+//	
 //	public List<Book> getBook() {
 //		return books;
 //	}

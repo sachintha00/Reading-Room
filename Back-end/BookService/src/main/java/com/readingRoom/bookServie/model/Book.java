@@ -26,9 +26,8 @@ public class Book {
 	
 //	@OneToMany
 //	@JoinColumn(name = "supplierId", referencedColumnName = "supplierId")
-	@Autowired
-	private Supplier supplier;
-	
+//	private Supplier supplier;
+//	
 //	public Supplier getSupplier() {
 //		return supplier;
 //	}
