@@ -1,9 +1,12 @@
 package com.readingRoom.bookServie.model;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 
 @Entity
 public class Book {
@@ -16,6 +19,15 @@ public class Book {
 	private String bookType;
 	private String medium;
 	private String AuthorName;
+	
+	
+	@ManyToOne(cascade = CascadeType.ALL)
+	@JoinColumn(name = "supplierId", referencedColumnName = "supplierId")
+	private Supplier supplier;
+	
+	public Supplier getSupplier() {
+		return supplier;
+	}
 	
 	
 	public Book() {

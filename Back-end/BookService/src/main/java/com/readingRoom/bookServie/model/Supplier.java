@@ -1,5 +1,9 @@
 package com.readingRoom.bookServie.model;
 
+import java.util.List;
+
+import javax.persistence.OneToMany;
+
 public class Supplier {
 	
 	private long supplierId;
@@ -7,6 +11,13 @@ public class Supplier {
 	private String nic;
 	private String suppDate;
 	private String description;
+	
+	@OneToMany(mappedBy = "book")
+	private List<Book> books;
+	
+	public List<Book> getBook() {
+		return books;
+	}
 	
 	public Supplier() {
 		super();
