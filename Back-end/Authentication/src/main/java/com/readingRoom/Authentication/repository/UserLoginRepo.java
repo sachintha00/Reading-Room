@@ -8,4 +8,5 @@ import com.readingRoom.Authentication.model.UserLogin;
 @Repository
 public interface UserLoginRepo extends JpaRepository<UserLogin, Long>{
 
+	UserLogin findByUsername(String username);
 }
