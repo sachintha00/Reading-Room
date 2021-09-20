@@ -14009,3 +14009,57 @@ java.net.UnknownHostException: download.springsource.com
 
 !ENTRY Activator 1 0 2021-09-20 09:52:47.850
 !MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-20 09:55:45.556
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-20 09:55:45.557
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-20 09:55:45.558
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-20 09:55:46.234
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-20 09:55:46.236
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-20 09:55:46.281
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-20 09:56:34.963
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-20 09:56:34.964
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-20 09:56:34.964
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-20 09:56:35.661
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-20 09:56:35.749
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-20 09:56:35.857
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-20 09:56:44.517
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-20 09:56:44.519
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-20 09:56:44.519
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-20 09:56:45.255
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-20 09:56:45.336
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-20 09:56:45.344
+!MESSAGE Has main method computation for project 'BookService'
