@@ -1,91 +1,77 @@
 import "./App.css";
 
-import axios from "axios";
-import base_url from "./Api/BootApi";
+import { userLogin } from "./Api/BootApi";
 import { useState } from "react";
 
 function App() {
-	var err = "";
-	const [newCourse, courseMethod] = useState([]);
-	const [tempcourse, setTempCourse] = useState([]);
-	const handleForm = (e) => {
-		// console.log(newCourse);
-		// postDataSend(newCourse);
-		const temp = getCourse();
-		tempcourse.map((data) => {
-			return data.title === temp.title ? (err = "fdgsdgfdsgfsdg") : (err = "");
-		});
-		e.preventDefault();
+	const [values, setValues] = useState({
+		userName: "",
+		password: "",
+	});
+
+	const handleSubmit = (evt) => {
+		evt.preventDefault();
+		// props.authenticate();
+
+		userLogin(values)
+			.then((response) => {
+				console.log("succeess");
+			})
+			.catch((err) => {
+				console.log("succeess");
+			});
+		//console.log("Loading again",loading);
 	};
 
-	const getCourse = () => {
-		axios.get(`${base_url}/courses`).then(
-			(Response) => {
-				console.log(Response.data);
-				return courseMethod(Response.data);
-			},
-			(error) => {
-				console.log(error);
-			}
-		);
+	const handleChange = (e) => {
+		e.persist();
+		setValues((values) => ({
+			...values,
+			[e.target.name]: e.target.value,
+		}));
 	};
-
-	// const postDataSend = (newCourse) => {
-	// 	axios.post(`${base_url}/courses`, newCourse).then(
-	// 		(Response) => {
-	// 			console.log(Response);
-	// 			console.log("Success");
-	// 		},
-	// 		(error) => {
-	// 			console.log(error);
-	// 			console.log("error");
-	// 		}
-	// 	);
-	// };
 
 	return (
-		<div className="App">
-			<button onClick={getCourse}>Load Data</button>
-			<h1>{err}</h1>
-			<div>
-				{newCourse.length > 0
-					? newCourse.map((info) => {
-							return <h1>{info.title}</h1>;
-					  })
-					: ""}
-			</div>
+		<div className="card-body">
+			<h4 className="card-title">Login</h4>
 
-			<form onSubmit={handleForm}>
-				<input
-					type="text"
-					name="cId"
-					id=""
-					placeholder="Course ID"
-					onChange={(e) => {
-						courseMethod({ ...setTempCourse, coursId: e.target.value });
-					}}
-				/>
-				<input
-					type="text"
-					name="cTitel"
-					id=""
-					placeholder="Course Title"
-					onChange={(e) => {
-						courseMethod({ ...setTempCourse, title: e.target.value });
-					}}
-				/>
-				<input
-					type="text"
-					name="cDescription"
-					id=""
-					placeholder="Course Description"
-					onChange={(e) => {
-						courseMethod({ ...setTempCourse, description: e.target.value });
-					}}
-				/>
+			<form onSubmit={handleSubmit} noValidate={false}>
+				<div className="">
+					<label htmlFor="email">User Name</label>
+					<input
+						id="username"
+						type="text"
+						// minLength={5}
+						value={values.userName}
+						onChange={handleChange}
+						name="userName"
+					/>
+				</div>
 
-				<button type="submit">Add Course</button>
+				<div className="">
+					<label htmlFor="email">Password</label>
+					<input
+						id="password"
+						type="password"
+						// minLength={8}
+						value={values.password}
+						onChange={handleChange}
+						name="password"
+					/>
+				</div>
+
+				<div className="">
+					<button type="submit" className="">
+						Login
+					</button>
+				</div>
 			</form>
+			{/* {error && (
+				<div className="">
+					{error}
+					password waradi
+				</div>
+			)} */}
 		</div>
 	);
 }
