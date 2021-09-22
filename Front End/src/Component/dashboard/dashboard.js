@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import { Button, Container } from 'react-bootstrap';
-import { useDispatch } from 'react-redux';
+// import { useDispatch } from 'react-redux';
 import styled from 'styled-components';
 import {fetchUserData} from '../../Service/authenticationService'
 
@@ -10,7 +10,7 @@ const MainWrapper=styled.div`
 
 export const Dashboard=(props)=>{
 
-    const dispatch=useDispatch();
+    // const dispatch=useDispatch();
     const [loading,setLoading]=useState(false);
     const [data,setData]=useState({});
 
