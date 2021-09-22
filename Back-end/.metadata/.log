@@ -19703,3 +19703,12 @@ java.lang.UnsupportedOperationException: No language server has registered to ha
 
 !ENTRY Activator 1 0 2021-09-22 14:33:29.786
 !MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-22 15:00:41.031
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-22 15:00:41.034
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-22 15:00:41.041
+!MESSAGE Has main method computation for project 'Authentication'
