@@ -38,6 +38,7 @@ const LoginPage = ({ loading, error, ...props }) => {
 				if (response.status === 200) {
 					// props.setUser(response.data);
 					// props.history.push("/");
+					console.log("login==> " + response.data);
 				} else {
 					// props.loginFailure("Something Wrong!Please Try Again");
 				}
@@ -50,7 +51,7 @@ const LoginPage = ({ loading, error, ...props }) => {
 							// props.loginFailure("Authentication Failed.Bad Credentials");
 							break;
 						default:
-							// props.loginFailure("Something Wrong!Please Try Again");
+						// props.loginFailure("Something Wrong!Please Try Again");
 					}
 				} else {
 					// props.loginFailure("Something Wrong!Please Try Again");

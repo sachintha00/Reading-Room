@@ -13598,3 +13598,423 @@ Caused by: java.io.IOException: The pipe is being closed
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 18:46:51.042
 !MESSAGE SpringBootLanguageServer exists!
+!SESSION 2021-09-22 19:16:46.951 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-09-22 19:18:51.274
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2021-09-22 19:20:01.580
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-09-22 19:20:01.580
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@76b6bad3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e38d655,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 19:20:48.095
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 19:20:48.096
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@29af2a8e[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 19:20:48.099
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 19:20:48.274
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 19:20:51.733
+!MESSAGE Boot LS startup time from start to initialized: 3626ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 19:20:51.995
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.verpMWFeisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 19:20:52.026
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 19:20:52.029
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 19:20:52.058
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 19:20:52.059
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.verpMWFe => OK
+
+!ENTRY Activator 1 0 2021-09-22 19:20:52.169
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-22 19:20:52.173
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-22 19:20:52.174
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 19:20:52.200
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-09-22 19:20:52.495
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\SSSS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 19:20:54.206
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 19:20:54.228
+!MESSAGE buffering callback sts4.classpath.verpMWFe Authentication false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 19:20:54.228
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 19:20:54.246
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 19:20:54.266
+!MESSAGE buffering callback sts4.classpath.verpMWFe BookService false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 19:20:54.266
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 19:20:54.278
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 19:20:54.294
+!MESSAGE buffering callback sts4.classpath.verpMWFe MemberSection false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 19:20:54.295
+!MESSAGE executing callback sts4.classpath.verpMWFe 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 19:20:55.741
+!MESSAGE executing callback sts4.classpath.verpMWFe SUCCESS [done]
+
+!ENTRY com.genuitec.eclipse.theming.ui 4 0 2021-09-22 19:20:55.841
+!MESSAGE www.genuitec.com
+!STACK 0
+java.net.UnknownHostException: www.genuitec.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)
+	at java.base/java.net.Socket.connect(Socket.java:645)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:290)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:174)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:497)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:600)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:379)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1232)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1120)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1653)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1577)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)
+	at com.genuitec.eclipse.theming.ui.IconDownloaderJob.getApprovedDefinitions(IconDownloaderJob.java:86)
+	at com.genuitec.eclipse.theming.ui.IconDownloaderJob.run(IconDownloaderJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-09-22 19:21:38.082
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:91)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:348)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:333)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:289)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:352)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:351)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-09-22 19:21:42.553
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-09-22 19:22:05.374
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-09-22 19:23:10.134
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-22 19:23:10.134
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-22 19:23:10.136
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-22 19:23:14.072
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-22 19:23:14.073
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-22 19:23:14.077
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-22 19:23:16.273
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-22 19:23:16.274
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-22 19:23:16.278
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-22 19:23:17.511
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-22 19:23:17.511
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-22 19:23:17.517
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-22 19:24:06.401
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-22 19:24:06.402
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-22 19:24:06.403
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-22 19:24:13.911
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-22 19:24:13.912
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-22 19:24:13.917
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-22 19:24:14.171
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-22 19:24:14.336
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-22 19:24:14.390
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-22 19:24:16.103
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-22 19:24:16.114
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-22 19:24:16.197
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-22 19:24:17.487
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-22 19:24:17.488
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-22 19:24:17.491
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-22 19:24:17.617
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-22 19:24:17.621
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-22 19:24:17.703
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-22 19:24:33.827
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-22 19:24:33.848
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-22 19:24:33.849
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-22 19:24:34.534
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-22 19:24:34.620
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-22 19:24:34.709
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-09-22 19:24:37.287
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jface 2 0 2021-09-22 19:28:55.121
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-09-22 19:28:55.121
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1678d68c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@194313a0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY Activator 1 0 2021-09-22 19:28:56.874
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-22 19:28:56.875
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-22 19:28:56.876
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-22 19:29:03.327
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-22 19:29:03.329
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-22 19:29:03.332
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-22 19:29:04.199
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-22 19:29:04.199
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-22 19:29:04.200
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-22 19:29:06.575
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-22 19:29:06.575
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-22 19:29:06.578
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-22 19:29:07.367
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-22 19:29:07.367
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-22 19:29:07.455
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-22 19:32:11.687
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-22 19:32:11.690
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-22 19:32:11.702
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-22 19:32:12.196
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-22 19:32:12.197
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-22 19:32:12.197
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-22 19:32:12.940
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-22 19:32:12.970
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-22 19:32:12.976
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-22 19:32:14.944
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-22 19:32:14.946
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-22 19:32:14.946
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 19:40:22.248
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.verpMWFe
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 19:40:22.262
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.verpMWFe
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 19:40:22.263
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 19:40:22.264
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.verpMWFe => OK
+
+!ENTRY org.eclipse.ui 2 2 2021-09-22 19:40:30.028
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
