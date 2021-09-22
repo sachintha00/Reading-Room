@@ -6813,3 +6813,86 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 14:08:33.646
 !MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 14:08:48.759
+!MESSAGE Boot LS startup time from start to initialized: 15112ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 14:08:49.652
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PzbOQsrAisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 14:08:49.653
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 14:08:49.653
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 14:08:49.654
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 14:08:49.654
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PzbOQsrA => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 14:08:49.654
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 14:08:49.663
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 14:08:49.671
+!MESSAGE buffering callback sts4.classpath.PzbOQsrA Authentication false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 14:08:49.672
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 14:08:49.682
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 14:08:49.692
+!MESSAGE buffering callback sts4.classpath.PzbOQsrA Authentication1 false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 14:08:49.693
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 14:08:49.703
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 14:08:49.709
+!MESSAGE buffering callback sts4.classpath.PzbOQsrA BookService false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 14:08:49.710
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 14:08:49.716
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 14:08:49.724
+!MESSAGE buffering callback sts4.classpath.PzbOQsrA MemberSection false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 14:08:49.725
+!MESSAGE executing callback sts4.classpath.PzbOQsrA 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 14:08:51.728
+!MESSAGE executing callback sts4.classpath.PzbOQsrA FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-09-22 14:08:51.729
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY Activator 1 0 2021-09-22 14:08:59.701
+!MESSAGE Has main method computation for project 'Authentication1'
+
+!ENTRY Activator 1 0 2021-09-22 14:08:59.704
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-22 14:08:59.705
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-22 14:08:59.706
+!MESSAGE Has main method computation for project 'Authentication'
