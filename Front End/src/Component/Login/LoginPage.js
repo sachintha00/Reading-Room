@@ -82,16 +82,17 @@ const LoginPage = ({ loading, error, ...props }) => {
 												fontFamily: "sans-serif",
 											}}
 										>
-											Reading
+											READING
 										</span>
 										<span
 											style={{
 												color: "#216CC8",
 												fontWeight: "bold",
 												fontFamily: "sans-serif",
+												paddingLeft: "15px",
 											}}
 										>
-											Room
+											ROOM
 										</span>
 									</div>
 									<p
@@ -169,7 +170,7 @@ const LoginPage = ({ loading, error, ...props }) => {
 											name="signin"
 											id="signin"
 											class="form-submit"
-											value="Log in"
+											value="LOGIN"
 										/>
 									</div>
 								</form>
