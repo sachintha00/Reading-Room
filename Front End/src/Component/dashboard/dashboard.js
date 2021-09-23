@@ -3,7 +3,7 @@ import { Button, Container } from "react-bootstrap";
 // import { useDispatch } from "react-redux";
 import styled from "styled-components";
 import { fetchUserData } from "../../Service/authenticationService";
-import SideMenu from "../SideMenu/SideMenu";
+import { SideBarSec } from "../../Styles/SideBarStyle";
 
 const MainWrapper = styled.div`
 	padding-top: 40px;
@@ -47,7 +47,7 @@ const Dashboard = (props) => {
 		// 	</MainWrapper>
 		// </Container>
 		<>
-			<SideMenu />
+			<SideBarSec></SideBarSec>
 		</>
 	);
 };

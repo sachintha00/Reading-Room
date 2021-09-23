@@ -4844,3 +4844,12 @@ org.eclipse.debug.core.DebugException: Launch configuration demo - DemoApplicati
 2021-09-22 19:32:12,931 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-09-22 19:32:12,931 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2021-09-22 19:32:12,932 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JAVA Projects\Course Management System\Course-Management-System\Back-end\Authentication\src\test\resources
+2021-09-23 10:32:34,893 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-09-23 10:32:52,869 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2021-09-23 10:34:57,561 [Worker-16: Launching Authentication - AuthenticationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-23 10:34:57,561 [Worker-16: Launching Authentication - AuthenticationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-23 10:34:57,593 [Worker-16: Launching Authentication - AuthenticationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-09-23 10:34:57,659 [Worker-16: Launching Authentication - AuthenticationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-23 10:34:57,664 [Worker-16: Launching Authentication - AuthenticationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-23 10:34:57,664 [Worker-16: Launching Authentication - AuthenticationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-23 10:34:57,664 [Worker-16: Launching Authentication - AuthenticationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JAVA Projects\Course Management System\Course-Management-System\Back-end\Authentication\src\test\resources

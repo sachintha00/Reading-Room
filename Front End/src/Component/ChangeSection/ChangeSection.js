@@ -3,7 +3,6 @@ import { Button, Container } from "react-bootstrap";
 // import { useDispatch } from "react-redux";
 import styled from "styled-components";
 import { fetchUserData } from "../../Service/authenticationService";
-import SideMenu from "../SideMenu/SideMenu";
 
 const MainWrapper = styled.div`
 	padding-top: 40px;
