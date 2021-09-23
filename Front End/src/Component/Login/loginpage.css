@@ -3,19 +3,9 @@ display-flex,
 .display-flex,
 .display-flex-center,
 .signup-content,
-.signin-content,
-.social-login,
-.socials {
+.signin-content {
 	display: flex;
 	display: -webkit-flex;
-}
-
-/* @extend list-type-ulli; */
-list-type-ulli,
-.socials {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
 }
 
 a:focus,
