@@ -4,6 +4,7 @@ import { Button, Container } from "react-bootstrap";
 import styled from "styled-components";
 import { fetchUserData } from "../../Service/authenticationService";
 import { SideBarSec } from "../../Styles/SideBarStyle";
+import ChangeSection from "../ChangeSection/ChangeSection";
 
 const MainWrapper = styled.div`
 	padding-top: 40px;
@@ -48,6 +49,7 @@ const Dashboard = (props) => {
 		// </Container>
 		<>
 			<SideBarSec></SideBarSec>
+			<ChangeSection></ChangeSection>
 		</>
 	);
 };

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const SideBarSec = styled.div`
 	position: fixed;
-	width: 350px;
+	width: 300px;
 	height: 100vh;
 	// background: yellow;
 	box-shadow: 0px 15px 16.83px 6px rgba(68, 48, 48, 0.07);
