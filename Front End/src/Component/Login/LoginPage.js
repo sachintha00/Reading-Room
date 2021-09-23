@@ -1,9 +1,26 @@
 import react, { useState } from "react";
 import { connect } from "react-redux";
-import { authenticate, authFailure, authSuccess } from "../../redux/authActions";
+import {
+	authenticate,
+	authFailure,
+	authSuccess,
+} from "../../redux/authActions";
 import "./loginpage.css";
 import { userLogin } from "../../Service/authenticationService";
-import { Alert, Spinner } from "react-bootstrap";
+import {
+	Input,
+	Login,
+	LoginForm,
+	LoginButton,
+	Logo,
+	Description,
+	CreateAccountBox,
+	NormalText,
+	ErrorMessage,
+} from "../../Styles/LoginComponent";
+import { HR } from "../../Styles/GlobalComponent";
+import CopyRight from "../CopyRight/CopyRight";
+// import { Alert, Spinner } from "react-bootstrap";
 
 const LoginPage = ({ loading, error, ...props }) => {
 	const [values, setValues] = useState({
@@ -53,7 +70,53 @@ const LoginPage = ({ loading, error, ...props }) => {
 	console.log("Loading ", loading);
 
 	return (
-		
+		<>
+			<Login>
+				<Logo>zell master</Logo>
+				<Description>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+					laborum dolorum explicabo id animi ex vero?
+				</Description>
+				<CreateAccountBox>
+					<NormalText>Sing in to Zell Master or</NormalText>
+				</CreateAccountBox>
+				<LoginForm onSubmit={handleSubmit} noValidate={false}>
+					{error && (
+						<ErrorMessage>
+							{/* {error} */}
+							Incorrect username or password !!
+						</ErrorMessage>
+					)}
+
+					<Input
+						id="username"
+						type="text"
+						minLength={5}
+						value={values.userName}
+						onChange={handleChange}
+						name="userName"
+						placeholder="Username"
+					/>
+					<Input
+						id="password"
+						type="password"
+						minLength={8}
+						value={values.password}
+						onChange={handleChange}
+						name="password"
+						placeholder="Password"
+					/>
+
+					<LoginButton type="submit" className="">
+						Login
+					</LoginButton>
+				</LoginForm>
+			</Login>
+			<div style={{ position: "fixed", bottom: "10px", width: "100%" }}>
+				<HR />
+				<CopyRight />
+			</div>
+		</>
 	);
 };
 
