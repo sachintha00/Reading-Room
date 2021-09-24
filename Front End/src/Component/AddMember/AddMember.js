@@ -4,11 +4,12 @@ import { Modal, Button, Row, Col, Form } from "react-bootstrap";
 export default class componentName extends Component {
 	constructor(props) {
 		super(props);
+		this.state = { newMemb: [] };
 	}
 
 	handleSubmit(event) {
 		event.preventDefault();
-		alert(event.target.value);
+		alert(event.target.name.value);
 	}
 	render() {
 		return (
@@ -29,17 +30,17 @@ export default class componentName extends Component {
 						<Form onSubmit={this.handleSubmit}>
 							<Row className="mb-3">
 								<Form.Group as={Col} controlId="formGridEmail">
-									<Form.Control type="email" placeholder="Name" name="name" />
+									<Form.Control type="text" placeholder="Name" name="name" />
 								</Form.Group>
 
 								<Form.Group as={Col} controlId="formGridPassword">
-									<Form.Control type="password" placeholder="NIC" name="nic" />
+									<Form.Control type="text" placeholder="NIC" name="nic" />
 								</Form.Group>
 							</Row>
 							<Row className="mb-3">
 								<Form.Group as={Col} controlId="formGridEmail">
 									<Form.Control
-										type="email"
+										type="text"
 										placeholder="Adress"
 										name="address"
 									/>
@@ -48,18 +49,21 @@ export default class componentName extends Component {
 							<Row className="mb-3">
 								<Form.Group as={Col} controlId="formGridEmail">
 									<Form.Control
-										type="email"
+										type="text"
 										placeholder="Mobile Number"
 										name="mobile"
 									/>
 								</Form.Group>
 
 								<Form.Group as={Col} controlId="formGridPassword">
-									<Form.Control
-										type="password"
-										placeholder="Email"
-										name="email"
-									/>
+									<Form.Control type="email" placeholder="Email" name="email" />
+								</Form.Group>
+							</Row>
+							<Row className="mb-3">
+								<Form.Group as={Col} controlId="formGridEmail">
+									<Button variant="primary" type="submit">
+										Submit
+									</Button>
 								</Form.Group>
 							</Row>
 						</Form>
