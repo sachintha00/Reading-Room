@@ -1,13 +1,13 @@
 import React from "react";
 
-function Home() {
+function AddBookPage() {
 	return (
 		<>
 			<div>
-				<h1>Home</h1>
+				<h1>Add Book</h1>
 			</div>
 		</>
 	);
 }
 
-export default Home;
+export default AddBookPage;

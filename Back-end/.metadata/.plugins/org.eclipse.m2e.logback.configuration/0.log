@@ -4862,3 +4862,10 @@ org.eclipse.debug.core.DebugException: Launch configuration demo - DemoApplicati
 2021-09-23 21:36:24,149 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JAVA Projects\Course Management System\Course-Management-System\Back-end\Authentication\src\test\resources
 2021-09-24 07:58:07,396 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2021-09-24 07:58:13,012 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2021-09-24 08:18:45,526 [Worker-18: Launching Authentication - AuthenticationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 08:18:45,527 [Worker-18: Launching Authentication - AuthenticationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-24 08:18:45,532 [Worker-18: Launching Authentication - AuthenticationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-09-24 08:18:45,547 [Worker-18: Launching Authentication - AuthenticationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-24 08:18:45,551 [Worker-18: Launching Authentication - AuthenticationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 08:18:45,551 [Worker-18: Launching Authentication - AuthenticationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-24 08:18:45,551 [Worker-18: Launching Authentication - AuthenticationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JAVA Projects\Course Management System\Course-Management-System\Back-end\Authentication\src\test\resources
