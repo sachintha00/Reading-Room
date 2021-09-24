@@ -16,12 +16,22 @@ export default class componentName extends Component {
 		this.state = { memb: [], addMemberShow: false };
 	}
 
+	componentDidMount() {
+		this.refreshList();
+	}
+
 	refreshList() {
 		fetch("http://localhost:8081/members")
 			.then((response) => response.json())
 			.then((data) => {
 				this.setState({ memb: data });
 			});
+		// this.setState({
+		// 	memb: [
+		// 		{ member_id: 1, member_address: "matara" },
+		// 		{ member_id: 2, member_address: "matara" },
+		// 	],
+		// });
 	}
 
 	render() {
@@ -77,9 +87,15 @@ export default class componentName extends Component {
 							</tr>
 						</thead>
 						<tbody>
-							{memb.map(memb=>
-                                <tr>key = {memb.}</tr>
-                                )}
+							{memb.map((memb) => (
+								<tr>
+									<td>key = {memb.memberName}</td>
+									<td>{memb.memberNic}</td>
+									<td>{memb.memberAddress}</td>
+									<td>{memb.memberMobile}</td>
+									<td>{memb.memberGmail}</td>
+								</tr>
+							))}
 						</tbody>
 					</table>
 				</TableSection>
