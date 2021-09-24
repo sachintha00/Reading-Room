@@ -51,10 +51,14 @@ const Dashboard = (props) => {
 			<SideBarSec>
 				<List>
 					<ListItem>
-						<Item>Home</Item>
+						<Item href="#">Home</Item>
 					</ListItem>
-					<ListItem>Home</ListItem>
-					<ListItem>Home</ListItem>
+					<ListItem>
+						<Item href="#">about</Item>
+					</ListItem>
+					<ListItem>
+						<Item href="#">contact</Item>
+					</ListItem>
 				</List>
 			</SideBarSec>
 			<ChangeSection></ChangeSection>
