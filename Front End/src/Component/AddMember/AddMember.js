@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import {Modal, Button} from 'react-bootstrap'
+import { Modal, Button, Row, Col, Form } from "react-bootstrap";
 
 export default class componentName extends Component {
-    constructor(props){
-        super(props)
-    }
+	constructor(props) {
+		super(props);
+	}
 	render() {
 		return (
 			<Modal
@@ -20,11 +20,33 @@ export default class componentName extends Component {
 				</Modal.Header>
 				<Modal.Body>
 					<h4>Centered Modal</h4>
-					<p>
-						Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-						dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta
-						ac consectetur ac, vestibulum at eros.
-					</p>
+					<div className="Container">
+						<Form>
+							<Row className="mb-3">
+								<Form.Group as={Col} controlId="formGridEmail">
+									<Form.Control type="email" placeholder="Name" />
+								</Form.Group>
+
+								<Form.Group as={Col} controlId="formGridPassword">
+									<Form.Control type="password" placeholder="NIC" />
+								</Form.Group>
+							</Row>
+							<Row className="mb-3">
+								<Form.Group as={Col} controlId="formGridEmail">
+									<Form.Control type="email" placeholder="Adress" />
+								</Form.Group>
+							</Row>
+							<Row className="mb-3">
+								<Form.Group as={Col} controlId="formGridEmail">
+									<Form.Control type="email" placeholder="Mobile Number" />
+								</Form.Group>
+
+								<Form.Group as={Col} controlId="formGridPassword">
+									<Form.Control type="password" placeholder="Email" />
+								</Form.Group>
+							</Row>
+						</Form>
+					</div>
 				</Modal.Body>
 				<Modal.Footer>
 					<Button onClick={this.props.onHide}>Close</Button>
