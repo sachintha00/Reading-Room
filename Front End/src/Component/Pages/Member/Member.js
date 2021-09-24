@@ -5,11 +5,11 @@ import {
 	Description,
 } from "../../../Styles/BookStyle";
 
-function Book() {
+function Member() {
 	return (
 		<>
 			<BookTitleSection>
-				<Title>BOOK SECTION</Title>
+				<Title>MEMBER SECTION</Title>
 				<Description>
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut alias
 					amet, totam cumque reiciendis iste illo quidem consectetur nisi
@@ -21,4 +21,4 @@ function Book() {
 	);
 }
 
-export default Book;
+export default Member;

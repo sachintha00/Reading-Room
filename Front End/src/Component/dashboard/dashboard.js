@@ -7,6 +7,7 @@ import { SideBarSec, List, ListItem, Item } from "../../Styles/SideBarStyle";
 import Home from "../Pages/HomePage/Home";
 import { Change } from "../../Styles/ChangingSecStyle";
 import Book from "../Pages/Book/Book";
+import Member from "../Pages/Member/Member";
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 
 const MainWrapper = styled.div`
@@ -58,10 +59,10 @@ const Dashboard = (props) => {
 							<Link to="/dashboard">Home</Link>
 						</ListItem>
 						<ListItem>
-							<Link to="/dashboard/AddBook">about</Link>
+							<Link to="/book">BOOKS</Link>
 						</ListItem>
 						<ListItem>
-							<Link href="#">contact</Link>
+							<Link href="/member">MEMBERS</Link>
 						</ListItem>
 					</List>
 					<Button style={{ marginTop: "5px" }} onClick={() => logOut()}>
@@ -71,7 +72,8 @@ const Dashboard = (props) => {
 				<Change>
 					<Switch>
 						<Route exact path="/dashboard" component={Home} />
-						<Route exact path="/dashboard/AddBook" component={Book} />
+						<Route exact path="/book" component={Book} />
+						<Route exact path="/member" component={Member} />
 					</Switch>
 				</Change>
 			</BrowserRouter>
