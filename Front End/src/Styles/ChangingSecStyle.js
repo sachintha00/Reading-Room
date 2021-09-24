@@ -4,6 +4,6 @@ export const Change = styled.section`
 	position: fixed;
 	width: calc(100% - 300px);
 	height: 100vh;
-	background: red;
+	// background: red;
 	right: 0;
 `;
