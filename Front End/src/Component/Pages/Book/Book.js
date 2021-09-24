@@ -1,11 +1,12 @@
 import React from "react";
+import { BookTitleSection } from "../../../Styles/BookStyle";
 
 function AddBookPage() {
 	return (
 		<>
-			<div>
+			<BookTitleSection>
 				<h1>Add Book</h1>
-			</div>
+			</BookTitleSection>
 		</>
 	);
 }

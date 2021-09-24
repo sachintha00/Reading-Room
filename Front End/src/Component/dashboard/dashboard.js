@@ -6,7 +6,7 @@ import { fetchUserData } from "../../Service/authenticationService";
 import { SideBarSec, List, ListItem, Item } from "../../Styles/SideBarStyle";
 import Home from "../Pages/HomePage/Home";
 import { Change } from "../../Styles/ChangingSecStyle";
-import AddBookPage from "../Pages/AddBook/AddBookPage";
+import Book from "../Pages/Book/Book";
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 
 const MainWrapper = styled.div`
@@ -71,7 +71,7 @@ const Dashboard = (props) => {
 				<Change>
 					<Switch>
 						<Route exact path="/dashboard" component={Home} />
-						<Route exact path="/dashboard/AddBook" component={AddBookPage} />
+						<Route exact path="/dashboard/AddBook" component={Book} />
 					</Switch>
 				</Change>
 			</BrowserRouter>
