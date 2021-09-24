@@ -80,16 +80,17 @@ export default class componentName extends Component {
 					<table class="table">
 						<thead>
 							<tr>
-								<th scope="col">#</th>
-								<th scope="col">First</th>
-								<th scope="col">Last</th>
-								<th scope="col">Handle</th>
+								<th scope="col">Name</th>
+								<th scope="col">NIC</th>
+								<th scope="col">Address</th>
+								<th scope="col">Mobile Number</th>
+								<th scope="col">Gmail</th>
 							</tr>
 						</thead>
 						<tbody>
 							{memb.map((memb) => (
 								<tr>
-									<td>key = {memb.memberName}</td>
+									<td>{memb.memberName}</td>
 									<td>{memb.memberNic}</td>
 									<td>{memb.memberAddress}</td>
 									<td>{memb.memberMobile}</td>
