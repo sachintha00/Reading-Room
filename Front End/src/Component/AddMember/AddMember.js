@@ -5,6 +5,11 @@ export default class componentName extends Component {
 	constructor(props) {
 		super(props);
 	}
+
+	handleSubmit(event) {
+		event.preventDefault();
+		alert(event.target.value);
+	}
 	render() {
 		return (
 			<Modal
@@ -21,28 +26,40 @@ export default class componentName extends Component {
 				<Modal.Body>
 					<h4>Centered Modal</h4>
 					<div className="Container">
-						<Form>
+						<Form onSubmit={this.handleSubmit}>
 							<Row className="mb-3">
 								<Form.Group as={Col} controlId="formGridEmail">
-									<Form.Control type="email" placeholder="Name" />
+									<Form.Control type="email" placeholder="Name" name="name" />
 								</Form.Group>
 
 								<Form.Group as={Col} controlId="formGridPassword">
-									<Form.Control type="password" placeholder="NIC" />
+									<Form.Control type="password" placeholder="NIC" name="nic" />
 								</Form.Group>
 							</Row>
 							<Row className="mb-3">
 								<Form.Group as={Col} controlId="formGridEmail">
-									<Form.Control type="email" placeholder="Adress" />
+									<Form.Control
+										type="email"
+										placeholder="Adress"
+										name="address"
+									/>
 								</Form.Group>
 							</Row>
 							<Row className="mb-3">
 								<Form.Group as={Col} controlId="formGridEmail">
-									<Form.Control type="email" placeholder="Mobile Number" />
+									<Form.Control
+										type="email"
+										placeholder="Mobile Number"
+										name="mobile"
+									/>
 								</Form.Group>
 
 								<Form.Group as={Col} controlId="formGridPassword">
-									<Form.Control type="password" placeholder="Email" />
+									<Form.Control
+										type="password"
+										placeholder="Email"
+										name="email"
+									/>
 								</Form.Group>
 							</Row>
 						</Form>
