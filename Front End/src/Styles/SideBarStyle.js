@@ -11,3 +11,8 @@ export const SideBarSec = styled.div`
 	-o-box-shadow: 0px 15px 16.83px 6px rgba(0, 0, 0, 0.07);
 	-ms-box-shadow: 0px 15px 16.83px 6px rgba(0, 0, 0, 0.07);
 `;
+export const List = styled.ul`
+	height: 50px;
+	width: 100px;
+	background-color: red;
+`;
