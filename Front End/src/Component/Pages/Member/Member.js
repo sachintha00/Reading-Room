@@ -8,7 +8,7 @@ import {
 import { Button, ButtonToolbar } from "react-bootstrap";
 import AddMember from "../../AddMember/AddMember";
 import BaseUrl from "../../../Service/MemberService";
-import { useState } from "react";
+import axios from "axios";
 
 export default class componentName extends Component {
 	constructor(props) {
@@ -55,13 +55,6 @@ export default class componentName extends Component {
 								<input type="text" class="form-control" placeholder="Search" />
 							</div>
 							<div class="col-2">
-								{/* <input
-									type="Button"
-									value="Add Member"
-									class="form-control"
-									placeholder="Search"
-									onClick={() => this.setState({ addMemberShow: true })}
-								/> */}
 								<ButtonToolbar>
 									<Button
 										onClick={() => this.setState({ addMemberShow: true })}
@@ -84,7 +77,7 @@ export default class componentName extends Component {
 								<th scope="col">NIC</th>
 								<th scope="col">Address</th>
 								<th scope="col">Mobile Number</th>
-								<th scope="col">Gmail</th>
+								<th scope="col">Mobile Number</th>
 							</tr>
 						</thead>
 						<tbody>
