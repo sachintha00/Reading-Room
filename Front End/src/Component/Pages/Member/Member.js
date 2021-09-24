@@ -7,14 +7,25 @@ import {
 } from "../../../Styles/CommonStyle";
 import { Button, ButtonToolbar } from "react-bootstrap";
 import AddMember from "../../AddMember/AddMember";
+import BaseUrl from "../../../Service/MemberService";
+import { useState } from "react";
 
 export default class componentName extends Component {
 	constructor(props) {
 		super(props);
-		this.state = { deps: [], addMemberShow: false };
+		this.state = { memb: [], addMemberShow: false };
 	}
+
+	refreshList() {
+		fetch("http://localhost:8081/members")
+			.then((response) => response.json())
+			.then((data) => {
+				this.setState({ memb: data });
+			});
+	}
+
 	render() {
-		const { deps } = this.state;
+		const { memb } = this.state;
 		let addMemberClose = () => this.setState({ addMemberShow: false });
 		return (
 			<>
