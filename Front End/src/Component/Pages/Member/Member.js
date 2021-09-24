@@ -19,6 +19,9 @@ export default class componentName extends Component {
 	componentDidMount() {
 		this.refreshList();
 	}
+	componentDidUpdate() {
+		this.refreshList();
+	}
 
 	refreshList() {
 		fetch("http://localhost:8081/members")
