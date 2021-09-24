@@ -4853,3 +4853,12 @@ org.eclipse.debug.core.DebugException: Launch configuration demo - DemoApplicati
 2021-09-23 10:34:57,664 [Worker-16: Launching Authentication - AuthenticationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-09-23 10:34:57,664 [Worker-16: Launching Authentication - AuthenticationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2021-09-23 10:34:57,664 [Worker-16: Launching Authentication - AuthenticationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JAVA Projects\Course Management System\Course-Management-System\Back-end\Authentication\src\test\resources
+2021-09-23 21:36:02,272 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-23 21:36:02,420 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-23 21:36:03,507 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-09-23 21:36:24,145 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-23 21:36:24,149 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-23 21:36:24,149 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-23 21:36:24,149 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JAVA Projects\Course Management System\Course-Management-System\Back-end\Authentication\src\test\resources
+2021-09-24 07:58:07,396 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-09-24 07:58:13,012 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
