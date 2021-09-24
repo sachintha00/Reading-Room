@@ -6,5 +6,5 @@ export const Change = styled.section`
 	height: 100vh;
 	// background: red;
 	right: 0;
-	padding: 20px;
+	padding: 40px;
 `;

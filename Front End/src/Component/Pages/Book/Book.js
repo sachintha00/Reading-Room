@@ -1,14 +1,10 @@
 import React from "react";
-import {
-	BookTitleSection,
-	Title,
-	Description,
-} from "../../../Styles/BookStyle";
+import { TitleSection, Title, Description } from "../../../Styles/CommonStyle";
 
 function Book() {
 	return (
 		<>
-			<BookTitleSection>
+			<TitleSection>
 				<Title>BOOK SECTION</Title>
 				<Description>
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut alias
@@ -16,7 +12,7 @@ function Book() {
 					praesentium?Lorem ipsum dolor sit amet consectetur adipisicing elit.
 					Totam cum nulla recusandae unde sint voluptate nisi aut. Fugiat
 				</Description>
-			</BookTitleSection>
+			</TitleSection>
 		</>
 	);
 }

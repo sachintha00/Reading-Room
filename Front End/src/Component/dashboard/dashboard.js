@@ -62,7 +62,7 @@ const Dashboard = (props) => {
 							<Link to="/book">BOOKS</Link>
 						</ListItem>
 						<ListItem>
-							<Link href="/member">MEMBERS</Link>
+							<Link to="/member">MEMBERS</Link>
 						</ListItem>
 					</List>
 					<Button style={{ marginTop: "5px" }} onClick={() => logOut()}>
