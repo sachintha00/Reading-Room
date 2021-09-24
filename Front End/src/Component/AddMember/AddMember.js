@@ -1,16 +1,48 @@
 import React, { Component } from "react";
 import { Modal, Button, Row, Col, Form } from "react-bootstrap";
+import axios from "axios";
+import BaseUrl from "../../Service/MemberService";
 
 export default class componentName extends Component {
 	constructor(props) {
 		super(props);
-		this.state = { newMemb: [] };
+		// this.state = {
+		// 	memberName: "",
+		// 	memberNic: "",
+		// 	memberAddress: "",
+		// 	memberMobile: "",
+		// 	memberGmail: "",
+		// };
 	}
 
 	handleSubmit(event) {
 		event.preventDefault();
-		alert(event.target.name.value);
+
+		fetch("http://localhost:8081/member", {
+			method: "POST",
+			headers: {
+				Accept: "application/json",
+				"Content-Type": "application/json",
+			},
+			body: JSON.stringify({
+				memberName: event.target.memberName.value,
+				memberNic: event.target.memberNic.value,
+				memberAddress: event.target.memberAddress.value,
+				memberMobile: event.target.memberMobile.value,
+				memberGmail: event.target.memberGmail.value,
+			}),
+		})
+			.then((res) => res.json())
+			.then(
+				(result) => {
+					alert("Success");
+				},
+				(error) => {
+					alert("kelawila");
+				}
+			);
 	}
+
 	render() {
 		return (
 			<Modal
@@ -29,38 +61,55 @@ export default class componentName extends Component {
 					<div className="Container">
 						<Form onSubmit={this.handleSubmit}>
 							<Row className="mb-3">
-								<Form.Group as={Col} controlId="formGridEmail">
-									<Form.Control type="text" placeholder="Name" name="name" />
+								<Form.Group as={Col} controlId="formGridName">
+									<Form.Control
+										type="text"
+										placeholder="Name"
+										name="memberName"
+										// value={this.state.memberName}
+									/>
 								</Form.Group>
 
-								<Form.Group as={Col} controlId="formGridPassword">
-									<Form.Control type="text" placeholder="NIC" name="nic" />
+								<Form.Group as={Col} controlId="formGridNic">
+									<Form.Control
+										type="text"
+										placeholder="NIC"
+										name="memberNic"
+										// value={this.state.memberNic}
+									/>
 								</Form.Group>
 							</Row>
 							<Row className="mb-3">
-								<Form.Group as={Col} controlId="formGridEmail">
+								<Form.Group as={Col} controlId="formGridAddress">
 									<Form.Control
 										type="text"
 										placeholder="Adress"
-										name="address"
+										name="memberAddress"
+										// value={this.state.memberAddress}
 									/>
 								</Form.Group>
 							</Row>
 							<Row className="mb-3">
-								<Form.Group as={Col} controlId="formGridEmail">
+								<Form.Group as={Col} controlId="formGridMobile">
 									<Form.Control
 										type="text"
 										placeholder="Mobile Number"
-										name="mobile"
+										name="memberMobile"
+										// value={this.state.memberMobile}
 									/>
 								</Form.Group>
 
-								<Form.Group as={Col} controlId="formGridPassword">
-									<Form.Control type="email" placeholder="Email" name="email" />
+								<Form.Group as={Col} controlId="formGridEmail">
+									<Form.Control
+										type="email"
+										placeholder="Email"
+										name="memberGmail"
+										// value={this.state.memberGmail}
+									/>
 								</Form.Group>
 							</Row>
 							<Row className="mb-3">
-								<Form.Group as={Col} controlId="formGridEmail">
+								<Form.Group as={Col} controlId="formGridSubmit">
 									<Button variant="primary" type="submit">
 										Submit
 									</Button>
