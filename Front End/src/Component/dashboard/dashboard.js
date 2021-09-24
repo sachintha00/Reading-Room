@@ -3,7 +3,7 @@ import { Button, Container } from "react-bootstrap";
 // import { useDispatch } from "react-redux";
 import styled from "styled-components";
 import { fetchUserData } from "../../Service/authenticationService";
-import { SideBarSec, List } from "../../Styles/SideBarStyle";
+import { SideBarSec, List, ListItem, Item } from "../../Styles/SideBarStyle";
 import ChangeSection from "../ChangeSection/ChangeSection";
 
 const MainWrapper = styled.div`
@@ -49,7 +49,13 @@ const Dashboard = (props) => {
 		// </Container>
 		<>
 			<SideBarSec>
-				<List></List>
+				<List>
+					<ListItem>
+						<Item>Home</Item>
+					</ListItem>
+					<ListItem>Home</ListItem>
+					<ListItem>Home</ListItem>
+				</List>
 			</SideBarSec>
 			<ChangeSection></ChangeSection>
 		</>

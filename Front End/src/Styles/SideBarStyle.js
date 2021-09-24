@@ -16,3 +16,11 @@ export const List = styled.ul`
 	width: 100px;
 	background-color: red;
 `;
+export const ListItem = styled.li`
+	height: 20px;
+	width: 100px;
+	background-color: blue;
+`;
+export const Item = styled.a`
+	
+`;
