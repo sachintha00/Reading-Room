@@ -50,3 +50,6 @@ Created Time: 2021-09-25 14:16:18.409
 
 !ENTRY Activator 1 0 2021-09-25 14:43:26.056
 !MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY org.eclipse.ui 2 2 2021-09-25 14:46:54.015
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
