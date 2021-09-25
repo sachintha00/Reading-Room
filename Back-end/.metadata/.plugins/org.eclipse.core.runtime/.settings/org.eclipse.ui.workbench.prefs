@@ -1,6 +1,16 @@
 //org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
+CONTENT_ASSIST_BACKGROUND_COLOR=213,217,221
+CONTENT_ASSIST_FOREGROUND_COLOR=14,16,17
 PLUGINS_NOT_ACTIVATED_ON_STARTUP=;org.eclipse.m2e.discovery;
+content_assist_parameters_background=213,217,221
+content_assist_parameters_foreground=14,16,17
+content_assist_proposals_background=213,217,221
+content_assist_proposals_foreground=14,16,17
 eclipse.preferences.version=1
+org.eclipse.egit.ui.DiffAddBackgroundColor=212,255,125
+org.eclipse.egit.ui.DiffHeadlineBackgroundColor=230,232,234
+org.eclipse.egit.ui.DiffHunkBackgroundColor=230,232,234
+org.eclipse.egit.ui.DiffRemoveBackgroundColor=255,155,155
 org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<org.eclipse.ui.commands/>
 org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_END=219,222,225
 org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_START=224,227,230
@@ -8,3 +18,4 @@ org.eclipse.ui.workbench.ACTIVE_TAB_BG_END=219,222,225
 org.eclipse.ui.workbench.ACTIVE_TAB_BG_START=224,227,230
 org.eclipse.ui.workbench.INACTIVE_TAB_BG_END=219,222,225
 org.eclipse.ui.workbench.INACTIVE_TAB_BG_START=205,210,214
+overriddenByCSS=,CONTENT_ASSIST_BACKGROUND_COLOR,CONTENT_ASSIST_FOREGROUND_COLOR,content_assist_parameters_background,content_assist_parameters_foreground,content_assist_proposals_background,content_assist_proposals_foreground,org.eclipse.egit.ui.DiffAddBackgroundColor,org.eclipse.egit.ui.DiffHeadlineBackgroundColor,org.eclipse.egit.ui.DiffHunkBackgroundColor,org.eclipse.egit.ui.DiffRemoveBackgroundColor,

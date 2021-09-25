@@ -69,13 +69,13 @@ const Dashboard = (props) => {
 						Logout
 					</Button>
 				</SideBarSec>
-				<Change>
-					<Switch>
+				<Switch>
+					<Change>
 						<Route exact path="/dashboard" component={Home} />
 						<Route exact path="/book" component={Book} />
 						<Route exact path="/member" component={Member} />
-					</Switch>
-				</Change>
+					</Change>
+				</Switch>
 			</BrowserRouter>
 		</>
 	);

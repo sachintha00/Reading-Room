@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { Modal, Button, Row, Col, Form } from "react-bootstrap";
-import axios from "axios";
-import BaseUrl from "../../Service/MemberService";
 
 export default class componentName extends Component {
 	constructor(props) {

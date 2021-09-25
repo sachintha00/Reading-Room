@@ -7,8 +7,6 @@ import {
 } from "../../../Styles/CommonStyle";
 import { Button, ButtonToolbar } from "react-bootstrap";
 import AddMember from "../../AddMember/AddMember";
-import BaseUrl from "../../../Service/MemberService";
-import axios from "axios";
 
 export default class componentName extends Component {
 	constructor(props) {
@@ -73,28 +71,32 @@ export default class componentName extends Component {
 						</div>
 					</form>
 
-					<table class="table">
-						<thead>
-							<tr>
-								<th scope="col">Name</th>
-								<th scope="col">NIC</th>
-								<th scope="col">Address</th>
-								<th scope="col">Mobile Number</th>
-								<th scope="col">Mobile Number</th>
-							</tr>
-						</thead>
-						<tbody>
-							{memb.map((memb) => (
+					<div
+						style={{ height: "400px", overflowX: "auto" }}
+					>
+						<table class="table">
+							<thead >
 								<tr>
-									<td>{memb.memberName}</td>
-									<td>{memb.memberNic}</td>
-									<td>{memb.memberAddress}</td>
-									<td>{memb.memberMobile}</td>
-									<td>{memb.memberGmail}</td>
+									<th scope="col">Name</th>
+									<th scope="col">NIC</th>
+									<th scope="col">Address</th>
+									<th scope="col">Mobile Number</th>
+									<th scope="col">Mobile Number</th>
 								</tr>
-							))}
-						</tbody>
-					</table>
+							</thead>
+							<tbody>
+								{memb.map((memb) => (
+									<tr>
+										<td>{memb.memberName}</td>
+										<td>{memb.memberNic}</td>
+										<td>{memb.memberAddress}</td>
+										<td>{memb.memberMobile}</td>
+										<td>{memb.memberGmail}</td>
+									</tr>
+								))}
+							</tbody>
+						</table>
+					</div>
 				</TableSection>
 			</>
 		);

@@ -29,6 +29,10 @@ public class Member {
 		this.memberMobile = memberMobile;
 		this.memberGmail = memberGmail;
 	}
+	
+	public long getMemberId() {
+		return memberId;
+	}
 	public String getMemberName() {
 		return memberName;
 	}
