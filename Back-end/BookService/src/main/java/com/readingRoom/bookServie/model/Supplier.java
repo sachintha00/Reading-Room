@@ -21,6 +21,7 @@ public class Supplier {
 	private long supplierId;
 	private String name;
 	private String nic;
+	private String mobileNumber;
 	private String description;
 	
 	@OneToMany(cascade = CascadeType.ALL)
@@ -45,6 +46,15 @@ public class Supplier {
 		this.name = name;
 		this.nic = nic;
 		this.description = description;
+	}
+	
+
+	public String getMobileNumber() {
+		return mobileNumber;
+	}
+
+	public void setMobileNumber(String mobileNumber) {
+		this.mobileNumber = mobileNumber;
 	}
 
 	public long getSupplierId() {

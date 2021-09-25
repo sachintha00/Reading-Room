@@ -6,7 +6,7 @@ import {
 	TableSection,
 } from "../../../Styles/CommonStyle";
 import { Button, ButtonToolbar } from "react-bootstrap";
-import AddSupplier from '../'
+import AddSupplier from "../../AddSupplier/AddSupplier";
 
 export default class componentName extends Component {
 	constructor(props) {
@@ -22,7 +22,7 @@ export default class componentName extends Component {
 	}
 
 	refreshList() {
-		fetch("http://localhost:8082/suppler-servicen/suppliers")
+		fetch("http://localhost:8082/suppler-service/suppliers")
 			.then((response) => response.json())
 			.then((data) => {
 				this.setState({ memb: data });
@@ -76,10 +76,10 @@ export default class componentName extends Component {
 									>
 										Add Supplier
 									</Button>
-									{/* <AddMember
+									<AddSupplier
 										show={this.state.addMemberShow}
 										onHide={addMemberClose}
-									/> */}
+									/>
 								</ButtonToolbar>
 							</div>
 						</div>

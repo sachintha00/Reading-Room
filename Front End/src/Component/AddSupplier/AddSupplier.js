@@ -16,7 +16,7 @@ export default class componentName extends Component {
 	handleSubmit(event) {
 		event.preventDefault();
 
-		fetch("http://localhost:8081/member", {
+		fetch("http://localhost:8082/suppler-service/supplier", {
 			method: "POST",
 			headers: {
 				Accept: "application/json",
