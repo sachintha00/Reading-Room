@@ -29,9 +29,9 @@ export default class componentName extends Component {
 			});
 	}
 
-	deleteMember(membId) {
+	deleteSuppler(suppId) {
 		if (window.confirm("are you shure")) {
-			fetch(`http://localhost:8083/member/${membId}`, {
+			fetch(`http://localhost:8082/suppler-service/supplier/${suppId}`, {
 				method: "DELETE",
 				headers: {
 					Accept: "application/json",
@@ -92,8 +92,7 @@ export default class componentName extends Component {
 									<th scope="col">Supplier ID</th>
 									<th scope="col">Name</th>
 									<th scope="col">NIC</th>
-									{/* <th scope="col">Address</th> */}
-									{/* <th scope="col">Mobile Number</th> */}
+									<th scope="col">Mobile Number</th>
 									<th scope="col">Description</th>
 									<th scope="col">Options</th>
 								</tr>
@@ -104,9 +103,8 @@ export default class componentName extends Component {
 										<td>{memb.supplierId}</td>
 										<td>{memb.name}</td>
 										<td>{memb.nic}</td>
-										{/* <td>{memb.memberAddress}</td> */}
+										<td>{memb.mobileNumber}</td>
 										<td>{memb.description}</td>
-										{/* <td>{memb.memberGmail}</td> */}
 										<td>
 											<ButtonToolbar>
 												<Button
@@ -115,12 +113,11 @@ export default class componentName extends Component {
 													onClick={() =>
 														this.setState({
 															updateMemberShow: true,
-															memberId: memb.memberId,
-															memberName: memb.memberName,
-															memberNic: memb.memberNic,
-															memberAddress: memb.memberAddress,
-															memberMobile: memb.memberMobile,
-															memberGmail: memb.memberGmail,
+															supplierId: memb.supplierId,
+															name: memb.name,
+															nic: memb.nic,
+															mobileNumber: memb.mobileNumber,
+															description: memb.description,
 														})
 													}
 												>
@@ -129,7 +126,7 @@ export default class componentName extends Component {
 												<Button
 													className="mr-2"
 													variant="danger"
-													onClick={() => this.deleteMember(memb.memberId)}
+													onClick={() => this.deleteSuppler(memb.supplierId)}
 												>
 													Delete
 												</Button>
