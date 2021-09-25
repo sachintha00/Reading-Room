@@ -22,8 +22,7 @@ public class SupplierServiceImpl implements SupplierService{
 
 	@Override
 	public Optional<Supplier> getSupplier(long supplierId) {
-		// TODO Auto-generated method stub
-		return null;
+		return supplierRepository.findById(supplierId);
 	}
 
 	@Override
@@ -40,13 +39,13 @@ public class SupplierServiceImpl implements SupplierService{
 
 	@Override
 	public Supplier updateSupplier(Supplier supplier) {
-		// TODO Auto-generated method stub
-		return null;
+		supplierRepository.save(supplier);
+		return supplier;
 	}
 
 	@Override
 	public void removeSupplier(long supplierId) {
-		// TODO Auto-generated method stub
+		supplierRepository.deleteById(supplierId);
 		
 	}
 
