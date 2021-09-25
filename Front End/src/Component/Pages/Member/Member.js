@@ -38,7 +38,7 @@ export default class componentName extends Component {
 
 	deleteMember(membId) {
 		if (window.confirm("are you shure")) {
-			fetch("http://localhost:8081/member" + "8", {
+			fetch("http://localhost:8081/member/" + membId, {
 				method: "DELETE",
 				headers: {
 					Accept: "application/json",
