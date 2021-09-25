@@ -127,12 +127,11 @@ export default class componentName extends Component {
 												<EditSupplier
 													show={this.state.updateMemberShow}
 													onHide={updateMemberClose}
-													memberId={memberId}
-													memberName={memberName}
-													memberNic={memberNic}
-													memberAddress={memberAddress}
-													memberMobile={memberMobile}
-													memberGmail={memberGmail}
+													supplierId={supplierId}
+													name={name}
+													nic={nic}
+													mobileNumber={mobileNumber}
+													description={description}
 												/>
 											</ButtonToolbar>
 										</td>
