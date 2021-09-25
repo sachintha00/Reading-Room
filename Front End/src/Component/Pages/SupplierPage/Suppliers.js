@@ -6,6 +6,7 @@ import {
 	TableSection,
 } from "../../../Styles/CommonStyle";
 import { Button, ButtonToolbar } from "react-bootstrap";
+import AddSupplier from '../'
 
 export default class componentName extends Component {
 	constructor(props) {
