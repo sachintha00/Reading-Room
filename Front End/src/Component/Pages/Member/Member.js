@@ -71,12 +71,11 @@ export default class componentName extends Component {
 						</div>
 					</form>
 
-					<div
-						style={{ height: "400px", overflowX: "auto" }}
-					>
+					<div style={{ height: "400px", overflowX: "auto" }}>
 						<table class="table">
-							<thead >
+							<thead>
 								<tr>
+									<th scope="col">Member ID</th>
 									<th scope="col">Name</th>
 									<th scope="col">NIC</th>
 									<th scope="col">Address</th>
@@ -87,6 +86,7 @@ export default class componentName extends Component {
 							<tbody>
 								{memb.map((memb) => (
 									<tr>
+										<td>{memb.memberId}</td>
 										<td>{memb.memberName}</td>
 										<td>{memb.memberNic}</td>
 										<td>{memb.memberAddress}</td>
