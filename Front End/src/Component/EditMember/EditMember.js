@@ -63,6 +63,8 @@ export default class componentName extends Component {
 									<Form.Control
 										type="text"
 										name="memberId"
+										disabled
+										defaultValue={this.props.memberId}
 										// value={this.state.memberName}
 									/>
 								</Form.Group>
@@ -74,6 +76,7 @@ export default class componentName extends Component {
 										type="text"
 										placeholder="Name"
 										name="memberName"
+										defaultValue={this.props.memberName}
 										// value={this.state.memberName}
 									/>
 								</Form.Group>
@@ -83,6 +86,7 @@ export default class componentName extends Component {
 										type="text"
 										placeholder="NIC"
 										name="memberNic"
+										defaultValue={this.props.memberNic}
 										// value={this.state.memberNic}
 									/>
 								</Form.Group>
@@ -93,6 +97,7 @@ export default class componentName extends Component {
 										type="text"
 										placeholder="Adress"
 										name="memberAddress"
+										defaultValue={this.props.memberAddress}
 										// value={this.state.memberAddress}
 									/>
 								</Form.Group>
@@ -103,6 +108,7 @@ export default class componentName extends Component {
 										type="text"
 										placeholder="Mobile Number"
 										name="memberMobile"
+										defaultValue={this.props.memberMobile}
 										// value={this.state.memberMobile}
 									/>
 								</Form.Group>
@@ -112,6 +118,7 @@ export default class componentName extends Component {
 										type="email"
 										placeholder="Email"
 										name="memberGmail"
+										defaultValue={this.props.memberGmail}
 										// value={this.state.memberGmail}
 									/>
 								</Form.Group>

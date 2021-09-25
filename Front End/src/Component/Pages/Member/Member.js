@@ -7,11 +7,12 @@ import {
 } from "../../../Styles/CommonStyle";
 import { Button, ButtonToolbar } from "react-bootstrap";
 import AddMember from "../../AddMember/AddMember";
+import EditMember from "../../EditMember/EditMember";
 
 export default class componentName extends Component {
 	constructor(props) {
 		super(props);
-		this.state = { memb: [], addMemberShow: false };
+		this.state = { memb: [], addMemberShow: false, updateMemberShow: false };
 	}
 
 	componentDidMount() {
@@ -35,9 +36,30 @@ export default class componentName extends Component {
 		// });
 	}
 
+	deleteMember(membId) {
+		if (window.confirm("are you shure")) {
+			fetch("http://localhost:8081/member" + "8", {
+				method: "DELETE",
+				headers: {
+					Accept: "application/json",
+					"Content-Type": "application/json",
+				},
+			});
+		}
+	}
+
 	render() {
-		const { memb } = this.state;
+		const {
+			memb,
+			memberId,
+			memberName,
+			memberNic,
+			memberAddress,
+			memberMobile,
+			memberGmail,
+		} = this.state;
 		let addMemberClose = () => this.setState({ addMemberShow: false });
+		let updateMemberClose = () => this.setState({ updateMemberShow: false });
 		return (
 			<>
 				<TitleSection>
@@ -71,7 +93,7 @@ export default class componentName extends Component {
 						</div>
 					</form>
 
-					<div style={{ height: "400px", overflowX: "auto" }}>
+					<div style={{ height: "400px", width: "1050px", overflowX: "auto" }}>
 						<table class="table">
 							<thead>
 								<tr>
@@ -81,6 +103,7 @@ export default class componentName extends Component {
 									<th scope="col">Address</th>
 									<th scope="col">Mobile Number</th>
 									<th scope="col">Mobile Number</th>
+									<th scope="col">Options</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -92,6 +115,44 @@ export default class componentName extends Component {
 										<td>{memb.memberAddress}</td>
 										<td>{memb.memberMobile}</td>
 										<td>{memb.memberGmail}</td>
+										<td>
+											<ButtonToolbar>
+												<Button
+													className="mr-2"
+													variant="info"
+													onClick={() =>
+														this.setState({
+															updateMemberShow: true,
+															memberId: memb.memberId,
+															memberName: memb.memberName,
+															memberNic: memb.memberNic,
+															memberAddress: memb.memberAddress,
+															memberMobile: memb.memberMobile,
+															memberGmail: memb.memberGmail,
+														})
+													}
+												>
+													Edit
+												</Button>
+												<Button
+													className="mr-2"
+													variant="danger"
+													onClick={() => this.deleteMember(memb.memberId)}
+												>
+													Delete
+												</Button>
+												<EditMember
+													show={this.state.updateMemberShow}
+													onHide={updateMemberClose}
+													memberId={memberId}
+													memberName={memberName}
+													memberNic={memberNic}
+													memberAddress={memberAddress}
+													memberMobile={memberMobile}
+													memberGmail={memberGmail}
+												/>
+											</ButtonToolbar>
+										</td>
 									</tr>
 								))}
 							</tbody>
