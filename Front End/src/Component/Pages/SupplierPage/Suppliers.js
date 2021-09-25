@@ -21,22 +21,16 @@ export default class componentName extends Component {
 	}
 
 	refreshList() {
-		fetch("http://localhost:8081/members")
+		fetch("http://localhost:8083/suppliers")
 			.then((response) => response.json())
 			.then((data) => {
 				this.setState({ memb: data });
 			});
-		// this.setState({
-		// 	memb: [
-		// 		{ member_id: 1, member_address: "matara" },
-		// 		{ member_id: 2, member_address: "matara" },
-		// 	],
-		// });
 	}
 
 	deleteMember(membId) {
 		if (window.confirm("are you shure")) {
-			fetch(`http://localhost:8081/member/${membId}`, {
+			fetch(`http://localhost:8083/member/${membId}`, {
 				method: "DELETE",
 				headers: {
 					Accept: "application/json",
@@ -99,7 +93,7 @@ export default class componentName extends Component {
 									<th scope="col">NIC</th>
 									<th scope="col">Address</th>
 									<th scope="col">Mobile Number</th>
-									<th scope="col">Mobile Number</th>
+									<th scope="col">Description</th>
 									<th scope="col">Options</th>
 								</tr>
 							</thead>

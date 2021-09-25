@@ -21,7 +21,6 @@ public class Supplier {
 	private long supplierId;
 	private String name;
 	private String nic;
-	private String suppDate;
 	private String description;
 	
 	@OneToMany(cascade = CascadeType.ALL)
@@ -45,16 +44,11 @@ public class Supplier {
 		super();
 		this.name = name;
 		this.nic = nic;
-		this.suppDate = suppDate;
 		this.description = description;
 	}
 
 	public long getSupplierId() {
 		return supplierId;
-	}
-
-	public void setSupplierId(long supplierId) {
-		this.supplierId = supplierId;
 	}
 
 	public String getName() {
@@ -73,14 +67,6 @@ public class Supplier {
 		this.nic = nic;
 	}
 
-	public String getSuppDate() {
-		return suppDate;
-	}
-
-	public void setSuppDate(String suppDate) {
-		this.suppDate = suppDate;
-	}
-
 	public String getDescription() {
 		return description;
 	}
@@ -91,8 +77,7 @@ public class Supplier {
 
 	@Override
 	public String toString() {
-		return "Supplier [supplierId=" + supplierId + ", name=" + name + ", nic=" + nic + ", suppDate=" + suppDate
-				+ ", description=" + description + "]";
+		return "Supplier [supplierId=" + supplierId + ", name=" + name + ", nic=" + nic + ", description=" + description + "]";
 	}
 	
 }
