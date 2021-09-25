@@ -21,7 +21,7 @@ import com.readingRoom.bookServie.service.SupplierService;
 
 @RestController
 @CrossOrigin
-@RequestMapping("/suppler-servicen")
+@RequestMapping("/suppler-service")
 public class SupplierController {
 	
 	@Autowired
