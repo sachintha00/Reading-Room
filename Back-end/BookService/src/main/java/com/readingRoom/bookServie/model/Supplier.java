@@ -25,7 +25,7 @@ public class Supplier {
 	private String description;
 	
 	@OneToMany(cascade = CascadeType.ALL)
-	@JoinTable(name = "FK_SUPPLIER", joinColumns = @JoinColumn(referencedColumnName = "supplierId"),inverseJoinColumns = @JoinColumn(referencedColumnName ="bookId"))
+	@JoinColumn(name = "supplierId", referencedColumnName = "supplierId")
 	private List<Book> books;
 
 	public List<Book> getBooks() {

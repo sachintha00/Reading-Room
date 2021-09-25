@@ -26,20 +26,12 @@ public class Book {
 	private String medium;
 	private String AuthorName;
 	
-	
-	@ManyToOne(cascade = CascadeType.ALL)
-	@JoinTable(name = "FK_BOOKS", joinColumns = @JoinColumn(referencedColumnName = "bookId"),inverseJoinColumns = @JoinColumn(referencedColumnName ="supplierId"))
-	private List<Supplier> suppliers;
-	
-	
+
+	public void setBookId(long bookId) {
+		this.bookId = bookId;
+	}
 	public long getBookId() {
 		return bookId;
-	}
-	public List<Supplier> getSuppliers() {
-		return suppliers;
-	}
-	public void setSuppliers(List<Supplier> suppliers) {
-		this.suppliers = suppliers;
 	}
 	public Book() {
 		super();
