@@ -97,7 +97,7 @@ export default class componentName extends Component {
 								<Form.Group as={Col} controlId="formGridEmail">
 									<Form.Control
 										type="text"
-										placeholder="Email"
+										placeholder="Description"
 										name="description"
 										defaultValue={this.props.description}
 										// value={this.state.memberGmail}

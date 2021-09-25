@@ -7,6 +7,7 @@ import {
 } from "../../../Styles/CommonStyle";
 import { Button, ButtonToolbar } from "react-bootstrap";
 import AddSupplier from "../../AddSupplier/AddSupplier";
+import EditSupplier from "../../EditSupplier/EditSupplier";
 
 export default class componentName extends Component {
 	constructor(props) {
@@ -123,7 +124,7 @@ export default class componentName extends Component {
 												>
 													Delete
 												</Button>
-												{/* <EditMember
+												<EditSupplier
 													show={this.state.updateMemberShow}
 													onHide={updateMemberClose}
 													memberId={memberId}
@@ -132,7 +133,7 @@ export default class componentName extends Component {
 													memberAddress={memberAddress}
 													memberMobile={memberMobile}
 													memberGmail={memberGmail}
-												/> */}
+												/>
 											</ButtonToolbar>
 										</td>
 									</tr>
