@@ -41,15 +41,8 @@ export default class componentName extends Component {
 		}
 	}
 	render() {
-		const {
-			memb,
-			memberId,
-			memberName,
-			memberNic,
-			memberAddress,
-			memberMobile,
-			memberGmail,
-		} = this.state;
+			const { memb, supplierId, name, nic, mobileNumber, description } =
+			this.state;
 		let addMemberClose = () => this.setState({ addMemberShow: false });
 		let updateMemberClose = () => this.setState({ updateMemberShow: false });
 		return (

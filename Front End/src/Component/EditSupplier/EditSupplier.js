@@ -10,12 +10,13 @@ export default class componentName extends Component {
 		event.preventDefault();
 
 		fetch("http://localhost:8082/suppler-service/supplier", {
-			method: "POST",
+			method: "PUT",
 			headers: {
 				Accept: "application/json",
 				"Content-Type": "application/json",
 			},
 			body: JSON.stringify({
+				supplierId: event.target.supplierId.value,
 				name: event.target.name.value,
 				nic: event.target.nic.value,
 				mobileNumber: event.target.mobileNumber.value,
@@ -32,7 +33,6 @@ export default class componentName extends Component {
 				}
 			);
 	}
-
 	render() {
 		return (
 			<Modal
@@ -51,11 +51,24 @@ export default class componentName extends Component {
 					<div className="Container">
 						<Form onSubmit={this.handleSubmit}>
 							<Row className="mb-3">
+								<Form.Group as={Col} controlId="formGridId">
+									<Form.Control
+										type="text"
+										name="supplierId"
+										disabled
+										defaultValue={this.props.supplierId}
+										// value={this.state.memberName}
+									/>
+								</Form.Group>
+							</Row>
+
+							<Row className="mb-3">
 								<Form.Group as={Col} controlId="formGridName">
 									<Form.Control
 										type="text"
 										placeholder="Name"
 										name="name"
+										defaultValue={this.props.name}
 										// value={this.state.memberName}
 									/>
 								</Form.Group>
@@ -65,6 +78,7 @@ export default class componentName extends Component {
 										type="text"
 										placeholder="NIC"
 										name="nic"
+										defaultValue={this.props.nic}
 										// value={this.state.memberNic}
 									/>
 								</Form.Group>
@@ -75,15 +89,17 @@ export default class componentName extends Component {
 										type="text"
 										placeholder="Mobile Number"
 										name="mobileNumber"
+										defaultValue={this.props.mobileNumber}
 										// value={this.state.memberMobile}
 									/>
 								</Form.Group>
 
-								<Form.Group as={Col} controlId="formGridDescription">
+								<Form.Group as={Col} controlId="formGridEmail">
 									<Form.Control
 										type="text"
-										placeholder="Description"
+										placeholder="Email"
 										name="description"
+										defaultValue={this.props.description}
 										// value={this.state.memberGmail}
 									/>
 								</Form.Group>
