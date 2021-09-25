@@ -1,10 +1,19 @@
 package com.readingRoom.bookServie.model;
 
+import java.util.List;
+
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
 
+@Table(name = "BOOK")
 @Entity
 public class Book {
 	
@@ -18,15 +27,20 @@ public class Book {
 	private String AuthorName;
 	
 	
-//	@OneToMany
-//	@JoinColumn(name = "supplierId", referencedColumnName = "supplierId")
-//	private Supplier supplier;
-//	
-//	public Supplier getSupplier() {
-//		return supplier;
-//	}
+	@ManyToOne(cascade = CascadeType.ALL)
+	@JoinTable(name = "FK_BOOKS", joinColumns = @JoinColumn(referencedColumnName = "bookId"),inverseJoinColumns = @JoinColumn(referencedColumnName ="supplierId"))
+	private List<Supplier> suppliers;
 	
 	
+	public long getBookId() {
+		return bookId;
+	}
+	public List<Supplier> getSuppliers() {
+		return suppliers;
+	}
+	public void setSuppliers(List<Supplier> suppliers) {
+		this.suppliers = suppliers;
+	}
 	public Book() {
 		super();
 		// TODO Auto-generated constructor stub

@@ -1,29 +1,41 @@
 package com.readingRoom.bookServie.model;
 
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+import java.util.List;
 
-//@Entity
+@Table(name = "Supplier")
+@Entity
 public class Supplier {
 	
-//	@Id
-//	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long supplierId;
 	private String name;
 	private String nic;
 	private String suppDate;
 	private String description;
 	
-//	@OneToMany
-//	private List<Book> books;
-//	
-//	public List<Book> getBook() {
-//		return books;
-//	}
-	
+	@OneToMany(cascade = CascadeType.ALL)
+	@JoinTable(name = "FK_SUPPLIER", joinColumns = @JoinColumn(referencedColumnName = "supplierId"),inverseJoinColumns = @JoinColumn(referencedColumnName ="bookId"))
+	private List<Book> books;
+
+	public List<Book> getBooks() {
+		return books;
+	}
+
+	public void setBooks(List<Book> books) {
+		this.books = books;
+	}
+
 	public Supplier() {
 		super();
 		// TODO Auto-generated constructor stub
