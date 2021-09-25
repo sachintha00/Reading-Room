@@ -27,12 +27,6 @@ public class Book {
 	private String AuthorName;
 	
 
-	public void setBookId(long bookId) {
-		this.bookId = bookId;
-	}
-	public long getBookId() {
-		return bookId;
-	}
 	public Book() {
 		super();
 		// TODO Auto-generated constructor stub
@@ -44,6 +38,9 @@ public class Book {
 		this.bookType = bookType;
 		this.medium = medium;
 		AuthorName = authorName;
+	}
+	public long getBookId() {
+		return bookId;
 	}
 	public String getISBN() {
 		return ISBN;

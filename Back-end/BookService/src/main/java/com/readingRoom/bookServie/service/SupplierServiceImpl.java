@@ -3,17 +3,21 @@ package com.readingRoom.bookServie.service;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.readingRoom.bookServie.model.Supplier;
+import com.readingRoom.bookServie.repository.SupplierRepository;
 
 @Service
 public class SupplierServiceImpl implements SupplierService{
+	
+	@Autowired
+	private SupplierRepository supplierRepository;
 
 	@Override
 	public List<Supplier> getAllSupplier() {
-		// TODO Auto-generated method stub
-		return null;
+		return supplierRepository.findAll();
 	}
 
 	@Override
@@ -30,8 +34,8 @@ public class SupplierServiceImpl implements SupplierService{
 
 	@Override
 	public Supplier addSupplier(Supplier supplier) {
-		// TODO Auto-generated method stub
-		return null;
+		supplierRepository.save(supplier);
+		return supplier;
 	}
 
 	@Override
