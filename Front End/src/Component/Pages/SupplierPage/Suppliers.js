@@ -21,7 +21,7 @@ export default class componentName extends Component {
 	}
 
 	refreshList() {
-		fetch("http://localhost:8083/suppliers")
+		fetch("http://localhost:8082/suppler-servicen/suppliers")
 			.then((response) => response.json())
 			.then((data) => {
 				this.setState({ memb: data });
@@ -91,8 +91,8 @@ export default class componentName extends Component {
 									<th scope="col">Supplier ID</th>
 									<th scope="col">Name</th>
 									<th scope="col">NIC</th>
-									<th scope="col">Address</th>
-									<th scope="col">Mobile Number</th>
+									{/* <th scope="col">Address</th> */}
+									{/* <th scope="col">Mobile Number</th> */}
 									<th scope="col">Description</th>
 									<th scope="col">Options</th>
 								</tr>
@@ -100,12 +100,12 @@ export default class componentName extends Component {
 							<tbody>
 								{memb.map((memb) => (
 									<tr>
-										<td>{memb.memberId}</td>
-										<td>{memb.memberName}</td>
-										<td>{memb.memberNic}</td>
-										<td>{memb.memberAddress}</td>
-										<td>{memb.memberMobile}</td>
-										<td>{memb.memberGmail}</td>
+										<td>{memb.supplierId}</td>
+										<td>{memb.name}</td>
+										<td>{memb.nic}</td>
+										{/* <td>{memb.memberAddress}</td> */}
+										<td>{memb.description}</td>
+										{/* <td>{memb.memberGmail}</td> */}
 										<td>
 											<ButtonToolbar>
 												<Button
