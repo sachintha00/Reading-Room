@@ -1,7 +1,6 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import LoginPage from "./Component/Login/LoginPage";
 import Dashboard from "./Component/DashBoard/DashBoard";
-import Routing from "./Routing/Routing";
 
 function App() {
 	return (

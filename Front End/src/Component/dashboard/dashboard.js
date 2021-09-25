@@ -4,10 +4,10 @@ import { useDispatch } from "react-redux";
 import styled from "styled-components";
 import { fetchUserData } from "../../Service/authenticationService";
 import { SideBarSec, List, ListItem, Item } from "../../Styles/SideBarStyle";
-import Home from "../Pages/HomePage/Home";
 import { Change } from "../../Styles/ChangingSecStyle";
 import Book from "../Pages/Book/Book";
 import Member from "../Pages/Member/Member";
+import Suppliers from "../Pages/SupplierPage/Suppliers";
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 
 const MainWrapper = styled.div`
@@ -71,9 +71,9 @@ const Dashboard = (props) => {
 				</SideBarSec>
 				<Switch>
 					<Change>
-						<Route exact path="/dashboard" component={Home} />
 						<Route exact path="/book" component={Book} />
 						<Route exact path="/member" component={Member} />
+						<Route exact path="/dashboard" component={Suppliers} />
 					</Change>
 				</Switch>
 			</BrowserRouter>
