@@ -4,6 +4,22 @@ import { Modal, Button, Row, Col, Form } from "react-bootstrap";
 export default class componentName extends Component {
 	constructor(props) {
 		super(props);
+		this.state = { supp: [] };
+	}
+
+	componentDidMount() {
+		this.refreshList();
+	}
+	// componentDidUpdate() {
+	// 	this.refreshList();
+	// }
+
+	refreshList() {
+		fetch("http://localhost:8082/suppler-service/suppliers")
+			.then((response) => response.json())
+			.then((data) => {
+				this.setState({ supp: data });
+			});
 	}
 
 	handleSubmit(event) {
@@ -16,8 +32,9 @@ export default class componentName extends Component {
 				"Content-Type": "application/json",
 			},
 			body: JSON.stringify({
+				supplierId: event.target.supplierId.value,
 				bookName: event.target.bookName.value,
-				isbn: event.target.isbn.value,
+				// isbn: event.target.isbn.value,
 				bookType: event.target.bookType.value,
 				medium: event.target.medium.value,
 				authorName: event.target.authorName.value,
@@ -52,11 +69,13 @@ export default class componentName extends Component {
 						<Form onSubmit={this.handleSubmit}>
 							<Row className="mb-3">
 								<Form.Group as={Col} controlId="formGridSuppId">
-									<Form.Control as="select">
-										<option value="1">1</option>
-										<option value="1">1</option>
-										<option value="1">1</option>
-										<option value="1">1</option>
+									<Form.Control as="select" name="supplierId">
+										<option defaultValue="Choose...">
+											SELECT SUPPLIER ID...
+										</option>
+										{this.state.supp.map((supp) => (
+											<option value={supp.supplierId}>{supp.supplierId}</option>
+										))}
 									</Form.Control>
 								</Form.Group>
 								<Form.Group as={Col} controlId="formGridName">
@@ -69,7 +88,7 @@ export default class componentName extends Component {
 							</Row>
 							<Row className="mb-3">
 								<Form.Group as={Col} controlId="formGridType">
-									<Form.Control as="select">
+									<Form.Control as="select" name="bookType">
 										<option value="1">1</option>
 										<option value="1">1</option>
 										<option value="1">1</option>
@@ -77,7 +96,7 @@ export default class componentName extends Component {
 									</Form.Control>
 								</Form.Group>
 								<Form.Group as={Col} controlId="formGridMedium">
-									<Form.Control as="select">
+									<Form.Control as="select" name="medium">
 										<option value="1">1</option>
 										<option value="1">1</option>
 										<option value="1">1</option>
@@ -92,6 +111,13 @@ export default class componentName extends Component {
 										placeholder="Author Name"
 										name="authorName"
 									/>
+								</Form.Group>
+							</Row>
+							<Row className="mb-3">
+								<Form.Group as={Col} controlId="formGridSubmit">
+									<Button variant="primary" type="submit">
+										Submit
+									</Button>
 								</Form.Group>
 							</Row>
 						</Form>
