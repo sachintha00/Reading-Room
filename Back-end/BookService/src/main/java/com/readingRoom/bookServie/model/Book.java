@@ -1,10 +1,15 @@
 package com.readingRoom.bookServie.model;
 
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Table(name = "BOOK")
 @Entity
@@ -18,17 +23,33 @@ public class Book {
 	private String bookType;
 	private String medium;
 	private String AuthorName;
+	
+	@JsonIgnore
+	@ManyToOne(fetch = FetchType.LAZY, optional = false)
+	@JoinColumn(name = "supplier_id",nullable = false)
+	private Supplier supplier;
+	
+	
 	public Book() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public Book(String iSBN, String bookName, String bookType, String medium, String authorName) {
+	
+	public Book(String iSBN, String bookName, String bookType, String medium, String authorName, Supplier supplier) {
 		super();
 		ISBN = iSBN;
 		this.bookName = bookName;
 		this.bookType = bookType;
 		this.medium = medium;
 		AuthorName = authorName;
+		this.supplier = supplier;
+	}
+
+	public Supplier getSupplier() {
+		return supplier;
+	}
+	public void setSupplier(Supplier supplier) {
+		this.supplier = supplier;
 	}
 	
 	public long getBookId() {
@@ -67,8 +88,9 @@ public class Book {
 	@Override
 	public String toString() {
 		return "Book [bookId=" + bookId + ", ISBN=" + ISBN + ", bookName=" + bookName + ", bookType=" + bookType
-				+ ", medium=" + medium + ", AuthorName=" + AuthorName + "]";
+				+ ", medium=" + medium + ", AuthorName=" + AuthorName + ", supplier=" + supplier + "]";
 	}
+	
 	
 	
 	
