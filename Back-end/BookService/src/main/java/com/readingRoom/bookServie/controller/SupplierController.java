@@ -49,7 +49,7 @@ public class SupplierController {
 		return this.supplierService.getSupplierByName(name);
 	}
 	
-	@PostMapping("/bookSupplier")
+	@PostMapping("/book-supplier")
 	public Supplier bookSupplier(@RequestBody BookSupplier bookSupplier) {
 		return this.supplierService.addSupplier(bookSupplier.getBookSupplier());
 	}
