@@ -10,9 +10,9 @@ export default class componentName extends Component {
 	componentDidMount() {
 		this.refreshList();
 	}
-	// componentDidUpdate() {
-	// 	this.refreshList();
-	// }
+	componentDidUpdate() {
+		this.refreshList();
+	}
 
 	refreshList() {
 		fetch("http://localhost:8082/suppler-service/suppliers")
@@ -25,20 +25,13 @@ export default class componentName extends Component {
 	handleSubmit(event) {
 		event.preventDefault();
 
-		fetch("http://localhost:8082/book-service/book", {
-			method: "POST",
+		fetch("http://localhost:8082/suppler-service/supplier", {
+			method: "PUT",
 			headers: {
 				Accept: "application/json",
 				"Content-Type": "application/json",
 			},
-			body: JSON.stringify({
-				supplierId: event.target.supplierId.value,
-				bookName: event.target.bookName.value,
-				// isbn: event.target.isbn.value,
-				bookType: event.target.bookType.value,
-				medium: event.target.medium.value,
-				authorName: event.target.authorName.value,
-			}),
+			body: JSON.stringify(this.state),
 		})
 			.then((res) => res.json())
 			.then(
