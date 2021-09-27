@@ -31,7 +31,14 @@ export default class componentName extends Component {
 				Accept: "application/json",
 				"Content-Type": "application/json",
 			},
-			body: JSON.stringify(this.state),
+			body: JSON.stringify({
+				supplierId: event.target.supplierId.value,
+				bookName: event.target.bookName.value,
+				// isbn: event.target.isbn.value,
+				bookType: event.target.bookType.value,
+				medium: event.target.medium.value,
+				authorName: event.target.authorName.value,
+			}),
 		})
 			.then((res) => res.json())
 			.then(
