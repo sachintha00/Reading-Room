@@ -24,10 +24,10 @@ public class Book {
 	private String medium;
 	private String AuthorName;
 	
-	@JsonIgnore
-	@ManyToOne(fetch = FetchType.LAZY, optional = false)
-	@JoinColumn(name = "supplier_id",nullable = true)
-	private Supplier supplier;
+//	@JsonIgnore
+//	@ManyToOne(fetch = FetchType.LAZY, optional = false)
+//	@JoinColumn(name = "supplier_id",nullable = true)
+//	private Supplier supplier;
 	
 	
 	public Book() {
@@ -35,21 +35,13 @@ public class Book {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public Book(String iSBN, String bookName, String bookType, String medium, String authorName, Supplier supplier) {
+	public Book(String iSBN, String bookName, String bookType, String medium, String authorName) {
 		super();
 		ISBN = iSBN;
 		this.bookName = bookName;
 		this.bookType = bookType;
 		this.medium = medium;
 		AuthorName = authorName;
-		this.supplier = supplier;
-	}
-
-	public Supplier getSupplier() {
-		return supplier;
-	}
-	public void setSupplier(Supplier supplier) {
-		this.supplier = supplier;
 	}
 	
 	public long getBookId() {
@@ -88,7 +80,7 @@ public class Book {
 	@Override
 	public String toString() {
 		return "Book [bookId=" + bookId + ", ISBN=" + ISBN + ", bookName=" + bookName + ", bookType=" + bookType
-				+ ", medium=" + medium + ", AuthorName=" + AuthorName + ", supplier=" + supplier + "]";
+				+ ", medium=" + medium + ", AuthorName=" + AuthorName + "]";
 	}
 	
 	

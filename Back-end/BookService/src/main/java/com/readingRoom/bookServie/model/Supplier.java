@@ -29,7 +29,8 @@ public class Supplier {
 	private String description;
 	
 
-	@OneToMany(mappedBy = "supplier", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+	@OneToMany(targetEntity = Book.class,cascade = CascadeType.ALL)
+	@JoinColumn(name = "sb_fk",referencedColumnName = "supplierId")
 	private List<Book> books;
 
 	public List<Book> getBooks() {

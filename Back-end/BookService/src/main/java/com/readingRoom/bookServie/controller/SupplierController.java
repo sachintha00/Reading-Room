@@ -16,6 +16,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.readingRoom.bookServie.dto.BookSupplier;
+import com.readingRoom.bookServie.model.Book;
 import com.readingRoom.bookServie.model.Supplier;
 import com.readingRoom.bookServie.service.SupplierService;
 
@@ -45,6 +47,11 @@ public class SupplierController {
 	@GetMapping("/supplier/{name}")
 	public Optional<Supplier> getSupplierByName(@PathVariable String name) {
 		return this.supplierService.getSupplierByName(name);
+	}
+	
+	@PostMapping("/bookSupplier")
+	public Supplier bookSupplier(@RequestBody BookSupplier bookSupplier) {
+		return this.supplierService.addSupplier(bookSupplier.getBookSupplier());
 	}
 	
 	@PostMapping("/supplier")
