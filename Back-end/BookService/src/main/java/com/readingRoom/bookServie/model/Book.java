@@ -26,7 +26,7 @@ public class Book {
 	
 	@JsonIgnore
 	@ManyToOne(fetch = FetchType.LAZY, optional = false)
-	@JoinColumn(name = "supplier_id",nullable = false)
+	@JoinColumn(name = "supplier_id",nullable = true)
 	private Supplier supplier;
 	
 	
