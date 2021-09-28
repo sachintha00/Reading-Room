@@ -39,7 +39,7 @@ public class SupplierController {
 		return this.supplierService.getAllSupplier();
 	}
 	
-	@GetMapping("/supplier/{supplierId}")
+	@GetMapping("/suppliers/{supplierId}")
 	public Optional<Supplier> getSupplier(@PathVariable String supplierId) {
 		return this.supplierService.getSupplier(Long.parseLong(supplierId));
 	}
