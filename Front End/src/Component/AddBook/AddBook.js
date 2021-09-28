@@ -6,18 +6,15 @@ export default class componentName extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			supp: [
-				{
-					supplierId: "",
-				},
-			],
+			supp: [],
 			book: {
-				bookName: "",
-				isbn: "",
-				bookType: "",
-				medium: "",
-				authorName: "",
+				bookName: "aaa",
+				isbn: "AAAAA",
+				bookType: "sssss",
+				medium: "sssss",
+				authorName: "ssssss",
 			},
+			supplier: {},
 		};
 		this.handleSubmit = this.handleSubmit.bind(this);
 	}
@@ -34,24 +31,30 @@ export default class componentName extends Component {
 			.then((response) => response.json())
 			.then((data) => {
 				this.setState({ supp: data });
-				// alert(JSON.stringify(this.state.supp));
 			});
 	}
 
 	handleSubmit(event) {
 		event.preventDefault();
-		alert(JSON.stringify(this.state.supp));
-
-		axios.post(`http://localhost:8082/book-service/book`, this.state.book).then(
-			(Response) => {
-				console.log(Response);
-				console.log("Success");
-			},
-			(error) => {
-				console.log(error);
-				console.log("error");
+		// alert(JSON.stringify(this.state.supp));
+		this.state.supp.map((supplier) => {
+			if (supplier.supplierId == event.target.supplierId.value) {
+				alert(JSON.stringify(supplier.books));
 			}
-		);
+		});
+
+		axios
+			.put(`http://localhost:8082/suppler-service/supplier`, this.state.book)
+			.then(
+				(Response) => {
+					console.log(Response);
+					alert("Success");
+				},
+				(error) => {
+					console.log(error);
+					console.log("error");
+				}
+			);
 	}
 	render() {
 		return (
@@ -77,7 +80,7 @@ export default class componentName extends Component {
 											SELECT SUPPLIER ID...
 										</option>
 										{this.state.supp.map((supp) => (
-											<option value={supp.supplierId}>{supp.supplierId}</option>
+											<option value={supp.supplierId}>{supp.name}</option>
 										))}
 									</Form.Control>
 								</Form.Group>
