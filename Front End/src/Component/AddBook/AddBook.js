@@ -1,10 +1,25 @@
 import React, { Component } from "react";
 import { Modal, Button, Row, Col, Form } from "react-bootstrap";
+import axios from "axios";
 
 export default class componentName extends Component {
 	constructor(props) {
 		super(props);
-		this.state = { supp: [] };
+		this.state = {
+			supp: [
+				{
+					supplierId: "",
+				},
+			],
+			book: {
+				bookName: "",
+				isbn: "",
+				bookType: "",
+				medium: "",
+				authorName: "",
+			},
+		};
+		this.handleSubmit = this.handleSubmit.bind(this);
 	}
 
 	componentDidMount() {
@@ -19,36 +34,24 @@ export default class componentName extends Component {
 			.then((response) => response.json())
 			.then((data) => {
 				this.setState({ supp: data });
+				// alert(JSON.stringify(this.state.supp));
 			});
 	}
 
 	handleSubmit(event) {
 		event.preventDefault();
+		alert(JSON.stringify(this.state.supp));
 
-		fetch("http://localhost:8082/suppler-service/supplier", {
-			method: "PUT",
-			headers: {
-				Accept: "application/json",
-				"Content-Type": "application/json",
+		axios.post(`http://localhost:8082/book-service/book`, this.state.book).then(
+			(Response) => {
+				console.log(Response);
+				console.log("Success");
 			},
-			body: JSON.stringify({
-				supplierId: event.target.supplierId.value,
-				bookName: event.target.bookName.value,
-				// isbn: event.target.isbn.value,
-				bookType: event.target.bookType.value,
-				medium: event.target.medium.value,
-				authorName: event.target.authorName.value,
-			}),
-		})
-			.then((res) => res.json())
-			.then(
-				(result) => {
-					alert("Success");
-				},
-				(error) => {
-					alert("kelawila");
-				}
-			);
+			(error) => {
+				console.log(error);
+				console.log("error");
+			}
+		);
 	}
 	render() {
 		return (
