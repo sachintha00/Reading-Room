@@ -70,138 +70,71 @@ const Dashboard = (props) => {
 						Logout
 					</Button> */}
 
-					{/* <nav class="main-menu">
-						<ul>
-							<li>
-								<a href="http://justinfarrow.com">
-									<i class="fa fa-home fa-2x"></i>
-									<span class="nav-text">Dashboard</span>
-								</a>
-							</li>
-							<li class="has-subnav">
-								<a href="#">
-									<i class="fa fa-laptop fa-2x"></i>
-									<span class="nav-text">Stars Components</span>
-								</a>
-							</li>
-							<li class="has-subnav">
-								<a href="#">
-									<i class="fa fa-list fa-2x"></i>
-									<span class="nav-text">Forms</span>
-								</a>
-							</li>
-							<li class="has-subnav">
-								<a href="#">
-									<i class="fa fa-folder-open fa-2x"></i>
-									<span class="nav-text">Pages</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<i class="fa fa-bar-chart-o fa-2x"></i>
-									<span class="nav-text">Graphs and Statistics</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<i class="fa fa-font fa-2x"></i>
-									<span class="nav-text">Quotes</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<i class="fa fa-table fa-2x"></i>
-									<span class="nav-text">Tables</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<i class="fa fa-map-marker fa-2x"></i>
-									<span class="nav-text">Maps</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<i class="fa fa-info fa-2x"></i>
-									<span class="nav-text">Documentation</span>
-								</a>
-							</li>
-						</ul>
-
-						<ul class="logout">
-							<li>
-								<a href="#">
-									<i class="fa fa-power-off fa-2x"></i>
-									<span class="nav-text">Logout</span>
-								</a>
-							</li>
-						</ul>
-					</nav> */}
-					<div class="page-wrapper chiller-theme toggled">
-						<a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
-							<i class="fas fa-bars"></i>
+					<div className="page-wrapper chiller-theme toggled">
+						<a id="show-sidebar" className="btn btn-sm btn-dark" href="#">
+							<i className="fas fa-bars"></i>
 						</a>
-						<nav id="sidebar" class="sidebar-wrapper">
-							<div class="sidebar-content">
-								<div class="sidebar-brand">
+						<nav id="sidebar" className="sidebar-wrapper">
+							<div className="sidebar-content">
+								<div className="sidebar-brand">
 									<a href="#">pro sidebar</a>
 									<div id="close-sidebar">
-										<i class="fas fa-times"></i>
+										<i className="fas fa-times"></i>
 									</div>
 								</div>
-								<div class="sidebar-header">
-									<div class="user-pic">
+								<div className="sidebar-header">
+									<div className="user-pic">
 										<img
-											class="img-responsive img-rounded"
+											className="img-responsive img-rounded"
 											src="https://raw.githubusercontent.com/azouaoui-med/pro-sidebar-template/gh-pages/src/img/user.jpg"
 											alt="User picture"
 										/>
 									</div>
-									<div class="user-info">
-										<span class="user-name">
+									<div className="user-info">
+										<span className="user-name">
 											Jhon
 											<strong>Smith</strong>
 										</span>
-										<span class="user-role">Administrator</span>
-										<span class="user-status">
-											<i class="fa fa-circle"></i>
+										<span className="user-role">Administrator</span>
+										<span className="user-status">
+											<i className="fa fa-circle"></i>
 											<span>Online</span>
 										</span>
 									</div>
 								</div>
 								{/* <!-- sidebar-header  --> */}
-								<div class="sidebar-menu">
+								<div className="sidebar-menu">
 									<ul>
-										<li class="header-menu">
+										<li className="header-menu">
 											<span>General</span>
 										</li>
-										<li class="sidebar-dropdown">
+										<li className="sidebar-dropdown">
 											<a href="#">
-												<i class="fa fa-tachometer-alt"></i>
+												<i className="fa fa-tachometer-alt"></i>
 												<span>Dashboard</span>
 											</a>
 										</li>
-										<li class="sidebar-dropdown">
-											<a href="#">
-												<i class="fa fa-shopping-cart"></i>
-												<span>E-commerce</span>
-											</a>
+										<li className="sidebar-dropdown">
+											<Link to="/book">
+												<i className="fa fa-shopping-cart"></i>
+												<span>Book</span>
+											</Link>
 										</li>
-										<li class="sidebar-dropdown">
-											<a href="#">
-												<i class="far fa-gem"></i>
-												<span>Components</span>
-											</a>
+										<li className="sidebar-dropdown">
+											<Link to="/member">
+												<i className="far fa-gem"></i>
+												<span>Members</span>
+											</Link>
 										</li>
-										<li class="sidebar-dropdown">
+										<li className="sidebar-dropdown">
 											<a href="#">
-												<i class="fa fa-chart-line"></i>
+												<i className="fa fa-chart-line"></i>
 												<span>Charts</span>
 											</a>
 										</li>
-										<li class="sidebar-dropdown">
+										<li className="sidebar-dropdown">
 											<a href="#">
-												<i class="fa fa-globe"></i>
+												<i className="fa fa-globe"></i>
 												<span>Maps</span>
 											</a>
 										</li>
