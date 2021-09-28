@@ -16,28 +16,20 @@ export default class componentName extends Component {
 			},
 			supplier1: {
 				supplierId: 5,
-				name: "Chathu ",
-				nic: "20001536377",
-				mobileNumber: "0788538399",
-				description: "nothing",
+				name: "",
+				nic: "",
+				mobileNumber: "",
+				description: "",
 				books: [
 					{
-						bookName: "Hath pana",
-						bookType: "Novel",
-						medium: "Sinhala",
-						isbn: "ISBN00010",
-						authorName: "Martin Wikramasingha",
-					},
-					{
-						bookName: "Hath pana",
-						bookType: "Novel",
-						medium: "Sinhala",
-						isbn: "ISBN0001",
-						authorName: "Martin Wikramasingha",
-					},
+						bookName: "",
+						bookType: "",
+						medium: "",
+						isbn: "",
+						authorName: "",
+					}
 				],
 			},
-			supplier2: [],
 		};
 		this.handleSubmit = this.handleSubmit.bind(this);
 	}
@@ -57,11 +49,21 @@ export default class componentName extends Component {
 			});
 	}
 
-	handleSubmit(event) {
+	handleSubmit = (event) => {
 		event.preventDefault();
 		// alert(JSON.stringify(this.state.supp));
+		const newItem = {
+			bookName: "Sachintha",
+			bookType: "Novel",
+			medium: "Sinhala",
+			isbn: "ISBN00050",
+			authorName: "Martin Wikramasingha",
+		};
 		this.state.supp.map((supplier) => {
 			if (supplier.supplierId == event.target.supplierId.value) {
+				this.setState({
+					supplier1: { books: [...this.state.supplier1.books], newItem },
+				});
 				axios
 					.put(
 						`http://localhost:8082/suppler-service/supplier`,
@@ -77,8 +79,8 @@ export default class componentName extends Component {
 							console.log("error");
 						}
 					);
+				alert(JSON.stringify(this.state.supplier1));
 			}
-			alert(JSON.stringify(this.state.supplier2));
 		});
 
 		// axios
@@ -96,7 +98,7 @@ export default class componentName extends Component {
 		// 			console.log("error");
 		// 		}
 		// 	);
-	}
+	};
 	render() {
 		return (
 			<Modal
