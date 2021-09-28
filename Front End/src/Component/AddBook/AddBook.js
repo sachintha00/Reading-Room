@@ -14,7 +14,30 @@ export default class componentName extends Component {
 				medium: "sssss",
 				authorName: "ssssss",
 			},
-			supplier: {},
+			supplier1: {
+				supplierId: 5,
+				name: "Chathu ",
+				nic: "20001536377",
+				mobileNumber: "0788538399",
+				description: "nothing",
+				books: [
+					{
+						bookName: "Hath pana",
+						bookType: "Novel",
+						medium: "Sinhala",
+						isbn: "ISBN00010",
+						authorName: "Martin Wikramasingha",
+					},
+					{
+						bookName: "Hath pana",
+						bookType: "Novel",
+						medium: "Sinhala",
+						isbn: "ISBN0001",
+						authorName: "Martin Wikramasingha",
+					},
+				],
+			},
+			supplier2: [],
 		};
 		this.handleSubmit = this.handleSubmit.bind(this);
 	}
@@ -39,22 +62,40 @@ export default class componentName extends Component {
 		// alert(JSON.stringify(this.state.supp));
 		this.state.supp.map((supplier) => {
 			if (supplier.supplierId == event.target.supplierId.value) {
-				alert(JSON.stringify(supplier.books));
+				axios
+					.put(
+						`http://localhost:8082/suppler-service/supplier`,
+						this.state.supplier1
+					)
+					.then(
+						(Response) => {
+							console.log(Response);
+							alert("Success");
+						},
+						(error) => {
+							console.log(error);
+							console.log("error");
+						}
+					);
 			}
+			alert(JSON.stringify(this.state.supplier2));
 		});
 
-		axios
-			.put(`http://localhost:8082/suppler-service/supplier`, this.state.book)
-			.then(
-				(Response) => {
-					console.log(Response);
-					alert("Success");
-				},
-				(error) => {
-					console.log(error);
-					console.log("error");
-				}
-			);
+		// axios
+		// 	.put(
+		// 		`http://localhost:8082/suppler-service/supplier`,
+		// 		this.state.supplier2
+		// 	)
+		// 	.then(
+		// 		(Response) => {
+		// 			console.log(Response);
+		// 			alert("Success");
+		// 		},
+		// 		(error) => {
+		// 			console.log(error);
+		// 			console.log("error");
+		// 		}
+		// 	);
 	}
 	render() {
 		return (
