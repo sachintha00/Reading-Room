@@ -55,17 +55,7 @@ const Dashboard = (props) => {
 		<>
 			<BrowserRouter>
 				<SideBarSec>
-					{/* <List>
-						<ListItem>
-							<Link to="/dashboard">Home</Link>
-						</ListItem>
-						<ListItem>
-							<Link to="/book">BOOKS</Link>
-						</ListItem>
-						<ListItem>
-							<Link to="/member">MEMBERS</Link>
-						</ListItem>
-					</List>
+					{/*
 					<Button style={{ marginTop: "5px" }} onClick={() => logOut()}>
 						Logout
 					</Button> */}
@@ -109,10 +99,10 @@ const Dashboard = (props) => {
 											<span>General</span>
 										</li>
 										<li className="sidebar-dropdown">
-											<a href="#">
+											<Link to="/dashboard">
 												<i className="fa fa-tachometer-alt"></i>
 												<span>Dashboard</span>
-											</a>
+											</Link>
 										</li>
 										<li className="sidebar-dropdown">
 											<Link to="/book">
@@ -138,7 +128,6 @@ const Dashboard = (props) => {
 												<span>Maps</span>
 											</a>
 										</li>
-										
 									</ul>
 								</div>
 								{/* <!-- sidebar-menu  --> */}
