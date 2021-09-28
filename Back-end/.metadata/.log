@@ -3806,3 +3806,517 @@ java.util.concurrent.TimeoutException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-09-28 17:22:55.657
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:22:55.657
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:22:55.658
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:23:04.685
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:23:04.690
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:23:04.690
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:29:32.591
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:29:32.593
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:29:32.595
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:29:32.988
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:29:33.021
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:29:33.057
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:29:42.750
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:29:42.750
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:29:42.750
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:29:50.818
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:29:50.822
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:29:50.829
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:29:51.214
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:29:51.478
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:30:42.810
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:30:42.817
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:30:42.820
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:30:48.951
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:30:48.951
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:30:48.954
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:30:50.884
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:30:50.885
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:30:50.885
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:30:54.980
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:30:54.986
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:30:54.989
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:30:55.445
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:30:55.446
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:30:56.036
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:30:58.425
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:30:58.427
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:30:58.429
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:30:58.461
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:30:58.548
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:30:58.550
+!MESSAGE buffering callback sts4.classpath.FEPmcPOg MemberBook false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:30:58.551
+!MESSAGE executing callback sts4.classpath.FEPmcPOg 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:31:00.616
+!MESSAGE executing callback sts4.classpath.FEPmcPOg FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-09-28 17:31:00.617
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY Activator 1 0 2021-09-28 17:31:03.093
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:03.104
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:03.119
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:25.799
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:25.800
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:25.801
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:26.317
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:26.327
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:26.329
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:26.653
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:26.668
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:26.744
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:28.568
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:28.572
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:28.577
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:29.058
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:29.062
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:29.068
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:29.414
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:29.466
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:29.511
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:29.613
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:33.921
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:33.921
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:33.922
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:33.923
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:31:33.923
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:31:33.933
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:31:33.950
+!MESSAGE buffering callback sts4.classpath.FEPmcPOg MemberBook false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:31:33.951
+!MESSAGE executing callback sts4.classpath.FEPmcPOg 1 batched events
+
+!ENTRY Activator 1 0 2021-09-28 17:31:35.431
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:35.436
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:35.440
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:35.442
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:31:35.956
+!MESSAGE executing callback sts4.classpath.FEPmcPOg FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-09-28 17:31:35.957
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY Activator 1 0 2021-09-28 17:31:38.202
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:38.203
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:38.204
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:38.206
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:31:38.209
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:31:38.255
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:31:38.280
+!MESSAGE buffering callback sts4.classpath.FEPmcPOg MemberBook false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:31:38.281
+!MESSAGE executing callback sts4.classpath.FEPmcPOg 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:31:38.434
+!MESSAGE executing callback sts4.classpath.FEPmcPOg SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-09-28 17:31:43.871
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:43.890
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:43.898
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-28 17:31:44.763
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:17.740
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:17.804
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:17.809
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:17.842
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:32:17.845
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:32:17.865
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:32:18.056
+!MESSAGE buffering callback sts4.classpath.FEPmcPOg MemberBook false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:32:18.056
+!MESSAGE executing callback sts4.classpath.FEPmcPOg 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:32:18.733
+!MESSAGE executing callback sts4.classpath.FEPmcPOg SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-09-28 17:32:19.606
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:32:20.537
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY Activator 1 0 2021-09-28 17:32:20.552
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:20.563
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:20.564
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:32:20.565
+!MESSAGE classpath=92 entries
+
+!ENTRY Activator 1 0 2021-09-28 17:32:20.577
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:32:20.647
+!MESSAGE buffering callback sts4.classpath.FEPmcPOg MemberBook false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:32:20.648
+!MESSAGE executing callback sts4.classpath.FEPmcPOg 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:32:21.529
+!MESSAGE executing callback sts4.classpath.FEPmcPOg SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-09-28 17:32:22.470
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:22.471
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:22.473
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:22.476
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:24.226
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:24.234
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:24.270
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:24.279
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:27.180
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:27.180
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:27.181
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:27.181
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:32:27.227
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:32:27.240
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:32:27.267
+!MESSAGE buffering callback sts4.classpath.FEPmcPOg MemberBook false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:32:27.268
+!MESSAGE executing callback sts4.classpath.FEPmcPOg 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:32:27.631
+!MESSAGE executing callback sts4.classpath.FEPmcPOg SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-09-28 17:32:28.230
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:28.236
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:28.269
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:28.556
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:29.673
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:29.765
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:29.768
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:29.780
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:31.780
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:31.780
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:31.782
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:31.782
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:32.410
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:32.453
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:32.456
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:32.536
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:33.137
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:33.223
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:33.228
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:33.253
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:40.569
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:40.572
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:40.572
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:40.573
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:42.483
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:42.485
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:42.486
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-28 17:32:42.487
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:37:33.592
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-28 17:37:33.593
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-28 17:37:33.593
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-28 17:37:33.605
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:37:33.635
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:37:33.658
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:37:33.813
+!MESSAGE buffering callback sts4.classpath.FEPmcPOg MemberBook false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:37:33.814
+!MESSAGE executing callback sts4.classpath.FEPmcPOg 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:37:34.147
+!MESSAGE executing callback sts4.classpath.FEPmcPOg SUCCESS [done]
