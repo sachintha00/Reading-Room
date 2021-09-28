@@ -103,7 +103,7 @@
   /*----------------sidebar-wrapper----------------*/
   
   .sidebar-wrapper {
-	width: 260px;
+	width: 300px;
 	height: 100%;
 	max-height: 100%;
 	position: fixed;
@@ -404,15 +404,6 @@
   
   /*-----------------------------chiller-theme-------------------------------------------------*/
   
-  .chiller-theme .sidebar-wrapper {
-	  background: #31353D;
-  }
-  
-  .chiller-theme .sidebar-wrapper .sidebar-header,
-  .chiller-theme .sidebar-wrapper .sidebar-search,
-  .chiller-theme .sidebar-wrapper .sidebar-menu {
-	  border-top: 1px solid #3a3f48;
-  }
   
   .chiller-theme .sidebar-wrapper .sidebar-search input.search-menu,
   .chiller-theme .sidebar-wrapper .sidebar-search .input-group-text {
@@ -427,7 +418,7 @@
   .chiller-theme .sidebar-wrapper .sidebar-brand>a,
   .chiller-theme .sidebar-wrapper .sidebar-menu ul li a,
   .chiller-theme .sidebar-footer>a {
-	  color: #818896;
+	  color: #025B9A;
   }
   
   .chiller-theme .sidebar-wrapper .sidebar-menu ul li:hover>a,
@@ -435,7 +426,7 @@
   .chiller-theme .sidebar-wrapper .sidebar-header .user-info,
   .chiller-theme .sidebar-wrapper .sidebar-brand>a:hover,
   .chiller-theme .sidebar-footer>a:hover i {
-	  color: #b8bfce;
+	  color: #216CC8;
   }
   
   .page-wrapper.chiller-theme.toggled #close-sidebar {
@@ -446,36 +437,7 @@
 	  color: #ffffff;
   }
   
-  .chiller-theme .sidebar-wrapper ul li:hover a i,
-  .chiller-theme .sidebar-wrapper .sidebar-dropdown .sidebar-submenu li a:hover:before,
-  .chiller-theme .sidebar-wrapper .sidebar-search input.search-menu:focus+span,
-  .chiller-theme .sidebar-wrapper .sidebar-menu .sidebar-dropdown.active a i {
-	  color: #16c7ff;
-	  text-shadow:0px 0px 10px rgba(22, 199, 255, 0.5);
-  }
-  
-  .chiller-theme .sidebar-wrapper .sidebar-menu ul li a i,
-  .chiller-theme .sidebar-wrapper .sidebar-menu .sidebar-dropdown div,
-  .chiller-theme .sidebar-wrapper .sidebar-search input.search-menu,
-  .chiller-theme .sidebar-wrapper .sidebar-search .input-group-text {
-	  background: #3a3f48;
-  }
-  
   .chiller-theme .sidebar-wrapper .sidebar-menu .header-menu span {
 	  color: #6c7b88;
-  }
-  
-  .chiller-theme .sidebar-footer {
-	  background: #3a3f48;
-	  box-shadow: 0px -1px 5px #282c33;
-	  border-top: 1px solid #464a52;
-  }
-  
-  .chiller-theme .sidebar-footer>a:first-child {
-	  border-left: none;
-  }
-  
-  .chiller-theme .sidebar-footer>a:last-child {
-	  border-right: none;
   }
   
