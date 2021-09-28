@@ -3275,3 +3275,13 @@ Binding(CTRL+SHIFT+C,
 
 !ENTRY Activator 1 0 2021-09-27 17:08:44.151
 !MESSAGE Has main method computation for project 'MemberSection'
+!SESSION 2021-09-28 07:10:11.407 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-09-28 07:10:26.865
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
