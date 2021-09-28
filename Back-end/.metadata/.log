@@ -4320,3 +4320,6 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-28 17:37:34.147
 !MESSAGE executing callback sts4.classpath.FEPmcPOg SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2021-09-28 21:09:36.061
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
