@@ -7,29 +7,6 @@ export default class componentName extends Component {
 		super(props);
 		this.state = {
 			supp: [],
-			book: {
-				bookName: "aaa",
-				isbn: "AAAAA",
-				bookType: "sssss",
-				medium: "sssss",
-				authorName: "ssssss",
-			},
-			supplier1: {
-				supplierId: 5,
-				name: "",
-				nic: "",
-				mobileNumber: "",
-				description: "",
-				books: [
-					{
-						bookName: "",
-						bookType: "",
-						medium: "",
-						isbn: "",
-						authorName: "",
-					}
-				],
-			},
 		};
 		this.handleSubmit = this.handleSubmit.bind(this);
 	}
@@ -49,56 +26,33 @@ export default class componentName extends Component {
 			});
 	}
 
-	handleSubmit = (event) => {
+	handleSubmit(event) {
 		event.preventDefault();
-		// alert(JSON.stringify(this.state.supp));
-		const newItem = {
-			bookName: "Sachintha",
-			bookType: "Novel",
-			medium: "Sinhala",
-			isbn: "ISBN00050",
-			authorName: "Martin Wikramasingha",
-		};
-		this.state.supp.map((supplier) => {
-			if (supplier.supplierId == event.target.supplierId.value) {
-				this.setState({
-					supplier1: { books: [...this.state.supplier1.books], newItem },
-				});
-				axios
-					.put(
-						`http://localhost:8082/suppler-service/supplier`,
-						this.state.supplier1
-					)
-					.then(
-						(Response) => {
-							console.log(Response);
-							alert("Success");
-						},
-						(error) => {
-							console.log(error);
-							console.log("error");
-						}
-					);
-				alert(JSON.stringify(this.state.supplier1));
-			}
-		});
 
-		// axios
-		// 	.put(
-		// 		`http://localhost:8082/suppler-service/supplier`,
-		// 		this.state.supplier2
-		// 	)
-		// 	.then(
-		// 		(Response) => {
-		// 			console.log(Response);
-		// 			alert("Success");
-		// 		},
-		// 		(error) => {
-		// 			console.log(error);
-		// 			console.log("error");
-		// 		}
-		// 	);
-	};
+		fetch("http://localhost:8081/member", {
+			method: "POST",
+			headers: {
+				Accept: "application/json",
+				"Content-Type": "application/json",
+			},
+			body: JSON.stringify({
+				memberName: event.target.memberName.value,
+				memberNic: event.target.memberNic.value,
+				memberAddress: event.target.memberAddress.value,
+				memberMobile: event.target.memberMobile.value,
+				memberGmail: event.target.memberGmail.value,
+			}),
+		})
+			.then((res) => res.json())
+			.then(
+				(result) => {
+					alert("Success");
+				},
+				(error) => {
+					alert("kelawila");
+				}
+			);
+	}
 	render() {
 		return (
 			<Modal
@@ -146,10 +100,9 @@ export default class componentName extends Component {
 								</Form.Group>
 								<Form.Group as={Col} controlId="formGridMedium">
 									<Form.Control as="select" name="medium">
-										<option value="1">1</option>
-										<option value="1">1</option>
-										<option value="1">1</option>
-										<option value="1">1</option>
+										<option value="English">English</option>
+										<option value="Sinhala">Sinhala</option>
+										<option value="Tamil">Tamil</option>
 									</Form.Control>
 								</Form.Group>
 							</Row>

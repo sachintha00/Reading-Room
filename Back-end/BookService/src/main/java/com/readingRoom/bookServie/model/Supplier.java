@@ -29,17 +29,17 @@ public class Supplier {
 	private String description;
 	
 
-	@OneToMany(targetEntity = Book.class,cascade = CascadeType.ALL)
-	@JoinColumn(name = "sb_fk",referencedColumnName = "supplierId")
-	private List<Book> books;
-
-	public List<Book> getBooks() {
-		return books;
-	}
-
-	public void setBooks(List<Book> books) {
-		this.books = books;
-	}
+//	@OneToMany(targetEntity = Book.class,cascade = CascadeType.ALL)
+//	@JoinColumn(name = "sb_fk",referencedColumnName = "supplierId")
+//	private List<Book> books;
+//
+//	public List<Book> getBooks() {
+//		return books;
+//	}
+//
+//	public void setBooks(List<Book> books) {
+//		this.books = books;
+//	}
 
 	public Supplier() {
 		super();
