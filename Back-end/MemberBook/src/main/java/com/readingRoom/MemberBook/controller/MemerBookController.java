@@ -42,11 +42,6 @@ public class MemerBookController {
 		return this.mbService.getMemberWithBook(Long.parseLong(mbId));
 	}
 	
-//	@GetMapping("/book/{name}")
-//	public Optional<Book> getBookByName(@PathVariable String name) {
-//		return this.bookService.getBookByName(name);
-//	}
-	
 	@PostMapping("/member-book")
 	public MemberBook addBook(@RequestBody MemberBook memberBook) {
 		return this.mbService.addMemberBook(memberBook);
@@ -57,7 +52,7 @@ public class MemerBookController {
 		return this.mbService.updateMemberBook(memberBook);
 	}
 	
-	@DeleteMapping("/book/{bookId}")
+	@DeleteMapping("/member-book/{mbId}")
 	public ResponseEntity<HttpStatus> removeBook(@PathVariable String mbId) {
 		try {
 			this.mbService.removeMemberBook(Long.parseLong(mbId));
