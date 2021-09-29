@@ -5320,3 +5320,108 @@ java.net.UnknownHostException: download.springsource.com
 	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:248)
 	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 2 2 2021-09-29 16:39:44.424
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2021-09-29 16:39:54.142
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-29 16:39:54.143
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-29 16:39:54.143
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-29 16:39:54.144
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-29 16:39:57.192
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-29 16:39:57.193
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-29 16:39:57.194
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-29 16:39:57.194
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-29 16:40:05.141
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-29 16:40:05.149
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-29 16:40:05.150
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-29 16:40:05.156
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-29 16:40:05.654
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-29 16:40:06.004
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-29 16:40:06.116
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-29 16:40:06.116
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-29 16:40:06.209
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-29 16:40:06.268
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-29 16:40:22.825
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-29 16:40:22.826
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-29 16:40:22.826
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-29 16:40:22.829
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-29 16:40:23.193
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-29 16:40:23.221
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-29 16:40:23.412
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-29 16:40:23.531
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-29 16:40:37.186
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-29 16:40:37.186
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-29 16:40:37.190
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-29 16:40:37.193
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-29 16:40:37.659
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-29 16:40:37.674
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-29 16:40:37.736
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-29 16:40:37.855
+!MESSAGE Has main method computation for project 'Authentication'
