@@ -8,6 +8,8 @@ import { Change } from "../../Styles/ChangingSecStyle";
 import Book from "../Pages/Book/Book";
 import Member from "../Pages/Member/Member";
 import Suppliers from "../Pages/SupplierPage/Suppliers";
+import DashBoardDesign from "../DashBoardDesign/DashBoardDesign";
+import IssueBook from "../Pages/IssueBook/IssueBook";
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 import "./DashBoardStyle.css";
 
@@ -117,10 +119,16 @@ const Dashboard = (props) => {
 											</Link>
 										</li>
 										<li className="sidebar-dropdown">
-											<a href="/issue-return-book">
+											<Link to="/issue-return-book">
 												<i className="fa fa-chart-line"></i>
 												<span>MemberBook</span>
-											</a>
+											</Link>
+										</li>
+										<li className="sidebar-dropdown">
+											<Link to="/supplier">
+												<i className="fa fa-chart-line"></i>
+												<span>Suppler</span>
+											</Link>
 										</li>
 									</ul>
 								</div>
@@ -132,9 +140,11 @@ const Dashboard = (props) => {
 				</SideBarSec>
 				<Switch>
 					<Change>
+						<Route exact path="/dashboard" component={DashBoardDesign} />
 						<Route exact path="/book" component={Book} />
 						<Route exact path="/member" component={Member} />
-						<Route exact path="/dashboard" component={Suppliers} />
+						<Route exact path="/issue-return-book" component={IssueBook} />
+						<Route exact path="/supplier" component={Suppliers} />
 					</Change>
 				</Switch>
 			</BrowserRouter>
