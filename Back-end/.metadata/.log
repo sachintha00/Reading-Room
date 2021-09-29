@@ -5509,3 +5509,144 @@ java.lang.InterruptedException
 
 !ENTRY Activator 1 0 2021-09-29 16:47:40.102
 !MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-29 16:49:02.288
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-29 16:49:02.288
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-29 16:49:02.289
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-29 16:49:02.289
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-29 16:49:03.070
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-29 16:49:03.153
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-29 16:49:03.258
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-29 16:49:03.304
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-29 16:49:55.862
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-29 16:49:55.863
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-29 16:49:55.864
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-29 16:49:55.864
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-29 16:49:56.635
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-29 16:49:56.662
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-29 16:49:56.663
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-29 16:49:56.683
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY org.eclipse.jface 2 0 2021-09-29 16:50:11.366
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-09-29 16:50:11.366
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@bd90ef8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1eb3ca7a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY Activator 1 0 2021-09-29 16:50:36.781
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-29 16:50:36.783
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-29 16:50:36.827
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-29 16:50:36.838
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-29 16:50:37.438
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-29 16:50:37.439
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-29 16:50:37.439
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-29 16:50:37.440
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-29 16:50:37.669
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-29 16:50:37.690
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-29 16:50:37.703
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-29 16:50:37.881
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-29 16:50:39.975
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-29 16:50:39.975
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-29 16:50:39.977
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-29 16:50:39.978
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-29 16:50:50.900
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-29 16:50:50.901
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-29 16:50:50.903
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-29 16:50:50.998
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-29 16:50:51.846
+!MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY Activator 1 0 2021-09-29 16:50:51.847
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-29 16:50:51.853
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-29 16:50:51.948
+!MESSAGE Has main method computation for project 'BookService'
