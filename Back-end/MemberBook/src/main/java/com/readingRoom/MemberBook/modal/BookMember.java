@@ -1,13 +1,16 @@
 package com.readingRoom.MemberBook.modal;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
 public class BookMember {
 	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private long bookMemberId;
 	private long bookId;
-	@Id
 	private long memberId;
 	private String bookName;
 	private String memberName;
