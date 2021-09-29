@@ -12,7 +12,12 @@ import EditMember from "../../EditMember/EditMember";
 export default class componentName extends Component {
 	constructor(props) {
 		super(props);
-		this.state = { memb: [], addMemberShow: false, updateMemberShow: false };
+		this.state = {
+			memb: [],
+			addMemberShow: false,
+			updateMemberShow: false,
+			searchMember: "",
+		};
 	}
 
 	componentDidMount() {
@@ -58,6 +63,7 @@ export default class componentName extends Component {
 			memberMobile,
 			memberGmail,
 		} = this.state;
+		const searchItem = this.state.searchMember;
 		let addMemberClose = () => this.setState({ addMemberShow: false });
 		let updateMemberClose = () => this.setState({ updateMemberShow: false });
 		return (
@@ -75,7 +81,14 @@ export default class componentName extends Component {
 					<form className="mb-5">
 						<div class="form-row">
 							<div class="col-5">
-								<input type="text" class="form-control" placeholder="Search" />
+								<input
+									type="text"
+									class="form-control"
+									placeholder="Search"
+									onChange={(e) =>
+										this.setState({ searchMember: e.target.value })
+									}
+								/>
 							</div>
 							<div class="col-2">
 								<ButtonToolbar>
@@ -107,54 +120,66 @@ export default class componentName extends Component {
 								</tr>
 							</thead>
 							<tbody>
-								{memb.map((memb) => (
-									<tr>
-										<td>{memb.memberId}</td>
-										<td>{memb.memberName}</td>
-										<td>{memb.memberNic}</td>
-										<td>{memb.memberAddress}</td>
-										<td>{memb.memberMobile}</td>
-										<td>{memb.memberGmail}</td>
-										<td>
-											<ButtonToolbar>
-												<Button
-													className="mr-2"
-													variant="info"
-													onClick={() =>
-														this.setState({
-															updateMemberShow: true,
-															memberId: memb.memberId,
-															memberName: memb.memberName,
-															memberNic: memb.memberNic,
-															memberAddress: memb.memberAddress,
-															memberMobile: memb.memberMobile,
-															memberGmail: memb.memberGmail,
-														})
-													}
-												>
-													Edit
-												</Button>
-												<Button
-													className="mr-2"
-													variant="danger"
-													onClick={() => this.deleteMember(memb.memberId)}
-												>
-													Delete
-												</Button>
-												<EditMember
-													show={this.state.updateMemberShow}
-													onHide={updateMemberClose}
-													memberId={memberId}
-													memberName={memberName}
-													memberNic={memberNic}
-													memberAddress={memberAddress}
-													memberMobile={memberMobile}
-													memberGmail={memberGmail}
-												/>
-											</ButtonToolbar>
-										</td>
-									</tr>
-								))}
+								{memb
+									.filter((memb) => {
+										if (searchItem === "") {
+											return memb;
+										} else if (
+											memb.memberName
+												.toLowerCase()
+												.includes(searchItem.toLowerCase())
+										) {
+											return memb;
+										}
+									})
+									.map((memb) => (
+										<tr>
+											<td>{memb.memberId}</td>
+											<td>{memb.memberName}</td>
+											<td>{memb.memberNic}</td>
+											<td>{memb.memberAddress}</td>
+											<td>{memb.memberMobile}</td>
+											<td>{memb.memberGmail}</td>
+											<td>
+												<ButtonToolbar>
+													<Button
+														className="mr-2"
+														variant="info"
+														onClick={() =>
+															this.setState({
+																updateMemberShow: true,
+																memberId: memb.memberId,
+																memberName: memb.memberName,
+																memberNic: memb.memberNic,
+																memberAddress: memb.memberAddress,
+																memberMobile: memb.memberMobile,
+																memberGmail: memb.memberGmail,
+															})
+														}
+													>
+														Edit
+													</Button>
+													<Button
+														className="mr-2"
+														variant="danger"
+														onClick={() => this.deleteMember(memb.memberId)}
+													>
+														Delete
+													</Button>
+													<EditMember
+														show={this.state.updateMemberShow}
+														onHide={updateMemberClose}
+														memberId={memberId}
+														memberName={memberName}
+														memberNic={memberNic}
+														memberAddress={memberAddress}
+														memberMobile={memberMobile}
+														memberGmail={memberGmail}
+													/>
+												</ButtonToolbar>
+											</td>
+										</tr>
+									))}
 							</tbody>
 						</table>
 					</div>

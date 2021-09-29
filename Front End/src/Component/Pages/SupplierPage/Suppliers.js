@@ -12,7 +12,12 @@ import EditSupplier from "../../EditSupplier/EditSupplier";
 export default class componentName extends Component {
 	constructor(props) {
 		super(props);
-		this.state = { memb: [], addMemberShow: false, updateMemberShow: false };
+		this.state = {
+			supp: [],
+			addSupplierShow: false,
+			updatesupperShow: false,
+			searchSupplier: "",
+		};
 	}
 
 	componentDidMount() {
@@ -26,7 +31,7 @@ export default class componentName extends Component {
 		fetch("http://localhost:8082/suppler-service/suppliers")
 			.then((response) => response.json())
 			.then((data) => {
-				this.setState({ memb: data });
+				this.setState({ supp: data });
 			});
 	}
 
@@ -42,10 +47,11 @@ export default class componentName extends Component {
 		}
 	}
 	render() {
-			const { memb, supplierId, name, nic, mobileNumber, description } =
+		const { supp, supplierId, name, nic, mobileNumber, description } =
 			this.state;
-		let addMemberClose = () => this.setState({ addMemberShow: false });
-		let updateMemberClose = () => this.setState({ updateMemberShow: false });
+		const searchItem = this.state.searchSupplier;
+		let addsupperClose = () => this.setState({ addsupperShow: false });
+		let updatesupperClose = () => this.setState({ updatesupperShow: false });
 		return (
 			<>
 				<TitleSection>
@@ -61,18 +67,25 @@ export default class componentName extends Component {
 					<form className="mb-5">
 						<div class="form-row">
 							<div class="col-5">
-								<input type="text" class="form-control" placeholder="Search" />
+								<input
+									type="text"
+									class="form-control"
+									placeholder="Search"
+									onChange={(e) =>
+										this.setState({ searchSupplier: e.target.value })
+									}
+								/>
 							</div>
 							<div class="col-2">
 								<ButtonToolbar>
 									<Button
-										onClick={() => this.setState({ addMemberShow: true })}
+										onClick={() => this.setState({ addsupperShow: true })}
 									>
 										Add Supplier
 									</Button>
 									<AddSupplier
-										show={this.state.addMemberShow}
-										onHide={addMemberClose}
+										show={this.state.addsupperShow}
+										onHide={addsupperClose}
 									/>
 								</ButtonToolbar>
 							</div>
@@ -92,51 +105,61 @@ export default class componentName extends Component {
 								</tr>
 							</thead>
 							<tbody>
-								{memb.map((memb) => (
-									<tr>
-										<td>{memb.supplierId}</td>
-										<td>{memb.name}</td>
-										<td>{memb.nic}</td>
-										<td>{memb.mobileNumber}</td>
-										<td>{memb.description}</td>
-										<td>
-											<ButtonToolbar>
-												<Button
-													className="mr-2"
-													variant="info"
-													onClick={() =>
-														this.setState({
-															updateMemberShow: true,
-															supplierId: memb.supplierId,
-															name: memb.name,
-															nic: memb.nic,
-															mobileNumber: memb.mobileNumber,
-															description: memb.description,
-														})
-													}
-												>
-													Edit
-												</Button>
-												<Button
-													className="mr-2"
-													variant="danger"
-													onClick={() => this.deleteSuppler(memb.supplierId)}
-												>
-													Delete
-												</Button>
-												<EditSupplier
-													show={this.state.updateMemberShow}
-													onHide={updateMemberClose}
-													supplierId={supplierId}
-													name={name}
-													nic={nic}
-													mobileNumber={mobileNumber}
-													description={description}
-												/>
-											</ButtonToolbar>
-										</td>
-									</tr>
-								))}
+								{supp
+									.filter((supp) => {
+										if (searchItem === "") {
+											return supp;
+										} else if (
+											supp.name.toLowerCase().includes(searchItem.toLowerCase())
+										) {
+											return supp;
+										}
+									})
+									.map((supp) => (
+										<tr>
+											<td>{supp.supplierId}</td>
+											<td>{supp.name}</td>
+											<td>{supp.nic}</td>
+											<td>{supp.mobileNumber}</td>
+											<td>{supp.description}</td>
+											<td>
+												<ButtonToolbar>
+													<Button
+														className="mr-2"
+														variant="info"
+														onClick={() =>
+															this.setState({
+																updateSupplierShow: true,
+																supplierId: supp.supplierId,
+																name: supp.name,
+																nic: supp.nic,
+																mobileNumber: supp.mobileNumber,
+																description: supp.description,
+															})
+														}
+													>
+														Edit
+													</Button>
+													<Button
+														className="mr-2"
+														variant="danger"
+														onClick={() => this.deleteSuppler(supp.supplierId)}
+													>
+														Delete
+													</Button>
+													<EditSupplier
+														show={this.state.updatesupperShow}
+														onHide={updatesupperClose}
+														supplierId={supplierId}
+														name={name}
+														nic={nic}
+														mobileNumber={mobileNumber}
+														description={description}
+													/>
+												</ButtonToolbar>
+											</td>
+										</tr>
+									))}
 							</tbody>
 						</table>
 					</div>
