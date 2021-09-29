@@ -23,29 +23,19 @@ public class Book {
 	private String bookType;
 	private String medium;
 	private String AuthorName;
-	
-//	@JsonIgnore
-//	@ManyToOne(fetch = FetchType.LAZY, optional = false)
-//	@JoinColumn(name = "supplier_id",nullable = true)
-//	private Supplier supplier;
-	
-	
+	private long supplierId;
 	public Book() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	
-	public Book(String iSBN, String bookName, String bookType, String medium, String authorName) {
+	public Book(String iSBN, String bookName, String bookType, String medium, String authorName, long supplierId) {
 		super();
 		ISBN = iSBN;
 		this.bookName = bookName;
 		this.bookType = bookType;
 		this.medium = medium;
 		AuthorName = authorName;
-	}
-	
-	public long getBookId() {
-		return bookId;
+		this.supplierId = supplierId;
 	}
 	public String getISBN() {
 		return ISBN;
@@ -77,11 +67,26 @@ public class Book {
 	public void setAuthorName(String authorName) {
 		AuthorName = authorName;
 	}
+	public long getSupplierId() {
+		return supplierId;
+	}
+	public void setSupplierId(long supplierId) {
+		this.supplierId = supplierId;
+	}
+	public long getBookId() {
+		return bookId;
+	}
 	@Override
 	public String toString() {
 		return "Book [bookId=" + bookId + ", ISBN=" + ISBN + ", bookName=" + bookName + ", bookType=" + bookType
-				+ ", medium=" + medium + ", AuthorName=" + AuthorName + "]";
+				+ ", medium=" + medium + ", AuthorName=" + AuthorName + ", supplierId=" + supplierId + "]";
 	}
+	
+//	@JsonIgnore
+//	@ManyToOne(fetch = FetchType.LAZY, optional = false)
+//	@JoinColumn(name = "supplier_id",nullable = true)
+//	private Supplier supplier;
+	
 	
 	
 	
