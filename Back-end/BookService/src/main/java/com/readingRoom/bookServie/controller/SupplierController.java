@@ -17,7 +17,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.readingRoom.bookServie.dto.BookSupplier;
-import com.readingRoom.bookServie.model.Book;
 import com.readingRoom.bookServie.model.Supplier;
 import com.readingRoom.bookServie.service.SupplierService;
 
