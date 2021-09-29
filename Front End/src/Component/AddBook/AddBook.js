@@ -92,7 +92,7 @@ export default class componentName extends Component {
 							<Row className="mb-3">
 								<Form.Group as={Col} controlId="formGridType">
 									<Form.Control as="select" name="bookType">
-										<option value="1">1</option>
+										<option value="">Select Book Type...</option>
 										<option value="1">1</option>
 										<option value="1">1</option>
 										<option value="1">1</option>
@@ -100,6 +100,7 @@ export default class componentName extends Component {
 								</Form.Group>
 								<Form.Group as={Col} controlId="formGridMedium">
 									<Form.Control as="select" name="medium">
+										<option value="">Select Medium...</option>
 										<option value="English">English</option>
 										<option value="Sinhala">Sinhala</option>
 										<option value="Tamil">Tamil</option>
@@ -113,6 +114,9 @@ export default class componentName extends Component {
 										placeholder="Author Name"
 										name="authorName"
 									/>
+								</Form.Group>
+								<Form.Group as={Col} controlId="formGridIsbn">
+									<Form.Control type="text" placeholder="ISBN" name="isbn" />
 								</Form.Group>
 							</Row>
 							<Row className="mb-3">
