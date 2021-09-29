@@ -7,11 +7,12 @@ import {
 } from "../../../Styles/CommonStyle";
 import { Button, ButtonToolbar } from "react-bootstrap";
 import AddBook from "../../AddBook/AddBook";
+import EditBook from "../../EditBook/EditBook";
 
 export default class componentName extends Component {
 	constructor(props) {
 		super(props);
-		this.state = { memb: [], addMemberShow: false, updateMemberShow: false };
+		this.state = { memb: [], addBookShow: false, updateBookShow: false };
 	}
 
 	componentDidMount() {
@@ -44,15 +45,15 @@ export default class componentName extends Component {
 	render() {
 		const {
 			memb,
-			memberId,
-			memberName,
-			memberNic,
-			memberAddress,
-			memberMobile,
+			bookId,
+			bookName,
+			bookType,
+			medium,
+			authorName,
 			memberGmail,
 		} = this.state;
-		let addMemberClose = () => this.setState({ addMemberShow: false });
-		let updateMemberClose = () => this.setState({ updateMemberShow: false });
+		let addBookClose = () => this.setState({ addBookShow: false });
+		let updateBookClose = () => this.setState({ updateBookShow: false });
 		return (
 			<>
 				<TitleSection>
@@ -73,13 +74,13 @@ export default class componentName extends Component {
 							<div class="col-2">
 								<ButtonToolbar>
 									<Button
-										onClick={() => this.setState({ addMemberShow: true })}
+										onClick={() => this.setState({ addBookShow: true })}
 									>
 										Add Member
 									</Button>
 									<AddBook
-										show={this.state.addMemberShow}
-										onHide={addMemberClose}
+										show={this.state.addBookShow}
+										onHide={addBookClose}
 									/>
 								</ButtonToolbar>
 							</div>
@@ -115,7 +116,7 @@ export default class componentName extends Component {
 													variant="info"
 													onClick={() =>
 														this.setState({
-															updateMemberShow: true,
+															updateBookShow: true,
 															bookId: memb.bookId,
 															isbn: memb.isbn,
 															bookName: memb.bookName,
@@ -134,16 +135,16 @@ export default class componentName extends Component {
 												>
 													Delete
 												</Button>
-												{/* <EditMember
-											show={this.state.updateMemberShow}
-											onHide={updateMemberClose}
-											memberId={memberId}
-											memberName={memberName}
-											memberNic={memberNic}
-											memberAddress={memberAddress}
-											memberMobile={memberMobile}
+												<EditBook
+											show={this.state.updateBookShow}
+											onHide={updateBookClose}
+											bookId={bookId}
+											bookName={bookName}
+											bookType={bookType}
+											medium={medium}
+											authorName={authorName}
 											memberGmail={memberGmail}
-										/> */}
+										/>
 											</ButtonToolbar>
 										</td>
 									</tr>

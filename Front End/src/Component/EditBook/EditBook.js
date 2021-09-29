@@ -52,7 +52,8 @@ export default class componentName extends Component {
 						<Form onSubmit={this.handleSubmit}>
                         <Row className="mb-3">
 								<Form.Group as={Col} controlId="formGridSuppId">
-									<Form.Control as="select" name="supplierId">
+									<Form.Control as="select" name="supplierId"
+									defaultValue={this.props}>
 										<option defaultValue="Choose...">
 											SELECT SUPPLIER ID...
 										</option>
@@ -68,6 +69,7 @@ export default class componentName extends Component {
 										type="text"
 										placeholder="Book ID"
 										name="bookId"
+										defaultValue={this.props}
 									/>
 								</Form.Group>
 								<Form.Group as={Col} controlId="formGridName">
@@ -75,12 +77,14 @@ export default class componentName extends Component {
 										type="text"
 										placeholder="Book Title"
 										name="bookName"
+										defaultValue={this.props}
 									/>
 								</Form.Group>
 							</Row>
 							<Row className="mb-3">
 								<Form.Group as={Col} controlId="formGridType">
-									<Form.Control as="select" name="bookType">
+									<Form.Control as="select" name="bookType"
+									defaultValue={this.props}>
 										<option value="">Select Book Type...</option>
 										<option value="1">1</option>
 										<option value="1">1</option>
@@ -88,7 +92,8 @@ export default class componentName extends Component {
 									</Form.Control>
 								</Form.Group>
 								<Form.Group as={Col} controlId="formGridMedium">
-									<Form.Control as="select" name="medium">
+									<Form.Control as="select" name="medium"
+									defaultValue={this.props}>
 										<option value="">Select Medium...</option>
 										<option value="English">English</option>
 										<option value="Sinhala">Sinhala</option>
@@ -102,10 +107,12 @@ export default class componentName extends Component {
 										type="text"
 										placeholder="Author Name"
 										name="authorName"
+										defaultValue={this.props}
 									/>
 								</Form.Group>
 								<Form.Group as={Col} controlId="formGridIsbn">
-									<Form.Control type="text" placeholder="ISBN" name="isbn" />
+									<Form.Control type="text" placeholder="ISBN" name="isbn"
+									defaultValue={this.props} />
 								</Form.Group>
 							</Row>
 							<Row className="mb-3">
