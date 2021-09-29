@@ -7,14 +7,14 @@ import com.readingRoom.MemberBook.modal.MemberBook;
 
 public interface MemberBookService {
 
-	List<MemberBook> getAllMembersAndBooks();
+	public List<MemberBook> getAllMembersAndBooks();
 
-	Optional<MemberBook> getMemberWithBook(long mbId);
+	public Optional<MemberBook> getMemberWithBook(long mbId);
 
-	MemberBook addMemberBook(MemberBook memberBook);
+	public MemberBook addMemberBook(MemberBook memberBook);
 
-	void removeMemberBook(long parseLong);
+	public void removeMemberBook(long parseLong);
 
-	MemberBook updateMemberBook(MemberBook memberBook);
+	public MemberBook updateMemberBook(MemberBook memberBook);
 
 }

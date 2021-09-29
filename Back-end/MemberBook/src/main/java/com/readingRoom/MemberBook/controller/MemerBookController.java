@@ -33,7 +33,7 @@ public class MemerBookController {
 	}
 	
 	@GetMapping("/member-books")
-	public List<MemberBook> getAllBooks() {
+	public List<MemberBook> getAllMembersAndBooks() {
 		return this.mbService.getAllMembersAndBooks();
 	}
 	

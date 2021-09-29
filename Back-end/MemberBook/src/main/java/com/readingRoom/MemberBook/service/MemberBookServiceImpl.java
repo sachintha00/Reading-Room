@@ -3,41 +3,44 @@ package com.readingRoom.MemberBook.service;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.readingRoom.MemberBook.modal.MemberBook;
+import com.readingRoom.MemberBook.repository.MemberBookRepo;
 
 @Service
 public class MemberBookServiceImpl implements MemberBookService {
 
+	@Autowired
+	private MemberBookRepo memberBookRepo;
+
 	@Override
 	public List<MemberBook> getAllMembersAndBooks() {
-		// TODO Auto-generated method stub
-		return null;
+		return memberBookRepo.findAll();
 	}
 
 	@Override
 	public Optional<MemberBook> getMemberWithBook(long mbId) {
-		// TODO Auto-generated method stub
-		return null;
+		return memberBookRepo.findById(mbId);
 	}
 
 	@Override
 	public MemberBook addMemberBook(MemberBook memberBook) {
-		// TODO Auto-generated method stub
-		return null;
+		memberBookRepo.save(memberBook);
+		return memberBook;
 	}
 
 	@Override
 	public void removeMemberBook(long parseLong) {
-		// TODO Auto-generated method stub
+		memberBookRepo.deleteById(parseLong);
 		
 	}
 
 	@Override
 	public MemberBook updateMemberBook(MemberBook memberBook) {
-		// TODO Auto-generated method stub
-		return null;
+		memberBookRepo.save(memberBook);
+		return memberBook;
 	}
 
 }
