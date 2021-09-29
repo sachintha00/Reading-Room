@@ -117,15 +117,9 @@ const Dashboard = (props) => {
 											</Link>
 										</li>
 										<li className="sidebar-dropdown">
-											<a href="#">
+											<a href="/issue-return-book">
 												<i className="fa fa-chart-line"></i>
-												<span>Charts</span>
-											</a>
-										</li>
-										<li className="sidebar-dropdown">
-											<a href="#">
-												<i className="fa fa-globe"></i>
-												<span>Maps</span>
+												<span>MemberBook</span>
 											</a>
 										</li>
 									</ul>
