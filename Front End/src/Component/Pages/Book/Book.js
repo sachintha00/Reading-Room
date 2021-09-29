@@ -12,7 +12,7 @@ import EditBook from "../../EditBook/EditBook";
 export default class componentName extends Component {
 	constructor(props) {
 		super(props);
-		this.state = { memb: [], addBookShow: false, updateBookShow: false };
+		this.state = { books: [], addBookShow: false, updateBookShow: false };
 	}
 
 	componentDidMount() {
@@ -26,7 +26,7 @@ export default class componentName extends Component {
 		fetch("http://localhost:8082/book-service/books")
 			.then((response) => response.json())
 			.then((data) => {
-				this.setState({ memb: data });
+				this.setState({ books: data });
 			});
 	}
 
@@ -44,13 +44,14 @@ export default class componentName extends Component {
 
 	render() {
 		const {
-			memb,
+			books,
 			bookId,
 			bookName,
 			bookType,
 			medium,
 			authorName,
-			memberGmail,
+			bookserGmail,
+			supplierId,
 		} = this.state;
 		let addBookClose = () => this.setState({ addBookShow: false });
 		let updateBookClose = () => this.setState({ updateBookShow: false });
@@ -73,10 +74,8 @@ export default class componentName extends Component {
 							</div>
 							<div class="col-2">
 								<ButtonToolbar>
-									<Button
-										onClick={() => this.setState({ addBookShow: true })}
-									>
-										Add Member
+									<Button onClick={() => this.setState({ addBookShow: true })}>
+										Add bookser
 									</Button>
 									<AddBook
 										show={this.state.addBookShow}
@@ -101,14 +100,14 @@ export default class componentName extends Component {
 								</tr>
 							</thead>
 							<tbody>
-								{memb.map((memb) => (
+								{books.map((books) => (
 									<tr>
-										<td>{memb.bookId}</td>
-										<td>{memb.isbn}</td>
-										<td>{memb.bookName}</td>
-										<td>{memb.bookType}</td>
-										<td>{memb.medium}</td>
-										<td>{memb.authorName}</td>
+										<td>{books.bookId}</td>
+										<td>{books.isbn}</td>
+										<td>{books.bookName}</td>
+										<td>{books.bookType}</td>
+										<td>{books.medium}</td>
+										<td>{books.authorName}</td>
 										<td>
 											<ButtonToolbar>
 												<Button
@@ -117,12 +116,13 @@ export default class componentName extends Component {
 													onClick={() =>
 														this.setState({
 															updateBookShow: true,
-															bookId: memb.bookId,
-															isbn: memb.isbn,
-															bookName: memb.bookName,
-															bookType: memb.bookType,
-															medium: memb.medium,
-															authorName: memb.authorName,
+															bookId: books.bookId,
+															isbn: books.isbn,
+															bookName: books.bookName,
+															bookType: books.bookType,
+															medium: books.medium,
+															authorName: books.authorName,
+															supplierId: books.supplierId,
 														})
 													}
 												>
@@ -131,20 +131,21 @@ export default class componentName extends Component {
 												<Button
 													className="mr-2"
 													variant="danger"
-													onClick={() => this.deleteBook(memb.bookId)}
+													onClick={() => this.deleteBook(books.bookId)}
 												>
 													Delete
 												</Button>
 												<EditBook
-											show={this.state.updateBookShow}
-											onHide={updateBookClose}
-											bookId={bookId}
-											bookName={bookName}
-											bookType={bookType}
-											medium={medium}
-											authorName={authorName}
-											memberGmail={memberGmail}
-										/>
+													show={this.state.updateBookShow}
+													onHide={updateBookClose}
+													bookId={bookId}
+													bookName={bookName}
+													bookType={bookType}
+													medium={medium}
+													authorName={authorName}
+													bookserGmail={bookserGmail}
+													supplierId={supplierId}
+												/>
 											</ButtonToolbar>
 										</td>
 									</tr>
