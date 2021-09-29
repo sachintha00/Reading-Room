@@ -6,7 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class BookMember {
+public class MemberBook {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long bookMemberId;
@@ -16,11 +16,11 @@ public class BookMember {
 	private String memberName;
 	private String issueDate;
 	private String returnDate;
-	public BookMember() {
+	public MemberBook() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public BookMember(long bookId, long memberId, String bookName, String memberName, String issueDate,
+	public MemberBook(long bookId, long memberId, String bookName, String memberName, String issueDate,
 			String returnDate) {
 		super();
 		this.bookId = bookId;
