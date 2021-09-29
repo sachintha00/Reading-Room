@@ -52,6 +52,7 @@ export default class componentName extends Component {
 			authorName,
 			bookserGmail,
 			supplierId,
+			isbn,
 		} = this.state;
 		let addBookClose = () => this.setState({ addBookShow: false });
 		let updateBookClose = () => this.setState({ updateBookShow: false });
@@ -145,6 +146,7 @@ export default class componentName extends Component {
 													authorName={authorName}
 													bookserGmail={bookserGmail}
 													supplierId={supplierId}
+													isbn={isbn}
 												/>
 											</ButtonToolbar>
 										</td>

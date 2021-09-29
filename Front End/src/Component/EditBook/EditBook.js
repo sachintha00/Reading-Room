@@ -1,8 +1,26 @@
 import React, { Component } from "react";
+import { Modal, Button, Row, Col, Form } from "react-bootstrap";
 
 export default class componentName extends Component {
 	constructor(props) {
 		super(props);
+		this.state = {
+			supp: [],
+		};
+	}
+	componentDidMount() {
+		this.refreshList();
+	}
+	componentDidUpdate() {
+		this.refreshList();
+	}
+
+	refreshList() {
+		fetch("http://localhost:8082/suppler-service/suppliers")
+			.then((response) => response.json())
+			.then((data) => {
+				this.setState({ supp: data });
+			});
 	}
 	handleSubmit(event) {
 		event.preventDefault();
@@ -50,10 +68,13 @@ export default class componentName extends Component {
 					<h4>Centered Modal</h4>
 					<div className="Container">
 						<Form onSubmit={this.handleSubmit}>
-                        <Row className="mb-3">
+							<Row className="mb-3">
 								<Form.Group as={Col} controlId="formGridSuppId">
-									<Form.Control as="select" name="supplierId"
-									defaultValue={this.props}>
+									<Form.Control
+										as="select"
+										name="supplierId"
+										defaultValue={this.props.supplierId}
+									>
 										<option defaultValue="Choose...">
 											SELECT SUPPLIER ID...
 										</option>
@@ -64,12 +85,13 @@ export default class componentName extends Component {
 								</Form.Group>
 							</Row>
 							<Row className="mb-3">
-                            <Form.Group as={Col} controlId="formGridBookId">
+								<Form.Group as={Col} controlId="formGridBookId">
 									<Form.Control
 										type="text"
 										placeholder="Book ID"
 										name="bookId"
-										defaultValue={this.props}
+										disabled
+										defaultValue={this.props.bookId}
 									/>
 								</Form.Group>
 								<Form.Group as={Col} controlId="formGridName">
@@ -77,14 +99,17 @@ export default class componentName extends Component {
 										type="text"
 										placeholder="Book Title"
 										name="bookName"
-										defaultValue={this.props}
+										defaultValue={this.props.bookName}
 									/>
 								</Form.Group>
 							</Row>
 							<Row className="mb-3">
 								<Form.Group as={Col} controlId="formGridType">
-									<Form.Control as="select" name="bookType"
-									defaultValue={this.props}>
+									<Form.Control
+										as="select"
+										name="bookType"
+										defaultValue={this.props.bookType}
+									>
 										<option value="">Select Book Type...</option>
 										<option value="1">1</option>
 										<option value="1">1</option>
@@ -92,8 +117,11 @@ export default class componentName extends Component {
 									</Form.Control>
 								</Form.Group>
 								<Form.Group as={Col} controlId="formGridMedium">
-									<Form.Control as="select" name="medium"
-									defaultValue={this.props}>
+									<Form.Control
+										as="select"
+										name="medium"
+										defaultValue={this.props.medium}
+									>
 										<option value="">Select Medium...</option>
 										<option value="English">English</option>
 										<option value="Sinhala">Sinhala</option>
@@ -107,12 +135,16 @@ export default class componentName extends Component {
 										type="text"
 										placeholder="Author Name"
 										name="authorName"
-										defaultValue={this.props}
+										defaultValue={this.props.authorName}
 									/>
 								</Form.Group>
 								<Form.Group as={Col} controlId="formGridIsbn">
-									<Form.Control type="text" placeholder="ISBN" name="isbn"
-									defaultValue={this.props} />
+									<Form.Control
+										type="text"
+										placeholder="ISBN"
+										name="isbn"
+										defaultValue={this.props.isbn}
+									/>
 								</Form.Group>
 							</Row>
 							<Row className="mb-3">
