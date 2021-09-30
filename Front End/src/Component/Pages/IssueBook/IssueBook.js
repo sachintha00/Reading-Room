@@ -6,6 +6,7 @@ import {
 	TableSection,
 } from "../../../Styles/CommonStyle";
 import { Button, ButtonToolbar } from "react-bootstrap";
+import AddIssueBook from "../../AddIssueBook/AddIssueBook";
 
 export default class componentName extends Component {
 	constructor(props) {
@@ -87,10 +88,10 @@ export default class componentName extends Component {
 									<Button onClick={() => this.setState({ addBookShow: true })}>
 										Add bookser
 									</Button>
-									{/* <AddBook
+									<AddIssueBook
 										show={this.state.addBookShow}
 										onHide={addBookClose}
-									/> */}
+									/>
 								</ButtonToolbar>
 							</div>
 						</div>
