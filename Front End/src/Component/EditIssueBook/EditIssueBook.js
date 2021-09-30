@@ -129,6 +129,7 @@ export default class componentName extends Component {
 										type="text"
 										placeholder="Enter Member ID"
 										name="memberId"
+										defaultValue={this.props.memberId}
 										onChange={this.findMemberName}
 									/>
 								</Form.Group>
