@@ -1,15 +1,23 @@
 import React, { Component } from "react";
+import {
+	DashBoardSection,
+	Reactangle,
+} from "../../Styles/DashBoardStyleComponent";
 
 export default class componentName extends Component {
 	render() {
 		return (
 			<>
-				<main class="page-content">
-					<div class="container">
-						<h2>Pro Sidebar</h2>
-						<hr />
+				<DashBoardSection>
+					<h2>Pro Sidebar</h2>
+					<hr />
+					<div style={{ display: "flex" }}>
+						<Reactangle></Reactangle>
+						<Reactangle></Reactangle>
+						<Reactangle></Reactangle>
+						<Reactangle></Reactangle>
 					</div>
-				</main>
+				</DashBoardSection>
 			</>
 		);
 	}
