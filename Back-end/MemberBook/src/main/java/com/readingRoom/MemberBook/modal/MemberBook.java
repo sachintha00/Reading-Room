@@ -66,6 +66,10 @@ public class MemberBook {
 	public void setReturnDate(String returnDate) {
 		this.returnDate = returnDate;
 	}
+	
+	public long getBookMemberId() {
+		return bookMemberId;
+	}
 	@Override
 	public String toString() {
 		return "BookMember [bookId=" + bookId + ", memberId=" + memberId + ", bookName=" + bookName + ", memberName="

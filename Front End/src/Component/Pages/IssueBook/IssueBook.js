@@ -33,9 +33,9 @@ export default class componentName extends Component {
 			});
 	}
 
-	deleteIssueBook(bookId) {
+	deleteIssueBook(bookMemberId) {
 		if (window.confirm("are you shure")) {
-			fetch(`http://localhost:8084/book-service/book/${bookId}`, {
+			fetch(`http://localhost:8084/book-service/member-book/1`, {
 				method: "DELETE",
 				headers: {
 					Accept: "application/json",
@@ -55,6 +55,7 @@ export default class componentName extends Component {
 			bookserGmail,
 			supplierId,
 			isbn,
+			bookMemberId,
 		} = this.state;
 		const searchItem = this.state.searchTitle;
 		let addBookClose = () => this.setState({ addBookShow: false });
@@ -102,35 +103,35 @@ export default class componentName extends Component {
 							<thead>
 								<tr>
 									<th scope="col">Book ID</th>
-									<th scope="col">ISBN</th>
-									<th scope="col">Book Title</th>
-									<th scope="col">Book Type</th>
-									<th scope="col">Medium</th>
-									<th scope="col">Auther Name</th>
+									<th scope="col">Member ID</th>
+									<th scope="col">Book Name</th>
+									<th scope="col">Member Name</th>
+									<th scope="col">Issue Date</th>
+									<th scope="col">Return Date</th>
 									<th scope="col">Options</th>
 								</tr>
 							</thead>
 							<tbody>
 								{books
-									.filter((book) => {
+									.filter((issueBook) => {
 										if (searchItem === "") {
-											return books;
+											return issueBook;
 										} else if (
-											book.bookName
+											issueBook.bookName
 												.toLowerCase()
 												.includes(searchItem.toLowerCase())
 										) {
-											return books;
+											return issueBook;
 										}
 									})
-									.map((book) => (
+									.map((issueBook) => (
 										<tr>
-											<td>{book.bookId}</td>
-											<td>{book.isbn}</td>
-											<td>{book.bookName}</td>
-											<td>{book.bookType}</td>
-											<td>{book.medium}</td>
-											<td>{book.authorName}</td>
+											<td>{issueBook.bookId}</td>
+											<td>{issueBook.memberId}</td>
+											<td>{issueBook.bookName}</td>
+											<td>{issueBook.memberName}</td>
+											<td>{issueBook.issueDate}</td>
+											<td>{issueBook.returnDate}</td>
 											<td>
 												<ButtonToolbar>
 													<Button
@@ -139,13 +140,13 @@ export default class componentName extends Component {
 														onClick={() =>
 															this.setState({
 																updateBookShow: true,
-																bookId: book.bookId,
-																isbn: book.isbn,
-																bookName: book.bookName,
-																bookType: book.bookType,
-																medium: book.medium,
-																authorName: book.authorName,
-																supplierId: book.supplierId,
+																bookId: issueBook.bookId,
+																memberId: issueBook.memberId,
+																bookName: issueBook.bookName,
+																memberName: issueBook.memberName,
+																issueDate: issueBook.issueDate,
+																returnDate: issueBook.returnDate,
+																bookMemberId: issueBook.bookMemberId,
 															})
 														}
 													>
@@ -154,7 +155,9 @@ export default class componentName extends Component {
 													<Button
 														className="mr-2"
 														variant="danger"
-														onClick={() => this.deleteBook(books.bookId)}
+														onClick={() =>
+															this.deleteIssueBook(issueBook.bookMemberId)
+														}
 													>
 														Delete
 													</Button>

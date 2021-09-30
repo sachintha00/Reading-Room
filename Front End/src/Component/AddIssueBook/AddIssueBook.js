@@ -58,7 +58,7 @@ export default class componentName extends Component {
 	handleSubmit(event) {
 		event.preventDefault();
 
-		fetch("http://localhost:8082/book-service/book", {
+		fetch("http://localhost:8084/book-member/member-book", {
 			method: "POST",
 			headers: {
 				Accept: "application/json",
@@ -132,7 +132,7 @@ export default class componentName extends Component {
 								<Form.Group as={Col} controlId="formGridMemberName">
 									<Form.Control
 										type="text"
-										placeholder="Book Title"
+										placeholder="Member Name"
 										name="memberName"
 										value={this.state.findMemberName}
 										disabled
@@ -144,9 +144,8 @@ export default class componentName extends Component {
 									<Form.Control
 										type="text"
 										name="issueDate"
-										value={`${
-											new Date().getMonth() + 1
-										}/${new Date().getDate()}/${new Date().getFullYear()}`}
+										value={`${new Date().getFullYear()}-${new Date().getMonth()+1}-${new Date().getDate()}`}
+										disabled
 									/>
 								</Form.Group>
 								<Form.Group as={Col} controlId="formGridReturnDate">
