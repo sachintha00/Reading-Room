@@ -6778,3 +6778,15 @@ java.lang.InterruptedException
 
 !ENTRY Activator 1 0 2021-09-29 17:29:25.635
 !MESSAGE Has main method computation for project 'MemberBook'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-29 21:35:07.035
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.bWsnpvsq
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-29 21:35:07.925
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.bWsnpvsq
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-29 21:35:07.968
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-29 21:35:07.968
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.bWsnpvsq => OK
