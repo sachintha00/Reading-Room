@@ -140,15 +140,20 @@ export default class componentName extends Component {
 								</Form.Group>
 							</Row>
 							<Row className="mb-3">
-								<Form.Group as={Col} controlId="formGridAuthor">
+								<Form.Group as={Col} controlId="formGridReturnDate">
 									<Form.Control
 										type="text"
-										placeholder="Author Name"
-										name="authorName"
+										placeholder="Return Date"
+										name="returnDate"
+										value={new Date().getDate()}
 									/>
 								</Form.Group>
-								<Form.Group as={Col} controlId="formGridIsbn">
-									<Form.Control type="text" placeholder="ISBN" name="isbn" />
+								<Form.Group as={Col} controlId="formGridReturnDate">
+									<Form.Control
+										type="date"
+										placeholder="Return Date"
+										name="returnDate"
+									/>
 								</Form.Group>
 							</Row>
 							<Row className="mb-3">
