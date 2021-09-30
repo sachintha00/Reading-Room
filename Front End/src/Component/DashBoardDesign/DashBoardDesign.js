@@ -5,6 +5,7 @@ import {
 	UIReactangle,
 	WorkReactangle,
 	LittleSquare,
+	Square,
 } from "../../Styles/DashBoardStyleComponent";
 
 export default class componentName extends Component {
@@ -12,7 +13,7 @@ export default class componentName extends Component {
 		return (
 			<>
 				<DashBoardSection>
-					<h2>Pro Sidebar</h2>
+					<h2>Reading Room</h2>
 					<hr />
 					<div style={{ display: "flex" }}>
 						<Reactangle>
@@ -29,7 +30,9 @@ export default class componentName extends Component {
 						</Reactangle>
 					</div>
 					<div style={{ display: "flex" }}>
-						<UIReactangle></UIReactangle>
+						<UIReactangle>
+							<Square></Square>
+						</UIReactangle>
 						<WorkReactangle></WorkReactangle>
 					</div>
 				</DashBoardSection>

@@ -68,8 +68,11 @@ const Dashboard = (props) => {
 						</a>
 						<nav id="sidebar" className="sidebar-wrapper">
 							<div className="sidebar-content">
+								<br />
 								<div className="sidebar-brand">
-									<a href="#">pro sidebar</a>
+									<a href="#" style={{ fontSize: "1.7rem" }}>
+										Reading Room
+									</a>
 									<div id="close-sidebar">
 										<i className="fas fa-times"></i>
 									</div>
@@ -96,6 +99,7 @@ const Dashboard = (props) => {
 								</div>
 								{/* <!-- sidebar-header  --> */}
 								<div className="sidebar-menu">
+									<br />
 									<ul>
 										<li className="header-menu">
 											<span>General</span>
@@ -123,6 +127,16 @@ const Dashboard = (props) => {
 												<i className="fa fa-chart-line"></i>
 												<span>MemberBook</span>
 											</Link>
+										</li>
+										<li className="sidebar-dropdown">
+											<Link to="/supplier">
+												<i className="fa fa-chart-line"></i>
+												<span>Suppler</span>
+											</Link>
+										</li>
+										<br />
+										<li className="header-menu">
+											<span>Other</span>
 										</li>
 										<li className="sidebar-dropdown">
 											<Link to="/supplier">
