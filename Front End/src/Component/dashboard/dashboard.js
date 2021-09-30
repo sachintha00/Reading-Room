@@ -84,8 +84,8 @@ const Dashboard = (props) => {
 									</div>
 									<div className="user-info">
 										<span className="user-name">
-											Jhon
-											<strong>Smith</strong>
+											{data.firstName}
+											<strong>{data.lastName}</strong>
 										</span>
 										<span className="user-role">Administrator</span>
 										<span className="user-status">
