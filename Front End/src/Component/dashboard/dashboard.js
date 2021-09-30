@@ -138,10 +138,10 @@ const Dashboard = (props) => {
 										<li className="header-menu">
 											<span>Other</span>
 										</li>
-										<li className="sidebar-dropdown">
+										<li className="sidebar-dropdown" onClick={() => logOut()}>
 											<Link to="/supplier">
 												<i className="fa fa-chart-line"></i>
-												<span>Suppler</span>
+												<span>Sign Out</span>
 											</Link>
 										</li>
 									</ul>
