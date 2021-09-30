@@ -35,7 +35,7 @@ export default class componentName extends Component {
 
 	deleteIssueBook(bookMemberId) {
 		if (window.confirm("are you shure")) {
-			fetch(`http://localhost:8084/book-service/member-book/1`, {
+			fetch(`http://localhost:8084/book-member/member-books/${bookMemberId}`, {
 				method: "DELETE",
 				headers: {
 					Accept: "application/json",
