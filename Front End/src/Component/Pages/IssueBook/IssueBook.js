@@ -7,6 +7,7 @@ import {
 } from "../../../Styles/CommonStyle";
 import { Button, ButtonToolbar } from "react-bootstrap";
 import AddIssueBook from "../../AddIssueBook/AddIssueBook";
+import EditIssueBook from "../../EditIssueBook/EditIssueBook";
 
 export default class componentName extends Component {
 	constructor(props) {
@@ -48,13 +49,10 @@ export default class componentName extends Component {
 		const {
 			books,
 			bookId,
+			memberId,
+			issueDate,
+			returnDate,
 			bookName,
-			bookType,
-			medium,
-			authorName,
-			bookserGmail,
-			supplierId,
-			isbn,
 			bookMemberId,
 		} = this.state;
 		const searchItem = this.state.searchTitle;
@@ -161,18 +159,16 @@ export default class componentName extends Component {
 													>
 														Delete
 													</Button>
-													{/* <EditBook
+													<EditIssueBook
 														show={this.state.updateBookShow}
 														onHide={updateBookClose}
 														bookId={bookId}
+														memberId={memberId}
 														bookName={bookName}
-														bookType={bookType}
-														medium={medium}
-														authorName={authorName}
-														bookserGmail={bookserGmail}
-														supplierId={supplierId}
-														isbn={isbn}
-													/> */}
+														issueDate={issueDate}
+														returnDate={returnDate}
+														bookMemberId={bookMemberId}
+													/>
 												</ButtonToolbar>
 											</td>
 										</tr>
