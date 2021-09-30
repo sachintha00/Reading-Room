@@ -25,7 +25,7 @@ export default class componentName extends Component {
 	}
 
 	refreshList() {
-		fetch("http://localhost:8082/book-service/books")
+		fetch("http://localhost:8084/book-member/member-books")
 			.then((response) => response.json())
 			.then((data) => {
 				this.setState({ books: data });
@@ -34,7 +34,7 @@ export default class componentName extends Component {
 
 	deleteIssueBook(bookId) {
 		if (window.confirm("are you shure")) {
-			fetch(`http://localhost:8082/book-service/book/${bookId}`, {
+			fetch(`http://localhost:8084/book-service/book/${bookId}`, {
 				method: "DELETE",
 				headers: {
 					Accept: "application/json",
