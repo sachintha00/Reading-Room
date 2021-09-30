@@ -10,6 +10,8 @@ export default class componentName extends Component {
 			findBookName: "",
 			findMemberName: "",
 		};
+
+		this.handleSubmit = this.handleSubmit.bind(this);
 	}
 
 	componentDidMount() {
@@ -58,12 +60,13 @@ export default class componentName extends Component {
 		event.preventDefault();
 
 		fetch("http://localhost:8084/book-member/member-book", {
-			method: "UPDATE",
+			method: "PUT",
 			headers: {
 				Accept: "application/json",
 				"Content-Type": "application/json",
 			},
 			body: JSON.stringify({
+				bookMemberId: this.props.bookMemberId,
 				bookId: event.target.bookId.value,
 				memberId: event.target.memberId.value,
 				bookName: event.target.bookName.value,
