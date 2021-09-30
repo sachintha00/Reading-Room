@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import {
 	DashBoardSection,
 	Reactangle,
+	UIReactangle,
+	WorkReactangle,
+	LittleSquare,
 } from "../../Styles/DashBoardStyleComponent";
 
 export default class componentName extends Component {
@@ -12,10 +15,22 @@ export default class componentName extends Component {
 					<h2>Pro Sidebar</h2>
 					<hr />
 					<div style={{ display: "flex" }}>
-						<Reactangle></Reactangle>
-						<Reactangle></Reactangle>
-						<Reactangle></Reactangle>
-						<Reactangle></Reactangle>
+						<Reactangle>
+							<LittleSquare></LittleSquare>
+						</Reactangle>
+						<Reactangle>
+							<LittleSquare></LittleSquare>
+						</Reactangle>
+						<Reactangle>
+							<LittleSquare></LittleSquare>
+						</Reactangle>
+						<Reactangle>
+							<LittleSquare></LittleSquare>
+						</Reactangle>
+					</div>
+					<div style={{ display: "flex" }}>
+						<UIReactangle></UIReactangle>
+						<WorkReactangle></WorkReactangle>
 					</div>
 				</DashBoardSection>
 			</>
