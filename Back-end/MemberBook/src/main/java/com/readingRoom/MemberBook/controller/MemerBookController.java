@@ -52,7 +52,7 @@ public class MemerBookController {
 		return this.mbService.updateMemberBook(memberBook);
 	}
 	
-	@DeleteMapping("/member-book/{mbId}")
+	@DeleteMapping("/member-books/{mbId}")
 	public ResponseEntity<HttpStatus> removeBook(@PathVariable String mbId) {
 		try {
 			this.mbService.removeMemberBook(Long.parseLong(mbId));

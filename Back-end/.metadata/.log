@@ -7297,3 +7297,15 @@ java.util.concurrent.TimeoutException
 
 !ENTRY Activator 1 0 2021-09-30 13:49:06.195
 !MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-30 14:26:13.435
+!MESSAGE Has main method computation for project 'BookService'
+
+!ENTRY Activator 1 0 2021-09-30 14:26:13.477
+!MESSAGE Has main method computation for project 'Authentication'
+
+!ENTRY Activator 1 0 2021-09-30 14:26:13.478
+!MESSAGE Has main method computation for project 'MemberSection'
+
+!ENTRY Activator 1 0 2021-09-30 14:26:13.749
+!MESSAGE Has main method computation for project 'MemberBook'
