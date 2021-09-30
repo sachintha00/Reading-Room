@@ -65,12 +65,12 @@ export default class componentName extends Component {
 				"Content-Type": "application/json",
 			},
 			body: JSON.stringify({
-				// bookName: event.target.bookName.value,
-				// bookType: event.target.bookType.value,
-				// medium: event.target.medium.value,
-				// authorName: event.target.authorName.value,
-				// isbn: event.target.isbn.value,
-				// booklierId: event.target.booklierId.value,
+				bookId: event.target.bookId.value,
+				memberId: event.target.memberId.value,
+				bookName: event.target.bookName.value,
+				memberName: event.target.memberName.value,
+				issueDate: event.target.issueDate.value,
+				returnDate: event.target.returnDate.value,
 			}),
 		})
 			.then((res) => res.json())
@@ -140,12 +140,13 @@ export default class componentName extends Component {
 								</Form.Group>
 							</Row>
 							<Row className="mb-3">
-								<Form.Group as={Col} controlId="formGridReturnDate">
+								<Form.Group as={Col} controlId="formGridIssueDate">
 									<Form.Control
 										type="text"
-										placeholder="Return Date"
-										name="returnDate"
-										value={new Date().getDate()}
+										name="issueDate"
+										value={`${
+											new Date().getMonth() + 1
+										}/${new Date().getDate()}/${new Date().getFullYear()}`}
 									/>
 								</Form.Group>
 								<Form.Group as={Col} controlId="formGridReturnDate">
