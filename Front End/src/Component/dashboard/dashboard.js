@@ -60,11 +60,6 @@ const Dashboard = (props) => {
 		<>
 			<BrowserRouter>
 				<SideBarSec>
-					{/*
-					<Button style={{ marginTop: "5px" }} onClick={() => logOut()}>
-						Logout
-					</Button> */}
-
 					<div className="page-wrapper chiller-theme toggled">
 						<a id="show-sidebar" className="btn btn-sm btn-dark" href="#">
 							<i className="fas fa-bars"></i>

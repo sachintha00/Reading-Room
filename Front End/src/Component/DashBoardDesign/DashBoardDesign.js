@@ -97,7 +97,7 @@ export default class componentName extends Component {
 					</div>
 					<div style={{ display: "flex" }}>
 						<UIReactangle>
-							<RectTextArea>
+							<RectTextArea style={{ marginTop: "30px" }}>
 								<UIheaderText>Built by developers</UIheaderText>
 								<UIdesignName>Reading Room</UIdesignName>
 								<UIdesignDesc style={{ width: "300px" }}>
