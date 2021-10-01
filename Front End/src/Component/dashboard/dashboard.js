@@ -12,10 +12,13 @@ import DashBoardDesign from "../DashBoardDesign/DashBoardDesign";
 import IssueBook from "../Pages/IssueBook/IssueBook";
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 import "./DashBoardStyle.css";
-
-const MainWrapper = styled.div`
-	padding-top: 40px;
-`;
+import { MenuRectBack, MenuIcon } from "../../Styles/DashBoardStyleComponent";
+import BooksImage from "../../images/books2.png";
+import MembersImage from "../../images/members2.png";
+import SupplierImage from "../../images/suppliers2.png";
+import IssueBookImage from "../../images/issuebook2.png";
+import DashBoardImage from "../../images/dash.png";
+import SigOutImage from "../../images/logout.png";
 
 const Dashboard = (props) => {
 	const dispatch = useDispatch();
@@ -86,9 +89,14 @@ const Dashboard = (props) => {
 										/>
 									</div>
 									<div className="user-info">
-										<span className="user-name">
+										<span
+											className="user-name"
+											style={{ textTransform: "capitalize" }}
+										>
 											{data.firstName}
-											<strong>{data.lastName}</strong>
+											<strong style={{ textTransform: "capitalize" }}>
+												{data.lastName}
+											</strong>
 										</span>
 										<span className="user-role">Administrator</span>
 										<span className="user-status">
@@ -105,32 +113,42 @@ const Dashboard = (props) => {
 											<span>General</span>
 										</li>
 										<li className="sidebar-dropdown">
-											<Link to="/dashboard">
-												<i className="fa fa-tachometer-alt"></i>
+											<Link to="/dashboard" style={{ display: "flex" }}>
+												<MenuRectBack>
+													<MenuIcon src={DashBoardImage} />
+												</MenuRectBack>
 												<span>Dashboard</span>
 											</Link>
 										</li>
 										<li className="sidebar-dropdown">
-											<Link to="/book">
-												<i className="fa fa-shopping-cart"></i>
+											<Link to="/book" style={{ display: "flex" }}>
+												<MenuRectBack>
+													<MenuIcon src={BooksImage} />
+												</MenuRectBack>
 												<span>Book</span>
 											</Link>
 										</li>
 										<li className="sidebar-dropdown">
-											<Link to="/member">
-												<i className="far fa-gem"></i>
+											<Link to="/member" style={{ display: "flex" }}>
+												<MenuRectBack>
+													<MenuIcon src={MembersImage} />
+												</MenuRectBack>
 												<span>Members</span>
 											</Link>
 										</li>
 										<li className="sidebar-dropdown">
-											<Link to="/issue-return-book">
-												<i className="fa fa-chart-line"></i>
+											<Link to="/issue-return-book" style={{ display: "flex" }}>
+												<MenuRectBack>
+													<MenuIcon src={IssueBookImage} />
+												</MenuRectBack>
 												<span>MemberBook</span>
 											</Link>
 										</li>
 										<li className="sidebar-dropdown">
-											<Link to="/supplier">
-												<i className="fa fa-chart-line"></i>
+											<Link to="/supplier" style={{ display: "flex" }}>
+												<MenuRectBack>
+													<MenuIcon src={SupplierImage} />
+												</MenuRectBack>
 												<span>Suppler</span>
 											</Link>
 										</li>
@@ -139,8 +157,10 @@ const Dashboard = (props) => {
 											<span>Other</span>
 										</li>
 										<li className="sidebar-dropdown" onClick={() => logOut()}>
-											<Link to="/supplier">
-												<i className="fa fa-chart-line"></i>
+											<Link to="" style={{ display: "flex" }}>
+												<MenuRectBack>
+													<MenuIcon src={SigOutImage} />
+												</MenuRectBack>
 												<span>Sign Out</span>
 											</Link>
 										</li>
@@ -154,7 +174,9 @@ const Dashboard = (props) => {
 				</SideBarSec>
 				<Switch>
 					<Change>
-						<Route exact path="/dashboard" component={DashBoardDesign} />
+						<Route exact path="/dashboard">
+							<DashBoardDesign name={data.firstName} />
+						</Route>
 						<Route exact path="/book" component={Book} />
 						<Route exact path="/member" component={Member} />
 						<Route exact path="/issue-return-book" component={IssueBook} />

@@ -25,11 +25,37 @@ import IssueBookImage from "../../images/issueBook.png";
 import "./DashBoardDesignStyle.css";
 
 export default class componentName extends Component {
+	constructor(props) {
+		super(props);
+	}
 	render() {
 		return (
 			<>
 				<DashBoardSection>
-					<h2>Reading Room</h2>
+					<h1
+						style={{
+							color: "#344767",
+							// textTransform: "uppercase",
+							fontWeight: "500",
+						}}
+					>
+						Hi! Welcome{" "}
+						<span
+							style={{
+								textTransform: "capitalize",
+								color: "#025B9A",
+								fontWeight: "bolder",
+							}}
+						>
+							{this.props.name}
+						</span>
+					</h1>
+					<p style={{ color: "#67748E", fontWeight: "400" }}>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, fuga
+						facere recusandae soluta incidunt ab doloremque explicabo enim nihil
+						iste totam culpa dicta. Eligendi inventore maxime odio autem
+						recusandae explicabo.
+					</p>
 					<hr />
 					<div style={{ display: "flex" }}>
 						<Reactangle>

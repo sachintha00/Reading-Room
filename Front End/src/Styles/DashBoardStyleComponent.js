@@ -110,3 +110,14 @@ export const WorkdesignDesc = styled.h6`
 		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
 		sans-serif;
 `;
+export const MenuRectBack = styled.div`
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	padding: 1px 0 1px 5px;
+	box-shadow: 0px 15px 20px 9px rgba(68, 48, 48, 0.04);
+`;
+export const MenuIcon = styled.img`
+	width: 20px;
+	height: 20px;
+`;
