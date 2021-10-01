@@ -27,6 +27,34 @@ import "./DashBoardDesignStyle.css";
 export default class componentName extends Component {
 	constructor(props) {
 		super(props);
+		this.state = {
+			memb: [],
+			books: [],
+			issueBook: [],
+			supp: [],
+		};
+	}
+
+	componentDidMount() {
+		this.refreshList();
+	}
+
+	refreshList() {
+		fetch("http://localhost:8081/members")
+			.then((response) => response.json())
+			.then((data) => {
+				this.setState({ memb: data });
+			});
+		fetch("http://localhost:8082/book-service/books")
+			.then((response) => response.json())
+			.then((data) => {
+				this.setState({ books: data });
+			});
+		fetch("http://localhost:8084/book-member/member-books")
+			.then((response) => response.json())
+			.then((data) => {
+				this.setState({ issueBook: data });
+			});
 	}
 	render() {
 		return (
@@ -61,7 +89,7 @@ export default class componentName extends Component {
 						<Reactangle>
 							<RectTextArea>
 								<RectTopic>All Books</RectTopic>
-								<RectCount>1200</RectCount>
+								<RectCount>{this.state.books.length}</RectCount>
 							</RectTextArea>
 							<LittleSquare>
 								<CompImage src={BooksImage} />
@@ -70,7 +98,7 @@ export default class componentName extends Component {
 						<Reactangle>
 							<RectTextArea>
 								<RectTopic>All Members</RectTopic>
-								<RectCount>1200</RectCount>
+								<RectCount>{this.state.memb.length}</RectCount>
 							</RectTextArea>
 							<LittleSquare>
 								<CompImage src={MembersImage} />
@@ -79,7 +107,7 @@ export default class componentName extends Component {
 						<Reactangle>
 							<RectTextArea>
 								<RectTopic>All Issue Books</RectTopic>
-								<RectCount>1200</RectCount>
+								<RectCount>{this.state.issueBook.length}</RectCount>
 							</RectTextArea>
 							<LittleSquare>
 								<CompImage src={IssueBookImage} />
@@ -88,7 +116,7 @@ export default class componentName extends Component {
 						<Reactangle>
 							<RectTextArea>
 								<RectTopic>All Suppliers</RectTopic>
-								<RectCount>1200</RectCount>
+								<RectCount>{this.state.supp.length}</RectCount>
 							</RectTextArea>
 							<LittleSquare>
 								<CompImage src={SupplierImage} />
