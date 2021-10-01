@@ -7,4 +7,27 @@ Fetch Api tool and Axios(promise-based library) are used to fetch data.
 # USED TECHNOLOGY
 
 👉Microservices
+
 👉Rest API
+
+
+# Backend
+
+👉Spring Security
+
+👉JPA / Hibernate
+
+👉MYSQL
+
+
+# Frontend
+
+👉Fetch API Tool
+
+👉Axios
+
+👉React-Bootstrap
+
+👉Bootstrap
+
+👉React-Toastify
