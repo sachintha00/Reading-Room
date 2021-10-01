@@ -165,7 +165,7 @@ export default class componentName extends Component {
 													<Button
 														className="mr-2"
 														variant="danger"
-														onClick={() => this.deleteBook(books.bookId)}
+														onClick={() => this.deleteBook(book.bookId)}
 													>
 														Delete
 													</Button>
