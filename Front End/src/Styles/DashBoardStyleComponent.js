@@ -60,3 +60,38 @@ export const UiImage = styled.img`
 	padding: 10px;
 	margin: 15px 5px 0 5px;
 `;
+export const CompImage = styled.img`
+	width: 40px;
+	margin: 8px 7px 0 7px;
+`;
+export const RectTextArea = styled.div`
+	float: left;
+`;
+export const RectTopic = styled.h6`
+	font-weight: 500;
+	color: #67748e;
+`;
+export const RectCount = styled.h5`
+	font-weight: bold;
+	font-size: 1.5rem;
+	color: #344767;
+`;
+export const UIheaderText = styled.h6`
+	font-weight: 500;
+	font-size: 1.1rem;
+	color: #67748e;
+`;
+export const UIdesignName = styled.h3`
+	font-weight: bold;
+	color: #344767;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+`;
+export const UIdesignDesc = styled.h6`
+	font-weight: 400;
+	color: #67748e;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+`;
