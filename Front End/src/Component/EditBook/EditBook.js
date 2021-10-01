@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Modal, Button, Row, Col, Form } from "react-bootstrap";
+import { toast } from "react-toastify";
 
 export default class componentName extends Component {
 	constructor(props) {
@@ -44,7 +45,9 @@ export default class componentName extends Component {
 			.then((res) => res.json())
 			.then(
 				(result) => {
-					alert("Success");
+					toast.success("Success Notification !", {
+						position: toast.POSITION.TOP_RIGHT,
+					});
 				},
 				(error) => {
 					alert("kelawila");
