@@ -10,6 +10,8 @@ Fetch Api tool and Axios(promise-based library) are used to fetch data.
 
 👉Rest API
 
+👉JWT(JSON Web Token)
+
 
 # Backend
 
