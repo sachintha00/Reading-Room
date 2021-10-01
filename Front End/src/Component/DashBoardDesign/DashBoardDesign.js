@@ -6,7 +6,9 @@ import {
 	WorkReactangle,
 	LittleSquare,
 	Square,
+	UiImage,
 } from "../../Styles/DashBoardStyleComponent";
+import Reading from '../../images/reading.png'
 
 export default class componentName extends Component {
 	render() {
@@ -31,7 +33,7 @@ export default class componentName extends Component {
 					</div>
 					<div style={{ display: "flex" }}>
 						<UIReactangle>
-							<Square></Square>
+							<Square><UiImage src={Reading}/></Square>
 						</UIReactangle>
 						<WorkReactangle></WorkReactangle>
 					</div>

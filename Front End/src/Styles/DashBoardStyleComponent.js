@@ -34,7 +34,12 @@ export const LittleSquare = styled.div`
 	height: 55px;
 	border-radius: 10px;
 	box-shadow: 0px 15px 20px 9px rgba(68, 48, 48, 0.03);
-	background: red;
+	background: rgb(33, 108, 200);
+	background: radial-gradient(
+		circle,
+		rgba(33, 108, 200, 1) 0%,
+		rgba(2, 91, 154, 0.40129555240064774) 100%
+	);
 	float: right;
 `;
 export const Square = styled.div`
@@ -42,6 +47,16 @@ export const Square = styled.div`
 	height: 260px;
 	border-radius: 15px;
 	box-shadow: 0px 15px 20px 9px rgba(68, 48, 48, 0.03);
-	background: red;
+	background: rgb(33, 108, 200);
+	background: radial-gradient(
+		circle,
+		rgba(33, 108, 200, 1) 0%,
+		rgba(2, 91, 154, 0.40129555240064774) 100%
+	);
 	float: right;
+`;
+export const UiImage = styled.img`
+	width: 250px;
+	padding: 10px;
+	margin: 15px 5px 0 5px;
 `;
