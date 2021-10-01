@@ -66,6 +66,7 @@ export const CompImage = styled.img`
 `;
 export const RectTextArea = styled.div`
 	float: left;
+	position: absolute;
 `;
 export const RectTopic = styled.h6`
 	font-weight: 500;
@@ -91,6 +92,20 @@ export const UIdesignName = styled.h3`
 export const UIdesignDesc = styled.h6`
 	font-weight: 400;
 	color: #67748e;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+`;
+export const WorTopic = styled.h3`
+	font-weight: bold;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	color: #e8edf0;
+`;
+export const WorkdesignDesc = styled.h6`
+	font-weight: 400;
+	color: #e8edf0;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
 		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
 		sans-serif;

@@ -1,0 +1,20 @@
+#workRectCover {
+	margin: 20px;
+	width: 370px;
+	background-image: url("../../images/back.jpg");
+	background-size: cover;
+	height: 260px;
+	border-radius: 15px;
+	color: white;
+}
+#workRectCover::before {
+	position: absolute;
+	content: "";
+	background-color: rgba(28, 33, 67, 0.6);
+	width: 370px;
+	height: 260px;
+	border-radius: 15px;
+	backdrop-filter: blur(0.7px);
+	color: white;
+	z-index: 0;
+}

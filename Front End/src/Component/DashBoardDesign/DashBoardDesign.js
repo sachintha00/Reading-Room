@@ -14,12 +14,15 @@ import {
 	UIheaderText,
 	UIdesignName,
 	UIdesignDesc,
+	WorTopic,
+	WorkdesignDesc,
 } from "../../Styles/DashBoardStyleComponent";
 import Reading from "../../images/reading.png";
 import BooksImage from "../../images/books.png";
 import MembersImage from "../../images/members.png";
 import SupplierImage from "../../images/supplier.png";
 import IssueBookImage from "../../images/issueBook.png";
+import "./DashBoardDesignStyle.css";
 
 export default class componentName extends Component {
 	render() {
@@ -80,7 +83,19 @@ export default class componentName extends Component {
 								<UiImage src={Reading} />
 							</Square>
 						</UIReactangle>
-						<WorkReactangle></WorkReactangle>
+						<WorkReactangle>
+							<div id="workRectCover">
+								<RectTextArea style={{ padding: "30px", marginTop: "15px" }}>
+									<WorTopic style={{ width: "300px", paddingBottom: "10px" }}>
+										sachintha madhawa
+									</WorTopic>
+									<WorkdesignDesc style={{ width: "300px" }}>
+										Wealth creation is an evolutionarily recent positive-sum
+										game. It is all about who take the opportunity first.
+									</WorkdesignDesc>
+								</RectTextArea>
+							</div>
+						</WorkReactangle>
 					</div>
 				</DashBoardSection>
 			</>
