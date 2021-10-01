@@ -89,7 +89,7 @@ export default class componentName extends Component {
 							<div class="col-2">
 								<ButtonToolbar>
 									<Button onClick={() => this.setState({ addBookShow: true })}>
-										Add bookser
+										ADD BOOK
 									</Button>
 									<AddBook
 										show={this.state.addBookShow}

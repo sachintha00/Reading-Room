@@ -55,6 +55,11 @@ export default class componentName extends Component {
 			.then((data) => {
 				this.setState({ issueBook: data });
 			});
+		fetch("http://localhost:8082/suppler-service/suppliers")
+			.then((response) => response.json())
+			.then((data) => {
+				this.setState({ supp: data });
+			});
 	}
 	render() {
 		return (
@@ -85,6 +90,8 @@ export default class componentName extends Component {
 						recusandae explicabo.
 					</p>
 					<hr />
+					<br />
+					<br />
 					<div style={{ display: "flex" }}>
 						<Reactangle>
 							<RectTextArea>
@@ -126,7 +133,7 @@ export default class componentName extends Component {
 					<div style={{ display: "flex" }}>
 						<UIReactangle>
 							<RectTextArea style={{ marginTop: "30px" }}>
-								<UIheaderText>Built by developers</UIheaderText>
+								<UIheaderText>Built by Sachintha</UIheaderText>
 								<UIdesignName>Reading Room</UIdesignName>
 								<UIdesignDesc style={{ width: "300px" }}>
 									From colors, cards, typography to complex elements, you will
