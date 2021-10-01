@@ -1,0 +1,8 @@
+.addButton {
+	background-color: #025b9a;
+	border-color: #025b9a;
+}
+.addButton:hover {
+	background-color: #216cc8;
+	border-color: #216cc8;
+}

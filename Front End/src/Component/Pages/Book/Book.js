@@ -8,6 +8,8 @@ import {
 import { Button, ButtonToolbar } from "react-bootstrap";
 import AddBook from "../../AddBook/AddBook";
 import EditBook from "../../EditBook/EditBook";
+import "../../../GlobalStyle/GlobalStyle.css";
+import { toast } from "react-toastify";
 
 export default class componentName extends Component {
 	constructor(props) {
@@ -43,6 +45,9 @@ export default class componentName extends Component {
 					Accept: "application/json",
 					"Content-Type": "application/json",
 				},
+			});
+			toast.success("Success Notification !", {
+				position: toast.POSITION.TOP_RIGHT,
 			});
 		}
 	}
@@ -88,7 +93,10 @@ export default class componentName extends Component {
 							</div>
 							<div class="col-2">
 								<ButtonToolbar>
-									<Button onClick={() => this.setState({ addBookShow: true })}>
+									<Button
+										onClick={() => this.setState({ addBookShow: true })}
+										className="addButton"
+									>
 										ADD BOOK
 									</Button>
 									<AddBook
