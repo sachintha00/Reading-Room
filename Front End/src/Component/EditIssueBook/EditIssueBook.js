@@ -95,11 +95,11 @@ export default class componentName extends Component {
 			>
 				<Modal.Header closeButton>
 					<Modal.Title id="contained-modal-title-vcenter">
-						Modal heading
+						<b>UPDATE ISSUE DETAILS</b>
 					</Modal.Title>
 				</Modal.Header>
 				<Modal.Body>
-					<h4>Centered Modal</h4>
+					<h6>Book ID</h6>
 					<div className="Container">
 						<Form onSubmit={this.handleSubmit}>
 							<Row className="mb-3">
@@ -113,6 +113,7 @@ export default class componentName extends Component {
 									/>
 								</Form.Group>
 								<Form.Group as={Col} controlId="formGridName">
+									<h6>Book Name</h6>
 									<Form.Control
 										type="text"
 										placeholder="Book Title"
@@ -125,6 +126,7 @@ export default class componentName extends Component {
 							</Row>
 							<Row className="mb-3">
 								<Form.Group as={Col} controlId="formGridmemberId">
+									<h6>Member ID</h6>
 									<Form.Control
 										type="text"
 										placeholder="Enter Member ID"
@@ -134,6 +136,7 @@ export default class componentName extends Component {
 									/>
 								</Form.Group>
 								<Form.Group as={Col} controlId="formGridMemberName">
+									<h6>Member Name</h6>
 									<Form.Control
 										type="text"
 										placeholder="Member Name"
@@ -145,6 +148,7 @@ export default class componentName extends Component {
 							</Row>
 							<Row className="mb-3">
 								<Form.Group as={Col} controlId="formGridIssueDate">
+									<h6>Issue Date</h6>
 									<Form.Control
 										type="text"
 										name="issueDate"
@@ -153,6 +157,7 @@ export default class componentName extends Component {
 									/>
 								</Form.Group>
 								<Form.Group as={Col} controlId="formGridReturnDate">
+									<h6>Return Date</h6>
 									<Form.Control
 										type="date"
 										placeholder="Return Date"
