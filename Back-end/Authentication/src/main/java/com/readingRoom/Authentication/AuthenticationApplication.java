@@ -23,25 +23,25 @@ public class AuthenticationApplication {
 		SpringApplication.run(AuthenticationApplication.class, args);
 	}
 	
-//	@PostConstruct
-//	protected void init() {
-//
-//		
-//		User user= new User();
-//		
-//		user.setUserName("madhawa");
-//		user.setFirstName("sachintha");
-//		user.setLastName("madhawa");
-//		user.setEmail("sachintha@gmail.com");
-//		user.setPhoneNumber("0788538399");
-//		
-//		user.setPassword(passwordEncoder.encode("madhawa@123"));
-//		user.setEnabled(true);
-//		
-//		userRepository.save(user);
-//		
-//		
-//		
-//	}
+	@PostConstruct
+	protected void init() {
+
+		
+		User user= new User();
+		
+		user.setUserName("madhawa");
+		user.setFirstName("sachintha");
+		user.setLastName("madhawa");
+		user.setEmail("sachintha@gmail.com");
+		user.setPhoneNumber("0788538399");
+		
+		user.setPassword(passwordEncoder.encode("madhawa@123"));
+		user.setEnabled(true);
+		
+		userRepository.save(user);
+		
+		
+		
+	}
 
 }
