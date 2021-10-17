@@ -12,7 +12,7 @@ import javax.persistence.Table;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Table(name = "BOOK")
-@Entity
+@Entity 
 public class Book {
 	
 	@Id
@@ -24,6 +24,7 @@ public class Book {
 	private String medium;
 	private String AuthorName;
 	private long supplierId;
+	
 	public Book() {
 		super();
 		// TODO Auto-generated constructor stub

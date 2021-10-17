@@ -49,7 +49,7 @@ export default class componentName extends Component {
 					alert("Success");
 				},
 				(error) => {
-					alert("kelawila");
+					alert("Error");
 				}
 			);
 	}

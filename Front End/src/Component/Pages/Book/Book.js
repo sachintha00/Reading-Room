@@ -80,11 +80,11 @@ export default class componentName extends Component {
 				</TitleSection>
 				<TableSection>
 					<form className="mb-5">
-						<div class="form-row">
-							<div class="col-5">
+						<div className="form-row">
+							<div className="col-5">
 								<input
 									type="text"
-									class="form-control"
+									className="form-control"
 									placeholder="Search"
 									onChange={(e) =>
 										this.setState({ searchTitle: e.target.value })
