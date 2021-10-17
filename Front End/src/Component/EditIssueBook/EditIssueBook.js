@@ -99,11 +99,11 @@ export default class componentName extends Component {
 					</Modal.Title>
 				</Modal.Header>
 				<Modal.Body>
-					<h6>Book ID</h6>
 					<div className="Container">
 						<Form onSubmit={this.handleSubmit}>
 							<Row className="mb-3">
 								<Form.Group as={Col} controlId="formGridbookId">
+									<h6>Book ID</h6>
 									<Form.Control
 										type="text"
 										placeholder="Enter Book ID"

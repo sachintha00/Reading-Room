@@ -62,11 +62,11 @@ export default class componentName extends Component {
 			>
 				<Modal.Header closeButton>
 					<Modal.Title id="contained-modal-title-vcenter">
-						Modal heading
+						<b>UPDATE BOOK</b>
 					</Modal.Title>
 				</Modal.Header>
 				<Modal.Body>
-					<h4>Centered Modal</h4>
+					<h6>Supllier ID</h6>
 					<div className="Container">
 						<Form onSubmit={this.handleSubmit}>
 							<Row className="mb-3">
@@ -87,6 +87,7 @@ export default class componentName extends Component {
 							</Row>
 							<Row className="mb-3">
 								<Form.Group as={Col} controlId="formGridBookId">
+									<h6>Book ID</h6>
 									<Form.Control
 										type="text"
 										placeholder="Book ID"
@@ -96,6 +97,7 @@ export default class componentName extends Component {
 									/>
 								</Form.Group>
 								<Form.Group as={Col} controlId="formGridName">
+									<h6>Book Name</h6>
 									<Form.Control
 										type="text"
 										placeholder="Book Title"
@@ -106,18 +108,25 @@ export default class componentName extends Component {
 							</Row>
 							<Row className="mb-3">
 								<Form.Group as={Col} controlId="formGridType">
+									<h6>Book Type</h6>
 									<Form.Control
 										as="select"
 										name="bookType"
 										defaultValue={this.props.bookType}
 									>
 										<option value="">Select Book Type...</option>
-										<option value="1">1</option>
-										<option value="1">1</option>
-										<option value="1">1</option>
+										<option value="Short story">Short story</option>
+										<option value="Thriller">Thriller</option>
+										<option value="Science fiction">Science fiction</option>
+										<option value="Mystery">Mystery</option>
+										<option value="Graphic novel">Graphic novel</option>
+										<option value="Historical fiction">
+											Historical fiction
+										</option>
 									</Form.Control>
 								</Form.Group>
 								<Form.Group as={Col} controlId="formGridMedium">
+									<h6>Book Medium</h6>
 									<Form.Control
 										as="select"
 										name="medium"
@@ -132,6 +141,7 @@ export default class componentName extends Component {
 							</Row>
 							<Row className="mb-3">
 								<Form.Group as={Col} controlId="formGridAuthor">
+									<h6>Author</h6>
 									<Form.Control
 										type="text"
 										placeholder="Author Name"
@@ -140,6 +150,7 @@ export default class componentName extends Component {
 									/>
 								</Form.Group>
 								<Form.Group as={Col} controlId="formGridIsbn">
+									<h6>ISBN NO:</h6>
 									<Form.Control
 										type="text"
 										placeholder="ISBN"
