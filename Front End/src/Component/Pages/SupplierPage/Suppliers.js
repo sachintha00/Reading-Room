@@ -129,7 +129,7 @@ export default class componentName extends Component {
 														variant="info"
 														onClick={() =>
 															this.setState({
-																updateSupplierShow: true,
+																updatesupperShow: true,
 																supplierId: supp.supplierId,
 																name: supp.name,
 																nic: supp.nic,

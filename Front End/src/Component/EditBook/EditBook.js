@@ -45,12 +45,10 @@ export default class componentName extends Component {
 			.then((res) => res.json())
 			.then(
 				(result) => {
-					toast.success("Success Notification !", {
-						position: toast.POSITION.TOP_RIGHT,
-					});
+					alert("Success");
 				},
 				(error) => {
-					alert("kelawila");
+					alert("Error");
 				}
 			);
 	}

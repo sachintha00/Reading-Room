@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Modal, Button, Row, Col, Form } from "react-bootstrap";
-import axios from "axios";
+import { toast } from "react-toastify";
 
 export default class componentName extends Component {
 	constructor(props) {
@@ -47,6 +47,7 @@ export default class componentName extends Component {
 			.then(
 				(result) => {
 					alert("Success");
+					// toast.success("Book Added Successfull");
 				},
 				(error) => {
 					alert("Error");

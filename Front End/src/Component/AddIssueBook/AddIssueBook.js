@@ -79,7 +79,7 @@ export default class componentName extends Component {
 					alert("Success");
 				},
 				(error) => {
-					alert("kelawila");
+					alert("Error");
 				}
 			);
 	}
@@ -144,7 +144,9 @@ export default class componentName extends Component {
 									<Form.Control
 										type="text"
 										name="issueDate"
-										value={`${new Date().getFullYear()}-${new Date().getMonth()+1}-${new Date().getDate()}`}
+										value={`${new Date().getFullYear()}-${
+											new Date().getMonth() + 1
+										}-${new Date().getDate()}`}
 										disabled
 									/>
 								</Form.Group>
